@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<flexsim-file-map version="1">
+    <map-node path="/Tools/ProcessFlow" file="DistributedFolder\ProcessFlow.fsx" file-map-method="single-node"/>
+    <map-node path="/Tools/flypath" file="DistributedFolder\flypath.fsx" file-map-method="single-node"/>
+    <map-node path="" file="DistributedFolder\misc.fsx" file-map-method="split-points">
+        <split-point name="DefaultNetworkNavigator" file="DistributedFolder\DefaultNetworkNavigator.fsx"/>
+        <split-point name="FlowItemBin" file="DistributedFolder\FlowItemBin.fsx"/>
+        <split-point name="Box" file="DistributedFolder\Box.fsx"/>
+        <split-point name="Cylinder" file="DistributedFolder\Cylinder.fsx"/>
+        <split-point name="Sphere" file="DistributedFolder\Sphere.fsx"/>
+        <split-point name="Plane" file="DistributedFolder\Plane.fsx"/>
+        <split-point name="Circle" file="DistributedFolder\Circle.fsx"/>
+        <split-point name="Pallet" file="DistributedFolder\Pallet.fsx"/>
+        <split-point name="Tote" file="DistributedFolder\Tote.fsx"/>
+        <split-point name="Man" file="DistributedFolder\Man.fsx"/>
+        <split-point name="Woman" file="DistributedFolder\Woman.fsx"/>
+        <split-point name="Truck" file="DistributedFolder\Truck.fsx"/>
+        <split-point name="SemiCab" file="DistributedFolder\SemiCab.fsx"/>
+        <split-point name="FrontCabWheels" file="DistributedFolder\FrontCabWheels.fsx"/>
+        <split-point name="RearCabWheels" file="DistributedFolder\RearCabWheels.fsx"/>
+        <split-point name="RearCabWheels1" file="DistributedFolder\RearCabWheels.fsx"/>
+        <split-point name="Trailer" file="DistributedFolder\Trailer.fsx"/>
+        <split-point name="TrailerWheel1" file="DistributedFolder\TrailerWheel.fsx"/>
+        <split-point name="TrailerLDoor" file="DistributedFolder\TrailerLDoor.fsx"/>
+        <split-point name="TrailerRDoor" file="DistributedFolder\TrailerRDoor.fsx"/>
+        <split-point name="Test Tube" file="DistributedFolder\Test Tube.fsx"/>
+        <split-point name="Pill Bottle" file="DistributedFolder\Pill Bottle.fsx"/>
+        <split-point name="Clipboard" file="DistributedFolder\Clipboard.fsx"/>
+        <split-point name="Parameters" file="DistributedFolder\Parameters.fsx"/>
+        <split-point name="PerformanceMeasures" file="DistributedFolder\PerformanceMeasures.fsx"/>
+        <split-point name="QuickerProperties1" file="DistributedFolder\QuickerProperties.fsx"/>
+        <split-point name="SplitterXPane" file="DistributedFolder\SplitterXPane.fsx"/>
+        <split-point name="ToolTabPane" file="DistributedFolder\ToolTabPane.fsx"/>
+        <split-point name="LibraryIconGrid" file="DistributedFolder\LibraryIconGrid.fsx"/>
+        <split-point name="Toolbox" file="DistributedFolder\Toolbox.fsx"/>
+        <split-point name="TabPane" file="DistributedFolder\TabPane.fsx"/>
+        <split-point name="Perspective" file="DistributedFolder\Perspective.fsx"/>
+        <split-point name="Arrival Flow" file="DistributedFolder\Arrival Flow.fsx"/>
+        <split-point name="ToolPane" file="DistributedFolder\ToolPane.fsx"/>
+        <split-point name="QuickProperties" file="DistributedFolder\QuickProperties.fsx"/>
+        <split-point name="Library" file="DistributedFolder\Library.fsx"/>
+        <split-point name="Properties" file="DistributedFolder\Properties.fsx"/>
+        <split-point name="PeopleSettings" file="DistributedFolder\PeopleSettings.fsx"/>
+        <split-point name="Locations" file="DistributedFolder\Locations.fsx"/>
+        <split-point name="Staff" file="DistributedFolder\Staff.fsx"/>
+        <split-point name="Transports" file="DistributedFolder\Transports.fsx"/>
+        <split-point name="Equipment" file="DistributedFolder\Equipment.fsx"/>
+        <split-point name="List1" file="DistributedFolder\List.fsx"/>
+        <split-point name="Check In Staff" file="DistributedFolder\Check In Staff.fsx"/>
+        <split-point name="Conveyors" file="DistributedFolder\Conveyors.fsx"/>
+        <split-point name="ExitTransfers" file="DistributedFolder\ExitTransfers.fsx"/>
+        <split-point name="EntryTransfers" file="DistributedFolder\EntryTransfers.fsx"/>
+        <split-point name="Check In Counters" file="DistributedFolder\Check In Counters.fsx"/>
+        <split-point name="Immigration Counters" file="DistributedFolder\Immigration Counters.fsx"/>
+        <split-point name="Immigration Staff" file="DistributedFolder\Immigration Staff.fsx"/>
+        <split-point name="Check In Counter Queues" file="DistributedFolder\Check In Counter Queues.fsx"/>
+        <split-point name="Self Check In Queues" file="DistributedFolder\Self Check In Queues.fsx"/>
+        <split-point name="Self Check In" file="DistributedFolder\Self Check In.fsx"/>
+        <split-point name="Immigration Counter Queues" file="DistributedFolder\Immigration Counter Queues.fsx"/>
+        <split-point name="E Gate Queues" file="DistributedFolder\E Gate Queues.fsx"/>
+        <split-point name="E Gates" file="DistributedFolder\E Gates.fsx"/>
+        <split-point name="Departure Police" file="DistributedFolder\Departure Police.fsx"/>
+        <split-point name="Departure Police Check" file="DistributedFolder\Departure Police Check.fsx"/>
+        <split-point name="Departure Queues" file="DistributedFolder\Departure Queues.fsx"/>
+        <split-point name="E Gates Part 1" file="DistributedFolder\E Gates Part.fsx"/>
+        <split-point name="Bag Drop Queues" file="DistributedFolder\Bag Drop Queues.fsx"/>
+        <split-point name="Bag Drop" file="DistributedFolder\Bag Drop.fsx"/>
+        <split-point name="Breakdown" file="DistributedFolder\Breakdown.fsx"/>
+        <split-point name="Lunch" file="DistributedFolder\Lunch.fsx"/>
+        <split-point name="Break1" file="DistributedFolder\Break.fsx"/>
+        <split-point name="OffSchedule" file="DistributedFolder\OffSchedule.fsx"/>
+        <split-point name="ClothesPalette" file="DistributedFolder\ClothesPalette.fsx"/>
+        <split-point name="HairPalette" file="DistributedFolder\HairPalette.fsx"/>
+        <split-point name="IDService" file="DistributedFolder\IDService.fsx"/>
+        <split-point name="Arrivals" file="DistributedFolder\Arrivals.fsx"/>
+        <split-point name="Displays" file="DistributedFolder\Displays.fsx"/>
+        <split-point name="Create Patient" file="DistributedFolder\Create Patient.fsx"/>
+        <split-point name="Random Appearance" file="DistributedFolder\Random Appearance.fsx"/>
+        <split-point name="Sink" file="DistributedFolder\Sink.fsx"/>
+        <split-point name="Source" file="DistributedFolder\Source.fsx"/>
+        <split-point name="Departure Check" file="DistributedFolder\Departure Check.fsx"/>
+        <split-point name="Normal Flow Example" file="DistributedFolder\Normal Flow Example.fsx"/>
+        <split-point name="Interrupt Flow Example" file="DistributedFolder\Interrupt Flow Example.fsx"/>
+        <split-point name="No" file="DistributedFolder\No.fsx"/>
+        <split-point name="Yes" file="DistributedFolder\Yes.fsx"/>
+        <split-point name="Arrow" file="DistributedFolder\Arrow.fsx"/>
+        <split-point name="Walk to Exits" file="DistributedFolder\Walk to Exits.fsx"/>
+        <split-point name="Create Bag" file="DistributedFolder\Create Bag.fsx"/>
+        <split-point name="Finish" file="DistributedFolder\Finish.fsx"/>
+        <split-point name="Decide" file="DistributedFolder\Decide.fsx"/>
+        <split-point name="Release Line" file="DistributedFolder\Release Line.fsx"/>
+        <split-point name="Wait in Line" file="DistributedFolder\Wait in Line.fsx"/>
+        <split-point name="Acquire Check In" file="DistributedFolder\Acquire Check In.fsx"/>
+        <split-point name="Walk" file="DistributedFolder\Walk.fsx"/>
+        <split-point name="Acquire Check In Staff" file="DistributedFolder\Acquire Check In Staff.fsx"/>
+        <split-point name="Process" file="DistributedFolder\Process.fsx"/>
+        <split-point name="Run Sub Flow" file="DistributedFolder\Run Sub Flow.fsx"/>
+        <split-point name="Release Check In Staff" file="DistributedFolder\Release Check In Staff.fsx"/>
+        <split-point name="Release Check In" file="DistributedFolder\Release Check In.fsx"/>
+        <split-point name="Acquire Line" file="DistributedFolder\Acquire Line.fsx"/>
+        <split-point name="Walk to Kiosk" file="DistributedFolder\Walk to Kiosk.fsx"/>
+        <split-point name="Acquire Bag Drop" file="DistributedFolder\Acquire Bag Drop.fsx"/>
+        <split-point name="Walk to Bag Drop" file="DistributedFolder\Walk to Bag Drop.fsx"/>
+        <split-point name="Release Bag Drop" file="DistributedFolder\Release Bag Drop.fsx"/>
+        <split-point name="Acquire Immigration" file="DistributedFolder\Acquire Immigration.fsx"/>
+        <split-point name="Acquire Immigration Staff" file="DistributedFolder\Acquire Immigration Staff.fsx"/>
+        <split-point name="Release Immigration Staff" file="DistributedFolder\Release Immigration Staff.fsx"/>
+        <split-point name="Release Immigration" file="DistributedFolder\Release Immigration.fsx"/>
+        <split-point name="Immigration Staff Resources" file="DistributedFolder\Immigration Staff Resources.fsx"/>
+        <split-point name="list" file="DistributedFolder\list.fsx"/>
+        <split-point name="Immigration Resources" file="DistributedFolder\Immigration Resources.fsx"/>
+        <split-point name="Waiting Lines 1" file="DistributedFolder\Waiting Lines.fsx"/>
+        <split-point name="Check In Staff Resources" file="DistributedFolder\Check In Staff Resources.fsx"/>
+        <split-point name="Check In Resources" file="DistributedFolder\Check In Resources.fsx"/>
+        <split-point name="Waiting Lines" file="DistributedFolder\Waiting Lines.fsx"/>
+        <split-point name="Start" file="DistributedFolder\Start.fsx"/>
+        <split-point name="Acquire Departure" file="DistributedFolder\Acquire Departure.fsx"/>
+        <split-point name="Acquire Police" file="DistributedFolder\Acquire Police.fsx"/>
+        <split-point name="Release Police" file="DistributedFolder\Release Police.fsx"/>
+        <split-point name="Release Departure" file="DistributedFolder\Release Departure.fsx"/>
+        <split-point name="Departure Police Resources" file="DistributedFolder\Departure Police Resources.fsx"/>
+        <split-point name="Departure Resources" file="DistributedFolder\Departure Resources.fsx"/>
+        <split-point name="Acquire" file="DistributedFolder\Acquire.fsx"/>
+        <split-point name="Release" file="DistributedFolder\Release.fsx"/>
+        <split-point name="Resource1" file="DistributedFolder\Resource.fsx"/>
+        <split-point name="Delay do work 1" file="DistributedFolder\Delay do work.fsx"/>
+        <split-point name="Release Token" file="DistributedFolder\Release Token.fsx"/>
+        <split-point name="Lunch schedule" file="DistributedFolder\Lunch schedule.fsx"/>
+        <split-point name="E Gate Resources" file="DistributedFolder\E Gate Resources.fsx"/>
+        <split-point name="E Gate Part  Resources1" file="DistributedFolder\E Gate Part  Resources.fsx"/>
+        <split-point name="List" file="DistributedFolder\List.fsx"/>
+        <split-point name="Zone" file="DistributedFolder\Zone.fsx"/>
+        <split-point name="Assign Destination  Person" file="DistributedFolder\Assign Destination  Person.fsx"/>
+        <split-point name="Synchronize Traveler Speeds" file="DistributedFolder\Synchronize Traveler Speeds.fsx"/>
+        <split-point name="Exit Location" file="DistributedFolder\Exit Location.fsx"/>
+        <split-point name="Travel" file="DistributedFolder\Travel.fsx"/>
+        <split-point name="Enter Location" file="DistributedFolder\Enter Location.fsx"/>
+        <split-point name="Restore Traveler Speeds" file="DistributedFolder\Restore Traveler Speeds.fsx"/>
+        <split-point name="Exit Zone" file="DistributedFolder\Exit Zone.fsx"/>
+        <split-point name="Process E Gate" file="DistributedFolder\Process E Gate.fsx"/>
+        <split-point name="Enter Zone" file="DistributedFolder\Enter Zone.fsx"/>
+        <split-point name="Release E Gate" file="DistributedFolder\Release E Gate.fsx"/>
+        <split-point name="Acquire E Gate Part 1" file="DistributedFolder\Acquire E Gate Part.fsx"/>
+        <split-point name="Process E Gate Part 1" file="DistributedFolder\Process E Gate Part.fsx"/>
+        <split-point name="Release E Gate Part 1" file="DistributedFolder\Release E Gate Part.fsx"/>
+        <split-point name="Move Into Line" file="DistributedFolder\Move Into Line.fsx"/>
+        <split-point name="Remove Puller" file="DistributedFolder\Remove Puller.fsx"/>
+        <split-point name="Release Resources" file="DistributedFolder\Release Resources.fsx"/>
+        <split-point name="Breathe" file="DistributedFolder\Breathe.fsx"/>
+        <split-point name="Pull from List" file="DistributedFolder\Pull from List.fsx"/>
+        <split-point name="Breathe 1" file="DistributedFolder\Breathe.fsx"/>
+        <split-point name="Push to List" file="DistributedFolder\Push to List.fsx"/>
+        <split-point name="Acquire E Gate" file="DistributedFolder\Acquire E Gate.fsx"/>
+        <split-point name="Wait To Reach Front" file="DistributedFolder\Wait To Reach Front.fsx"/>
+        <split-point name="Exit Current Location" file="DistributedFolder\Exit Current Location.fsx"/>
+        <split-point name="Already In Line" file="DistributedFolder\Already In Line.fsx"/>
+        <split-point name="Walk to Exit 1" file="DistributedFolder\Walk to Exit.fsx"/>
+        <split-point name="Remove Patient" file="DistributedFolder\Remove Patient.fsx"/>
+        <split-point name="Check In Resources 1" file="DistributedFolder\Check In Resources.fsx"/>
+        <split-point name="Bag Drop Resources" file="DistributedFolder\Bag Drop Resources.fsx"/>
+        <split-point name="MTBFMTTR1" file="DistributedFolder\MTBFMTTR.fsx"/>
+        <split-point name="Avg State" file="DistributedFolder\Avg State.fsx"/>
+        <split-point name="localPalette" file="DistributedFolder\localPalette.fsx"/>
+        <split-point name="PersonLabels" file="DistributedFolder\PersonLabels.fsx"/>
+        <split-point name="PersonStates" file="DistributedFolder\PersonStates.fsx"/>
+        <split-point name="PersonMilestones" file="DistributedFolder\PersonMilestones.fsx"/>
+        <split-point name="PersonTravelDistance" file="DistributedFolder\PersonTravelDistance.fsx"/>
+        <split-point name="PersonWaitTimes" file="DistributedFolder\PersonWaitTimes.fsx"/>
+        <split-point name="CensusHistory" file="DistributedFolder\CensusHistory.fsx"/>
+        <split-point name="StaffGroups" file="DistributedFolder\StaffGroups.fsx"/>
+        <split-point name="StaffStates" file="DistributedFolder\StaffStates.fsx"/>
+        <split-point name="StaffAvailability" file="DistributedFolder\StaffAvailability.fsx"/>
+        <split-point name="StaffCombinedStates" file="DistributedFolder\StaffCombinedStates.fsx"/>
+        <split-point name="StaffStateHistory" file="DistributedFolder\StaffStateHistory.fsx"/>
+        <split-point name="StaffTravelDistance" file="DistributedFolder\StaffTravelDistance.fsx"/>
+        <split-point name="PersonWaitForStaffHistory" file="DistributedFolder\PersonWaitForStaffHistory.fsx"/>
+        <split-point name="LocationGroups" file="DistributedFolder\LocationGroups.fsx"/>
+        <split-point name="LocationStates" file="DistributedFolder\LocationStates.fsx"/>
+        <split-point name="LocationAvailability" file="DistributedFolder\LocationAvailability.fsx"/>
+        <split-point name="LocationCombinedStates" file="DistributedFolder\LocationCombinedStates.fsx"/>
+        <split-point name="LocationStateHistory" file="DistributedFolder\LocationStateHistory.fsx"/>
+        <split-point name="LocationCensusHistory" file="DistributedFolder\LocationCensusHistory.fsx"/>
+        <split-point name="LocationStaytimeHistory" file="DistributedFolder\LocationStaytimeHistory.fsx"/>
+        <split-point name="PersonWaitForLocationHistory" file="DistributedFolder\PersonWaitForLocationHistory.fsx"/>
+        <split-point name="TransportGroups" file="DistributedFolder\TransportGroups.fsx"/>
+        <split-point name="TransportStates" file="DistributedFolder\TransportStates.fsx"/>
+        <split-point name="TransportAvailability" file="DistributedFolder\TransportAvailability.fsx"/>
+        <split-point name="TransportCombinedStates" file="DistributedFolder\TransportCombinedStates.fsx"/>
+        <split-point name="TransportStateHistory" file="DistributedFolder\TransportStateHistory.fsx"/>
+        <split-point name="TransportTravelDistance" file="DistributedFolder\TransportTravelDistance.fsx"/>
+        <split-point name="PersonWaitForTransportHistory" file="DistributedFolder\PersonWaitForTransportHistory.fsx"/>
+        <split-point name="EquipmentGroups" file="DistributedFolder\EquipmentGroups.fsx"/>
+        <split-point name="EquipmentStates" file="DistributedFolder\EquipmentStates.fsx"/>
+        <split-point name="EquipmentAvailability" file="DistributedFolder\EquipmentAvailability.fsx"/>
+        <split-point name="EquipmentCombinedStates" file="DistributedFolder\EquipmentCombinedStates.fsx"/>
+        <split-point name="EquipmentStateHistory" file="DistributedFolder\EquipmentStateHistory.fsx"/>
+        <split-point name="EquipmentTravelDistance" file="DistributedFolder\EquipmentTravelDistance.fsx"/>
+        <split-point name="PersonWaitForEquipmentHistory" file="DistributedFolder\PersonWaitForEquipmentHistory.fsx"/>
+        <split-point name="LineCensusHistory" file="DistributedFolder\LineCensusHistory.fsx"/>
+        <split-point name="LineStaytimeHistory" file="DistributedFolder\LineStaytimeHistory.fsx"/>
+        <split-point name="StateTable1" file="DistributedFolder\StateTable.fsx"/>
+        <split-point name="Self Check In 1" file="DistributedFolder\Self Check In.fsx"/>
+        <split-point name="Check In" file="DistributedFolder\Check In.fsx"/>
+        <split-point name="Departure" file="DistributedFolder\Departure.fsx"/>
+        <split-point name="Immigration 1" file="DistributedFolder\Immigration.fsx"/>
+        <split-point name="E Gate 1" file="DistributedFolder\E Gate.fsx"/>
+        <split-point name="Exit" file="DistributedFolder\Exit.fsx"/>
+        <split-point name="End" file="DistributedFolder\End.fsx"/>
+        <split-point name="SplitterYPane" file="DistributedFolder\SplitterYPane.fsx"/>
+        <split-point name="PresentationBuilder" file="DistributedFolder\PresentationBuilder.fsx"/>
+        <split-point name="DefaultNetworkNavigator" file="DistributedFolder\DefaultNetworkNavigator.fsx"/>
+        <split-point name="Walls" file="DistributedFolder\Walls.fsx"/>
+        <split-point name="ConveyorSystem" file="DistributedFolder\ConveyorSystem.fsx"/>
+        <split-point name="FlexsimModelFloor" file="DistributedFolder\FlexsimModelFloor.fsx"/>
+        <split-point name="Entrance" file="DistributedFolder\Entrance.fsx"/>
+        <split-point name="Check In 1" file="DistributedFolder\Check In.fsx"/>
+        <split-point name="Clerk1" file="DistributedFolder\Clerk.fsx"/>
+        <split-point name="DefaultNavigator" file="DistributedFolder\DefaultNavigator.fsx"/>
+        <split-point name="WaitingLine1" file="DistributedFolder\WaitingLine.fsx"/>
+        <split-point name="Luggage Out 1" file="DistributedFolder\Luggage Out.fsx"/>
+        <split-point name="Bag Drop 1" file="DistributedFolder\Bag Drop.fsx"/>
+        <split-point name="StraightConveyor1" file="DistributedFolder\StraightConveyor.fsx"/>
+        <split-point name="EntryTransfer1" file="DistributedFolder\EntryTransfer.fsx"/>
+        <split-point name="ExitTransfer1" file="DistributedFolder\ExitTransfer.fsx"/>
+        <split-point name="Departure 1" file="DistributedFolder\Departure.fsx"/>
+        <split-point name="Police 1" file="DistributedFolder\Police.fsx"/>
+        <split-point name="Floor Spot 1" file="DistributedFolder\Floor Spot.fsx"/>
+        <split-point name="Exit 1" file="DistributedFolder\Exit.fsx"/>
+        <split-point name="Wall 1" file="DistributedFolder\Wall.fsx"/>
+        <split-point name="Bag Drop Kiosk 1" file="DistributedFolder\Bag Drop Kiosk.fsx"/>
+        <split-point name="CurvedConveyor1" file="DistributedFolder\CurvedConveyor.fsx"/>
+        <split-point name="Luggage Out Sink" file="DistributedFolder\Luggage Out Sink.fsx"/>
+        <split-point name="AStarNavigator" file="DistributedFolder\AStarNavigator.fsx"/>
+        <split-point name="Shape" file="DistributedFolder\Shape.fsx"/>
+        <split-point name="Divider1" file="DistributedFolder\Divider.fsx"/>
+        <split-point name="Barrier1" file="DistributedFolder\Barrier.fsx"/>
+        <split-point name="Desk Panel 1" file="DistributedFolder\Desk Panel.fsx"/>
+    </map-node>
+</flexsim-file-map>
