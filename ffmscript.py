@@ -84,33 +84,39 @@ tree_list = []
 info_list = {}
 reject_list = []
 num_check = False
+obj_check = False
 
 read_XML(main_fsx)
 
 for i in tree_list:
-		
-	compar = ""
+	
+	if obj_check == True:
+		compar = ""
 			
-	for m in i:
-		if m.isalpha() or m == " ":
-			compar += m
-		elif m.isdigit():
-			num_check = True
+		for m in i:
+			if m.isalpha() or m == " ":
+				compar += m
+			elif m.isdigit():
+				num_check = True
 
-	if num_check == True:
-		compar += "1"
+		if num_check == True:
+			compar += "1"
 
 
-	if compar in list(info_list.keys()):
-		info_list[compar] += 1
+		if compar in list(info_list.keys()):
+			info_list[compar] += 1
+
+		else:
+			info_list[compar] = 1
+
+		num_check = False
 
 	else:
-		info_list[compar] = 1
-
-	num_check = False
+		if i == first_obj:
+			obj_check = True
 						
 # to test output
-#print(info_list)
+print(info_list)
 
 info_keys = list(info_list.keys())
 info_values = list(info_list.values())
@@ -133,4 +139,4 @@ ffm_text_list.append('</flexsim-file-map>')
 # to test output
 #print(ffm_text_list)
 
-create_XML(main_ffm, ffm_text_list)
+#create_XML(main_ffm, ffm_text_list)

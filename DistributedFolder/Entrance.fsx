@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <flexsim-tree version="4" treetype="distributed">
-<node f="42" dt="4"><name>Entrance</name><data>
+<node f="10000042" dt="4"><name>Entrance</name><data>
  <node f="40"><name></name></node>
  <node f="42"><name>superclasses</name>
   <node f="40"><name></name></node>
@@ -105,15 +105,62 @@
     </fields>
     <entry><ed>none</ed><ed>0000000000000000</ed><ed>0</ed></entry>
     <entry><ed>idle</ed><ed>0000000000000000</ed><ed>0</ed></entry></data></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
   </node>
   <node f="42" dt="7"><name>stats_input</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_output</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_content</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_staytime</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040080000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="1"><name>stats_creationtime</name><data>0000000000000000</data></node>
   <node f="42" dt="1"><name>stats_lastmovetime</name><data>0000000000000000</data></node>
  </node>
@@ -129,7 +176,10 @@
  <node f="42"><name>events</name>
   <node f="40"><name></name></node></node>
  <node f="42" dt="7"><name>resetvalues</name><data/>
-  <node f="40"><name></name></node></node>
+  <node f="40"><name></name></node>
+  <node f="42" dt="2"><name>sdt::attributetree</name><data>ObjectResetValues</data>
+   <node f="40"><name></name></node></node>
+ </node>
  <node f="42"><name>stored</name></node>
 </data>
  <node f="40"><name></name></node></node></flexsim-tree>

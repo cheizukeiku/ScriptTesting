@@ -571,9 +571,9 @@ return /**/current.centerObjects[/**/
  </node>
  <node f="42"><name>objectinfo</name>
   <node f="40"><name></name></node>
-  <node f="42"><name></name></node>
-  <node f="42"><name></name></node>
-  <node f="42"><name></name></node>
+  <node f="42"><name>CurContent:  0</name></node>
+  <node f="42"><name>MaxContent:  0</name></node>
+  <node f="42"><name>AvgStaytime: 0.0</name></node>
  </node>
  <node f="4000000042" dt="2"><name>windowtitle</name><data>Queue</data>
   <node f="40"><name></name></node></node>
@@ -765,9 +765,9 @@ return /**/current.centerObjects[/**/
  </node>
  <node f="42"><name>objectinfo</name>
   <node f="40"><name></name></node>
-  <node f="42"><name></name></node>
-  <node f="42"><name></name></node>
-  <node f="42"><name></name></node>
+  <node f="42"><name>CurContent:  0</name></node>
+  <node f="42"><name>MaxContent:  0</name></node>
+  <node f="42"><name>AvgStaytime: 0.0</name></node>
  </node>
  <node f="4000000042" dt="2"><name>windowtitle</name><data>Queue</data>
   <node f="40"><name></name></node></node>

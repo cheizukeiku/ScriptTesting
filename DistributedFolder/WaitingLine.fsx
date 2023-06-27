@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <flexsim-tree version="4" treetype="distributed">
-<node f="72" dt="4"><name>WaitingLine1</name><data>
+<node f="10000072" dt="4"><name>WaitingLine1</name><data>
  <node f="40"><name></name></node>
  <node f="42"><name>superclasses</name>
   <node f="40"><name></name></node>
@@ -19,12 +19,16 @@
     <node f="42" dt="1"><name>x</name><data>000000003cea4000</data></node>
     <node f="42" dt="1"><name>y</name><data>a00000003ff99999</data></node>
     <node f="42" dt="1"><name>z</name><data>0000000000000000</data></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>People::WaitingLine::Point</data>
+     <node f="40"><name></name></node></node>
    </node>
    <node f="42" dt="7"><name></name><data/>
     <node f="40"><name></name></node>
     <node f="42" dt="1"><name>x</name><data>0000000000000000</data></node>
     <node f="42" dt="1"><name>y</name><data>00000000c0100000</data></node>
     <node f="42" dt="1"><name>z</name><data>0000000000000000</data></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>People::WaitingLine::Point</data>
+     <node f="40"><name></name></node></node>
    </node>
   </node>
   <node f="42" dt="1"><name>travelers</name><data>0000000000000000</data></node>
@@ -149,15 +153,62 @@
     </fields>
     <entry><ed>none</ed><ed>0000000000000000</ed><ed>0</ed></entry>
     <entry><ed>idle</ed><ed>0000000000000000</ed><ed>0</ed></entry></data></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
   </node>
   <node f="42" dt="7"><name>stats_input</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_output</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_content</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_staytime</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040080000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="1"><name>stats_creationtime</name><data>0000000000000000</data></node>
   <node f="42" dt="1"><name>stats_lastmovetime</name><data>0000000000000000</data></node>
  </node>
@@ -169,7 +220,7 @@
    <node f="40"><name></name></node></node>
   <node f="42"><name>connectionscenter</name>
    <node f="40"><name></name></node>
-   <node f="42" dt="3"><name></name><data><coupling>/Bag Drop 1&gt;connections/connectionscenter/1</coupling></data>
+   <node f="10000042" dt="3"><name></name><data><coupling>/Bag Drop 1&gt;connections/connectionscenter/1</coupling></data>
     <node f="40"><name></name></node>
     <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
     <node f="42" dt="3"><name></name><data><coupling>null</coupling></data></node>
@@ -179,7 +230,10 @@
  <node f="42"><name>events</name>
   <node f="40"><name></name></node></node>
  <node f="42" dt="7"><name>resetvalues</name><data/>
-  <node f="40"><name></name></node></node>
+  <node f="40"><name></name></node>
+  <node f="42" dt="2"><name>sdt::attributetree</name><data>ObjectResetValues</data>
+   <node f="40"><name></name></node></node>
+ </node>
  <node f="42"><name>stored</name></node>
  <node f="4000000042" dt="2"><name>windowtitle</name><data>FlexSimObject</data>
   <node f="40"><name></name></node></node>
@@ -187,11 +241,11 @@
   <node f="40"><name></name></node></node>
  <node f="42"><name>Groups</name>
   <node f="40"><name></name></node>
-  <node f="800000042" dt="3"><name></name><data><coupling>/Tools/Groups/Check In Counter Queues/_1</coupling></data></node>
+  <node f="810000042" dt="3"><name></name><data><coupling>/Tools/Groups/Check In Counter Queues/_1</coupling></data></node>
  </node>
 </data>
  <node f="40"><name></name></node></node>
-<node f="72" dt="4"><name>WaitingLine3</name><data>
+<node f="10000072" dt="4"><name>WaitingLine3</name><data>
  <node f="40"><name></name></node>
  <node f="42"><name>superclasses</name>
   <node f="40"><name></name></node>
@@ -210,12 +264,16 @@
     <node f="42" dt="1"><name>x</name><data>0000000000000000</data></node>
     <node f="42" dt="1"><name>y</name><data>0000000000000000</data></node>
     <node f="42" dt="1"><name>z</name><data>0000000000000000</data></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>People::WaitingLine::Point</data>
+     <node f="40"><name></name></node></node>
    </node>
    <node f="42" dt="7"><name></name><data/>
     <node f="40"><name></name></node>
     <node f="42" dt="1"><name>x</name><data>0000000000000000</data></node>
     <node f="42" dt="1"><name>y</name><data>00000000c0100000</data></node>
     <node f="42" dt="1"><name>z</name><data>0000000000000000</data></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>People::WaitingLine::Point</data>
+     <node f="40"><name></name></node></node>
    </node>
   </node>
   <node f="42" dt="1"><name>travelers</name><data>0000000000000000</data></node>
@@ -340,15 +398,62 @@
     </fields>
     <entry><ed>none</ed><ed>0000000000000000</ed><ed>0</ed></entry>
     <entry><ed>idle</ed><ed>0000000000000000</ed><ed>0</ed></entry></data></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
   </node>
   <node f="42" dt="7"><name>stats_input</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_output</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_content</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_staytime</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040080000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="1"><name>stats_creationtime</name><data>0000000000000000</data></node>
   <node f="42" dt="1"><name>stats_lastmovetime</name><data>0000000000000000</data></node>
  </node>
@@ -364,7 +469,10 @@
  <node f="42"><name>events</name>
   <node f="40"><name></name></node></node>
  <node f="42" dt="7"><name>resetvalues</name><data/>
-  <node f="40"><name></name></node></node>
+  <node f="40"><name></name></node>
+  <node f="42" dt="2"><name>sdt::attributetree</name><data>ObjectResetValues</data>
+   <node f="40"><name></name></node></node>
+ </node>
  <node f="42"><name>stored</name></node>
  <node f="4000000042" dt="2"><name>windowtitle</name><data>FlexSimObject</data>
   <node f="40"><name></name></node></node>
@@ -379,7 +487,7 @@
  </node>
  <node f="42"><name>Groups</name>
   <node f="40"><name></name></node>
-  <node f="800000042" dt="3"><name></name><data><coupling>/Tools/Groups/Immigration Counter Queues/_1</coupling></data></node>
+  <node f="810000042" dt="3"><name></name><data><coupling>/Tools/Groups/Immigration Counter Queues/_1</coupling></data></node>
  </node>
 </data>
  <node f="40"><name></name></node></node>
@@ -480,15 +588,70 @@ return /**/current.centerObjects[/**/
     <entry><ed>releasing</ed><ed>0000000000000000</ed><ed>1</ed></entry>
     <entry><ed>waiting for operator</ed><ed>0000000000000000</ed><ed>0</ed></entry>
     <entry><ed>waiting for transport</ed><ed>0000000000000000</ed><ed>1</ed></entry></data></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000040180000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>maxValue</name><data>0000000040180000</data></node>
+    <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+   </node>
   </node>
   <node f="42" dt="7"><name>stats_input</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_output</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_content</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_staytime</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040080000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="1"><name>stats_creationtime</name><data>0000000000000000</data></node>
   <node f="42" dt="1"><name>stats_lastmovetime</name><data>0000000000000000</data></node>
  </node>
@@ -539,9 +702,9 @@ return /**/current.centerObjects[/**/
  </node>
  <node f="42"><name>objectinfo</name>
   <node f="40"><name></name></node>
-  <node f="42"><name></name></node>
-  <node f="42"><name></name></node>
-  <node f="42"><name></name></node>
+  <node f="42"><name>CurContent:  0</name></node>
+  <node f="42"><name>MaxContent:  0</name></node>
+  <node f="42"><name>AvgStaytime: 0.0</name></node>
  </node>
  <node f="4000000042" dt="2"><name>windowtitle</name><data>Queue</data>
   <node f="40"><name></name></node></node>
@@ -551,7 +714,7 @@ return /**/current.centerObjects[/**/
   <node f="40"><name></name></node>
   <node f="42"><name>connectionsin</name>
    <node f="40"><name></name></node>
-   <node f="42" dt="3"><name></name><data><coupling>/ExitTransfer3&gt;connections/connectionsout/1</coupling></data>
+   <node f="10000042" dt="3"><name></name><data><coupling>/ExitTransfer3&gt;connections/connectionsout/1</coupling></data>
     <node f="40"><name></name></node>
     <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
     <node f="42" dt="3"><name></name><data><coupling>null</coupling></data></node>
@@ -559,7 +722,7 @@ return /**/current.centerObjects[/**/
   </node>
   <node f="42"><name>connectionsout</name>
    <node f="40"><name></name></node>
-   <node f="42" dt="3"><name></name><data><coupling>/Luggage Out Sink&gt;connections/connectionsin/_2</coupling></data>
+   <node f="10000042" dt="3"><name></name><data><coupling>/Luggage Out Sink&gt;connections/connectionsin/_2</coupling></data>
     <node f="40"><name></name></node>
     <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
     <node f="42" dt="3"><name></name><data><coupling>null</coupling></data></node>
@@ -571,7 +734,10 @@ return /**/current.centerObjects[/**/
  <node f="42"><name>events</name>
   <node f="40"><name></name></node></node>
  <node f="42" dt="7"><name>resetvalues</name><data/>
-  <node f="40"><name></name></node></node>
+  <node f="40"><name></name></node>
+  <node f="42" dt="2"><name>sdt::attributetree</name><data>ObjectResetValues</data>
+   <node f="40"><name></name></node></node>
+ </node>
  <node f="42"><name>stored</name></node>
 </data></node>
 <node f="20042" dt="4"><name>Bag Drop 3</name><data>
@@ -672,15 +838,70 @@ return /**/current.centerObjects[/**/
     <entry><ed>releasing</ed><ed>0000000000000000</ed><ed>1</ed></entry>
     <entry><ed>waiting for operator</ed><ed>0000000000000000</ed><ed>0</ed></entry>
     <entry><ed>waiting for transport</ed><ed>0000000000000000</ed><ed>1</ed></entry></data></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000040180000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>maxValue</name><data>0000000040180000</data></node>
+    <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+   </node>
   </node>
   <node f="42" dt="7"><name>stats_input</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_output</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_content</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_staytime</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040080000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="1"><name>stats_creationtime</name><data>0000000000000000</data></node>
   <node f="42" dt="1"><name>stats_lastmovetime</name><data>0000000000000000</data></node>
  </node>
@@ -731,9 +952,9 @@ return /**/current.centerObjects[/**/
  </node>
  <node f="42"><name>objectinfo</name>
   <node f="40"><name></name></node>
-  <node f="42"><name></name></node>
-  <node f="42"><name></name></node>
-  <node f="42"><name></name></node>
+  <node f="42"><name>CurContent:  0</name></node>
+  <node f="42"><name>MaxContent:  0</name></node>
+  <node f="42"><name>AvgStaytime: 0.0</name></node>
  </node>
  <node f="4000000042" dt="2"><name>windowtitle</name><data>Queue</data>
   <node f="40"><name></name></node></node>
@@ -745,7 +966,7 @@ return /**/current.centerObjects[/**/
    <node f="40"><name></name></node></node>
   <node f="42"><name>connectionsout</name>
    <node f="40"><name></name></node>
-   <node f="42" dt="3"><name></name><data><coupling>/EntryTransfer1&gt;connections/connectionsin/1</coupling></data>
+   <node f="10000042" dt="3"><name></name><data><coupling>/EntryTransfer1&gt;connections/connectionsin/1</coupling></data>
     <node f="40"><name></name></node>
     <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
     <node f="42" dt="3"><name></name><data><coupling>null</coupling></data></node>
@@ -753,17 +974,17 @@ return /**/current.centerObjects[/**/
   </node>
   <node f="42"><name>connectionscenter</name>
    <node f="40"><name></name></node>
-   <node f="42" dt="3"><name>_1</name><data><coupling>/WaitingLine5&gt;connections/connectionscenter/_2</coupling></data>
+   <node f="10000042" dt="3"><name>_1</name><data><coupling>/WaitingLine5&gt;connections/connectionscenter/_2</coupling></data>
     <node f="40"><name></name></node>
     <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
     <node f="42" dt="3"><name></name><data><coupling>null</coupling></data></node>
    </node>
-   <node f="42" dt="3"><name>_2</name><data><coupling>/WaitingLine6&gt;connections/connectionscenter/_2</coupling></data>
+   <node f="10000042" dt="3"><name>_2</name><data><coupling>/WaitingLine6&gt;connections/connectionscenter/_2</coupling></data>
     <node f="40"><name></name></node>
     <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
     <node f="42" dt="3"><name></name><data><coupling>null</coupling></data></node>
    </node>
-   <node f="42" dt="3"><name>_3</name><data><coupling>/WaitingLine9&gt;connections/connectionscenter/_2</coupling></data>
+   <node f="10000042" dt="3"><name>_3</name><data><coupling>/WaitingLine9&gt;connections/connectionscenter/_2</coupling></data>
     <node f="40"><name></name></node>
     <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
     <node f="42" dt="3"><name></name><data><coupling>null</coupling></data></node>
@@ -773,10 +994,13 @@ return /**/current.centerObjects[/**/
  <node f="42"><name>events</name>
   <node f="40"><name></name></node></node>
  <node f="42" dt="7"><name>resetvalues</name><data/>
-  <node f="40"><name></name></node></node>
+  <node f="40"><name></name></node>
+  <node f="42" dt="2"><name>sdt::attributetree</name><data>ObjectResetValues</data>
+   <node f="40"><name></name></node></node>
+ </node>
  <node f="42"><name>stored</name></node>
 </data></node>
-<node f="42" dt="4"><name>Check In 2</name><data>
+<node f="10000042" dt="4"><name>Check In 2</name><data>
  <node f="40"><name></name></node>
  <node f="42"><name>superclasses</name>
   <node f="40"><name></name></node>
@@ -882,6 +1106,13 @@ return /**/current.centerObjects[/**/
     <entry><ed>unloading</ed><ed>0000000000000000</ed><ed>0</ed></entry>
     <entry><ed>down</ed><ed>0000000000000000</ed><ed>0</ed></entry>
     <entry><ed>setup</ed><ed>0000000000000000</ed><ed>1</ed></entry></data></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
   </node>
   <node f="42"><name>state_profiles</name>
    <node f="40"><name></name></node>
@@ -896,10 +1127,26 @@ return /**/current.centerObjects[/**/
      <entry><ed>Available</ed><ed>0000000000000000</ed><ed>1</ed></entry>
      <entry><ed>Acquired</ed><ed>0000000000000000</ed><ed>1</ed></entry>
      <entry><ed>Unavailable</ed><ed>0000000000000000</ed><ed>0</ed></entry></data></node>
-    <node f="200000042"><name>onChange</name>
+    <node f="210000042"><name>onChange</name>
      <node f="40"><name></name></node>
-     <node f="200000042" dt="3"><name></name><data><coupling>/Check In 2&gt;stats/HC_Availability_States/dependencies/_2</coupling></data>
-      <node f="40"><name></name></node></node>
+     <node f="210000042" dt="3"><name></name><data><coupling>/Check In 2&gt;stats/HC_Availability_States/dependencies/_2</coupling></data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>sdt::attributetree</name><data>ComboStateChangeEvent</data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name>time</name><data>0000000000000000</data></node>
+       <node f="42" dt="3"><name>involved</name><data><coupling>/Check In 2&gt;stats/state_profiles/Availability/onChange</coupling></data></node>
+       <node f="42" dt="1"><name>code</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>eventcounter</name><data>0000000000000000</data></node>
+       <node f="42" dt="2"><name>data</name><data storagetype="hexadecimal">0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</data></node>
+      </node>
+     </node>
+    </node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
     </node>
    </node>
    <node f="42" dt="7"><name>HC States</name><data/>
@@ -912,10 +1159,26 @@ return /**/current.centerObjects[/**/
      </fields>
      <entry><ed>Idle</ed><ed>0000000000000000</ed><ed>1</ed></entry>
      <entry><ed>Occupied</ed><ed>0000000000000000</ed><ed>1</ed></entry></data></node>
-    <node f="200000042"><name>onChange</name>
+    <node f="210000042"><name>onChange</name>
      <node f="40"><name></name></node>
-     <node f="200000042" dt="3"><name></name><data><coupling>/Check In 2&gt;stats/HC_Availability_States/dependencies/_1</coupling></data>
-      <node f="40"><name></name></node></node>
+     <node f="210000042" dt="3"><name></name><data><coupling>/Check In 2&gt;stats/HC_Availability_States/dependencies/_1</coupling></data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>sdt::attributetree</name><data>ComboStateChangeEvent</data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name>time</name><data>0000000000000000</data></node>
+       <node f="42" dt="3"><name>involved</name><data><coupling>/Check In 2&gt;stats/state_profiles/HC States/onChange</coupling></data></node>
+       <node f="42" dt="1"><name>code</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>eventcounter</name><data>0000000000000000</data></node>
+       <node f="42" dt="2"><name>data</name><data storagetype="hexadecimal">0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</data></node>
+      </node>
+     </node>
+    </node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
     </node>
    </node>
   </node>
@@ -931,21 +1194,75 @@ return /**/current.centerObjects[/**/
     <entry><ed>3</ed><ed>0000000000000000</ed><ed>0</ed></entry><varchar>other</varchar><varchar>1</varchar><varchar>Idle_Available</varchar><varchar>2</varchar><varchar>Idle_Acquired</varchar><varchar>3</varchar><varchar>Occupied_Acquired</varchar><varchar>4</varchar><varchar>Occupied_Available</varchar></data></node>
    <node f="42"><name>dependencies</name>
     <node f="40"><name></name></node>
-    <node f="42" dt="3"><name>_1</name><data><coupling>/Check In 2&gt;stats/state_profiles/HC States/onChange/1</coupling></data></node>
-    <node f="42" dt="3"><name>_2</name><data><coupling>/Check In 2&gt;stats/state_profiles/Availability/onChange/1</coupling></data></node>
+    <node f="10000042" dt="3"><name>_1</name><data><coupling>/Check In 2&gt;stats/state_profiles/HC States/onChange/1</coupling></data></node>
+    <node f="10000042" dt="3"><name>_2</name><data><coupling>/Check In 2&gt;stats/state_profiles/Availability/onChange/1</coupling></data></node>
+   </node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>00000000401c0000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000040400000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>maxValue</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>numEntries</name><data>0000000040080000</data></node>
+    <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
    </node>
   </node>
   <node f="42" dt="7"><name>stats_input</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_output</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_content</name><data/>
    <node f="40"><name></name></node>
    <node f="200000042"><name>onChange</name>
     <node f="40"><name></name></node></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+   </node>
   </node>
   <node f="42" dt="7"><name>stats_staytime</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040080000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="1"><name>stats_creationtime</name><data>0000000000000000</data></node>
   <node f="42" dt="1"><name>stats_lastmovetime</name><data>0000000000000000</data></node>
  </node>
@@ -998,7 +1315,10 @@ return /**/current.centerObjects[/**/
  <node f="42"><name>events</name>
   <node f="40"><name></name></node></node>
  <node f="42" dt="7"><name>resetvalues</name><data/>
-  <node f="40"><name></name></node></node>
+  <node f="40"><name></name></node>
+  <node f="42" dt="2"><name>sdt::attributetree</name><data>ObjectResetValues</data>
+   <node f="40"><name></name></node></node>
+ </node>
  <node f="42"><name>stored</name>
   <node f="40"><name></name></node>
   <node f="800000042" dt="2"><name>PeopleFlow</name><data>/Tools/People/Flows/InstancedFlows/Location</data>
@@ -1028,7 +1348,10 @@ treenode processFlow = ownerobject(activity);
      <node f="40"><name></name></node>
      <node f="42" dt="1"><name>value</name><data>0000000040240000</data>
       <node f="40" dt="7"><name></name><data/>
-       <node f="40"><name></name></node></node></node>
+       <node f="40"><name></name></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>FlexScriptCode</data>
+        <node f="40"><name></name></node></node>
+      </node></node>
      <node f="42" dt="1"><name>type</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>user</name><data>000000003ff00000</data></node>
      <node f="42" dt="1"><name>local</name><data>000000003ff00000</data></node>
@@ -1049,7 +1372,10 @@ treenode processFlow = ownerobject(activity);
      <node f="40"><name></name></node>
      <node f="42"><name>value</name>
       <node f="40" dt="7"><name></name><data/>
-       <node f="40"><name></name></node></node></node>
+       <node f="40"><name></name></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>FlexScriptCode</data>
+        <node f="40"><name></name></node></node>
+      </node></node>
      <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
      <node f="42" dt="1"><name>user</name><data>000000003ff00000</data></node>
      <node f="42" dt="1"><name>local</name><data>000000003ff00000</data></node>
@@ -1090,9 +1416,9 @@ treenode processFlow = ownerobject(activity);
  </node>
  <node f="42"><name>Groups</name>
   <node f="40"><name></name></node>
-  <node f="800000042" dt="3"><name>_1</name><data><coupling>/Tools/Groups/Locations/_2</coupling></data>
+  <node f="810000042" dt="3"><name>_1</name><data><coupling>/Tools/Groups/Locations/_2</coupling></data>
    <node f="40"><name></name></node></node>
-  <node f="800000042" dt="3"><name>_2</name><data><coupling>/Tools/Groups/Check In Counters/_2</coupling></data></node>
+  <node f="810000042" dt="3"><name>_2</name><data><coupling>/Tools/Groups/Check In Counters/_2</coupling></data></node>
  </node>
  <node f="42"><name>templateinstances</name>
   <node f="40"><name></name></node></node>
@@ -1100,7 +1426,7 @@ treenode processFlow = ownerobject(activity);
   <node f="40"><name></name></node></node>
 </data>
  <node f="40"><name></name></node></node>
-<node f="42" dt="4"><name>Clerk2</name><data>
+<node f="10000042" dt="4"><name>Clerk2</name><data>
  <node f="40"><name></name></node>
  <node f="42"><name>superclasses</name>
   <node f="40"><name></name></node>
@@ -1140,7 +1466,7 @@ treenode processFlow = ownerobject(activity);
   <node f="42" dt="1"><name>deceleration</name><data>000000003ff00000</data></node>
   <node f="42"><name>navigator</name>
    <node f="40"><name></name></node>
-   <node f="800000042" dt="3"><name></name><data><coupling>/DefaultNavigator&gt;variables/travelmembers/_3</coupling></data>
+   <node f="810000042" dt="3"><name></name><data><coupling>/DefaultNavigator&gt;variables/travelmembers/_3</coupling></data>
     <node f="40"><name></name></node></node>
   </node>
   <node f="8000000442" dt="2"><name>breakto</name><data>TaskSequence activeTaskSequence = param(1);
@@ -1181,7 +1507,15 @@ TaskExecuter thisobject = current;
   <node f="42" dt="1"><name>incollision</name><data>0000000000000000</data></node>
   <node f="42" dt="1"><name>collcheckstate</name><data>0000000000000000</data></node>
   <node f="42" dt="7"><name>totaltraveldist</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="2000042"><name>kinematics</name></node>
   <node f="42" dt="1"><name>flipthreshold</name><data>0000000040668000</data></node>
   <node f="42" dt="1"><name>availableonstart</name><data>000000003ff00000</data></node>
@@ -1277,6 +1611,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>9999999a3fe99999</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\Walk_Female.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -1306,6 +1642,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>189374bc40055604</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\WalkLoaded_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -1335,6 +1673,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>9999999a3fb99999</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\Stand_Female.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -1364,6 +1704,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>3d70a3d74001d70a</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\SitDown_Female.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -1393,6 +1735,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>810624dd40044395</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\SitDown2_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -1422,6 +1766,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>0a3d70a4402323d7</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\SitIdle_Female.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -1451,6 +1797,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>54af3589401bbdcf</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\SitIdle2_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -1480,6 +1828,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>eb851eb83faeb851</data></node>
        <node f="42" dt="1"><name>endTime</name><data>94ed8175400156a1</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\StandUp_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -1509,6 +1859,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>eb851eb84016b851</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\LayDown_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -1538,6 +1890,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>2f870566400008a4</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\LayIdle_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -1567,6 +1921,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>0ed5b098402f0150</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\LayIdle2_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -1596,6 +1952,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>8d9741db400ff840</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\StandFromLaying_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -1625,6 +1983,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>d078fa994007f75b</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\WheelchairSelfPropelling_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -1654,6 +2014,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>519aa7283fff96b4</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\PushCart_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -1683,6 +2045,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>2f870566400008a4</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\PushWheelchair_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -1712,6 +2076,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>1377b9eb3fffc1b4</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\Shrug_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -1741,6 +2107,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>a579ac4a401dee7a</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\EnterCode_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -1770,6 +2138,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>000000003ff00000</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\SitToType_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -1799,6 +2169,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>1838fe9440306437</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\Typing_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -1828,6 +2200,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>6a63bd823fe8ef60</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\TypeToSit_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -1857,6 +2231,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>9999999a400d9999</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\WalkWithWalker_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -1886,6 +2262,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>9999999a3ff19999</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\WalkInjured_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -1915,6 +2293,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>978d4fdf3ff9126e</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\WalkWithIV_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -1944,6 +2324,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>978d4fdf3ff1126e</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\WalkWithBriefcase_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -1973,6 +2355,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>3126e9793ff2ac08</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\WalkDownStairs_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -2002,6 +2386,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>645a1cac3ff5df3b</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\WalkUpStairs_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -2031,6 +2417,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>cccccccd4018cccc</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\Picking_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -2060,6 +2448,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>0000000040100000</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\OpenCloseCabinet_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -2089,6 +2479,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>0000000040140000</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\OpenCloseCabinet_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -2118,6 +2510,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>c083126f401421ca</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\TalkingOnPhone_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -2147,6 +2541,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>d2f1a9fc4027224d</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\StandingUsingTouchscreen_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -2176,6 +2572,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>33333333402a3333</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\SendingFax_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -2205,6 +2603,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>d916872b401177ce</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\ShakingHands_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -2214,7 +2614,7 @@ return taskSequence.priority;</data></node>
   <node f="42" dt="3"><name>shapedata</name><data><coupling>/Clerk2&gt;visual/localshapedata/1</coupling></data></node>
   <node f="42"><name>localshapedata</name>
    <node f="40"><name></name></node>
-   <node f="42"><name></name>
+   <node f="10000042"><name></name>
     <node f="40"><name></name></node>
     <node f="42" dt="7"><name>Body</name><data/>
      <node f="40"><name></name></node>
@@ -2226,6 +2626,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Body</name><data/>
      <node f="40"><name></name></node>
@@ -2237,6 +2647,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Hair_Female_Fit_A_Alpha_Ponytail</name><data/>
      <node f="40"><name></name></node>
@@ -2248,6 +2668,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>000000003ff00000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>dbdbdbdc3febdbdb</data></node>
+       <node f="42" dt="1"><name></name><data>979797983fe79797</data></node>
+       <node f="42" dt="1"><name></name><data>333333333fe33333</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Bottom_Male_Fit_A_Belted_Straight_Pant</name><data/>
      <node f="40"><name></name></node>
@@ -2259,6 +2689,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Shoes_Female_Fit_A_Flats_B</name><data/>
      <node f="40"><name></name></node>
@@ -2270,6 +2710,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>eb851eb83fbeb851</data></node>
+       <node f="42" dt="1"><name></name><data>1eb851ec3fd1eb85</data></node>
+       <node f="42" dt="1"><name></name><data>f5c28f5c3fdf5c28</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Hat_Male_Fit_A_Scrubs_Cap</name><data/>
      <node f="40"><name></name></node>
@@ -2281,6 +2731,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>28f5c28f3fd28f5c</data></node>
+       <node f="42" dt="1"><name></name><data>d70a3d713fe570a3</data></node>
+       <node f="42" dt="1"><name></name><data>0a3d70a43fe8a3d7</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Hat_Female_Fit_A_Sun_Hat</name><data/>
      <node f="40"><name></name></node>
@@ -2292,6 +2752,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>000000003fec0000</data></node>
+       <node f="42" dt="1"><name></name><data>51eb851f3feb1eb8</data></node>
+       <node f="42" dt="1"><name></name><data>70a3d70a3fed0a3d</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Bottom_Female_Fit_A_High_Waisted_Skirt</name><data/>
      <node f="40"><name></name></node>
@@ -2303,6 +2773,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>333333333fe33333</data></node>
+       <node f="42" dt="1"><name></name><data>333333333fe33333</data></node>
+       <node f="42" dt="1"><name></name><data>333333333fe33333</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Hair_Female_Fit_A_Alpha_Full_Long_Wavy</name><data/>
      <node f="40"><name></name></node>
@@ -2314,6 +2794,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>000000003ff00000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>000000003fe00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003fe00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003fe00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Eyewear</name><data/>
      <node f="40"><name></name></node>
@@ -2325,6 +2815,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Shoes_Male_Fit_A_Short_Boot</name><data/>
      <node f="40"><name></name></node>
@@ -2336,6 +2836,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>cccccccd3feccccc</data></node>
+       <node f="42" dt="1"><name></name><data>cccccccd3feccccc</data></node>
+       <node f="42" dt="1"><name></name><data>cccccccd3feccccc</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Top_Female_Fit_A_Tank_Dress</name><data/>
      <node f="40"><name></name></node>
@@ -2347,6 +2857,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Hair_Female_Fit_A_Alpha_Pulled_Back_Braids</name><data/>
      <node f="40"><name></name></node>
@@ -2358,6 +2878,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>000000003ff00000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>0a3d70a43fd0a3d7</data></node>
+       <node f="42" dt="1"><name></name><data>0a3d70a43fd0a3d7</data></node>
+       <node f="42" dt="1"><name></name><data>0a3d70a43fd0a3d7</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Hair_Female_Fit_A_Alpha_Medium_Bangs</name><data/>
      <node f="40"><name></name></node>
@@ -2369,6 +2899,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>000000003ff00000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>70a3d70a3fc70a3d</data></node>
+       <node f="42" dt="1"><name></name><data>70a3d70a3fc70a3d</data></node>
+       <node f="42" dt="1"><name></name><data>70a3d70a3fc70a3d</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Hat_Female_Fit_A_Beanie</name><data/>
      <node f="40"><name></name></node>
@@ -2380,6 +2920,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>70a3d70a3fdf0a3d</data></node>
+       <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Head_Female_Scan1</name><data/>
      <node f="40"><name></name></node>
@@ -2391,6 +2941,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Mask_Male_Fit_A_Surgical_Mask</name><data/>
      <node f="40"><name></name></node>
@@ -2402,6 +2962,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Hair_Female_Fit_A_Alpha_Bouffant</name><data/>
      <node f="40"><name></name></node>
@@ -2413,6 +2983,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>000000003ff00000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>979797983fe79797</data></node>
+       <node f="42" dt="1"><name></name><data>d2d2d2d33fd2d2d2</data></node>
+       <node f="42" dt="1"><name></name><data>181818183fc81818</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Bottom_Male_Fit_A_Dress_Pant</name><data/>
      <node f="40"><name></name></node>
@@ -2424,6 +3004,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>5c28f5c23fd5c28f</data></node>
+       <node f="42" dt="1"><name></name><data>5c28f5c23fd5c28f</data></node>
+       <node f="42" dt="1"><name></name><data>5c28f5c23fd5c28f</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Hair_Female_Fit_A_Alpha_Bob_Parted_Bangs</name><data/>
      <node f="40"><name></name></node>
@@ -2435,6 +3025,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>000000003ff00000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>70a3d70a3fc70a3d</data></node>
+       <node f="42" dt="1"><name></name><data>70a3d70a3fc70a3d</data></node>
+       <node f="42" dt="1"><name></name><data>70a3d70a3fc70a3d</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Shoes_Female_Fit_A_Canvas_Shoe</name><data/>
      <node f="40"><name></name></node>
@@ -2446,6 +3046,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>5c28f5c23fd5c28f</data></node>
+       <node f="42" dt="1"><name></name><data>5c28f5c23fd5c28f</data></node>
+       <node f="42" dt="1"><name></name><data>5c28f5c23fd5c28f</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Hat_Surgeon_Cap</name><data/>
      <node f="40"><name></name></node>
@@ -2457,6 +3067,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>851eb8523fea51eb</data></node>
+       <node f="42" dt="1"><name></name><data>f5c28f5c3fed5c28</data></node>
+       <node f="42" dt="1"><name></name><data>c28f5c293fee28f5</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Bottom_Male_Fit_A_Scrubs</name><data/>
      <node f="40"><name></name></node>
@@ -2468,6 +3088,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>525252523fd25252</data></node>
+       <node f="42" dt="1"><name></name><data>555555553fe55555</data></node>
+       <node f="42" dt="1"><name></name><data>989898993fe89898</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Shoes_Female_Fit_A_Sandals</name><data/>
      <node f="40"><name></name></node>
@@ -2479,6 +3109,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>9999999a3fe99999</data></node>
+       <node f="42" dt="1"><name></name><data>9999999a3fe99999</data></node>
+       <node f="42" dt="1"><name></name><data>9999999a3fe99999</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Glasses_Male_Fit_A_Classic_A</name><data/>
      <node f="40"><name></name></node>
@@ -2490,6 +3130,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>ae147ae13fdae147</data></node>
+       <node f="42" dt="1"><name></name><data>ae147ae13fdae147</data></node>
+       <node f="42" dt="1"><name></name><data>ae147ae13fdae147</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Top_Male_Fit_A_Scrubs</name><data/>
      <node f="40"><name></name></node>
@@ -2501,6 +3151,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>28f5c28f3fd28f5c</data></node>
+       <node f="42" dt="1"><name></name><data>d70a3d713fe570a3</data></node>
+       <node f="42" dt="1"><name></name><data>0a3d70a43fe8a3d7</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Top_Female_Fit_A_Long_Sleeve_Button_Up</name><data/>
      <node f="40"><name></name></node>
@@ -2512,6 +3172,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>000000003fe40000</data></node>
+       <node f="42" dt="1"><name></name><data>f5c28f5c3fe15c28</data></node>
+       <node f="42" dt="1"><name></name><data>51eb851f3fe71eb8</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Top_Female_Fit_A_Athletic_Racerback_Tank</name><data/>
      <node f="40"><name></name></node>
@@ -2523,6 +3193,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>28f5c28f3fd28f5c</data></node>
+       <node f="42" dt="1"><name></name><data>d70a3d713fe570a3</data></node>
+       <node f="42" dt="1"><name></name><data>0a3d70a43fe8a3d7</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Bottom_Female_Fit_A_Skinny_Pant</name><data/>
      <node f="40"><name></name></node>
@@ -2534,6 +3214,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>1eb851ec3fe1eb85</data></node>
+       <node f="42" dt="1"><name></name><data>47ae147b3fe47ae1</data></node>
+       <node f="42" dt="1"><name></name><data>3d70a3d73fe7d70a</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Top_Patient_Gown</name><data/>
      <node f="40"><name></name></node>
@@ -2545,6 +3235,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Bottom_Female_Fit_A_Rolled_Shorts</name><data/>
      <node f="40"><name></name></node>
@@ -2556,6 +3256,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>70a3d70a3fb70a3d</data></node>
+       <node f="42" dt="1"><name></name><data>ae147ae23fcae147</data></node>
+       <node f="42" dt="1"><name></name><data>b851eb853fd7851e</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Bottom_Female_Fit_A_Flared_Mini_Skirt</name><data/>
      <node f="40"><name></name></node>
@@ -2567,6 +3277,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>5c28f5c23fefc28f</data></node>
+       <node f="42" dt="1"><name></name><data>000000003fe80000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003fe80000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Gloves_Male_Fit_A_Combat_Gloves</name><data/>
      <node f="40"><name></name></node>
@@ -2578,6 +3298,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Hat_Male_Fit_A_Baseball_Cap</name><data/>
      <node f="40"><name></name></node>
@@ -2589,6 +3319,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Top_Male_Fit_A_Blazer_Open_With_Dress_Shirt</name><data/>
      <node f="40"><name></name></node>
@@ -2600,6 +3340,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Head_Female_Fit_A</name><data/>
      <node f="40"><name></name></node>
@@ -2611,6 +3361,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Top_Male_Fit_A_Long_Sleeve_Athletic</name><data/>
      <node f="40"><name></name></node>
@@ -2622,6 +3382,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>147ae1483fe747ae</data></node>
+       <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Top_Male_Fit_A_Sweatshirt_Closed</name><data/>
      <node f="40"><name></name></node>
@@ -2633,6 +3403,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>5c28f5c23fd5c28f</data></node>
+       <node f="42" dt="1"><name></name><data>d70a3d713fdd70a3</data></node>
+       <node f="42" dt="1"><name></name><data>5c28f5c23fe3c28f</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
    </node>
   </node>
@@ -2671,6 +3451,21 @@ return taskSequence.priority;</data></node>
     <entry><ed>unloading</ed><ed>0000000000000000</ed><ed>0</ed></entry>
     <entry><ed>down</ed><ed>0000000000000000</ed><ed>0</ed></entry>
     <entry><ed>setup</ed><ed>0000000000000000</ed><ed>1</ed></entry></data></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>maxValue</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+   </node>
   </node>
   <node f="42"><name>state_profiles</name>
    <node f="40"><name></name></node>
@@ -2685,10 +3480,26 @@ return taskSequence.priority;</data></node>
      <entry><ed>Available</ed><ed>0000000000000000</ed><ed>1</ed></entry>
      <entry><ed>Acquired</ed><ed>0000000000000000</ed><ed>1</ed></entry>
      <entry><ed>Unavailable</ed><ed>0000000000000000</ed><ed>0</ed></entry></data></node>
-    <node f="200000042"><name>onChange</name>
+    <node f="210000042"><name>onChange</name>
      <node f="40"><name></name></node>
-     <node f="200000042" dt="3"><name></name><data><coupling>/Clerk2&gt;stats/HC_Availability_States/dependencies/_2</coupling></data>
-      <node f="40"><name></name></node></node>
+     <node f="210000042" dt="3"><name></name><data><coupling>/Clerk2&gt;stats/HC_Availability_States/dependencies/_2</coupling></data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>sdt::attributetree</name><data>ComboStateChangeEvent</data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name>time</name><data>0000000000000000</data></node>
+       <node f="42" dt="3"><name>involved</name><data><coupling>/Clerk2&gt;stats/state_profiles/Availability/onChange</coupling></data></node>
+       <node f="42" dt="1"><name>code</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>eventcounter</name><data>0000000000000000</data></node>
+       <node f="42" dt="2"><name>data</name><data storagetype="hexadecimal">0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</data></node>
+      </node>
+     </node>
+    </node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
     </node>
    </node>
    <node f="42" dt="7"><name>HC States</name><data/>
@@ -2703,10 +3514,26 @@ return taskSequence.priority;</data></node>
      <entry><ed>ProvidingCare</ed><ed>0000000000000000</ed><ed>1</ed></entry>
      <entry><ed>PerformingTask</ed><ed>0000000000000000</ed><ed>1</ed></entry>
      <entry><ed>InTransit</ed><ed>0000000000000000</ed><ed>1</ed></entry></data></node>
-    <node f="200000042"><name>onChange</name>
+    <node f="210000042"><name>onChange</name>
      <node f="40"><name></name></node>
-     <node f="200000042" dt="3"><name></name><data><coupling>/Clerk2&gt;stats/HC_Availability_States/dependencies/_1</coupling></data>
-      <node f="40"><name></name></node></node>
+     <node f="210000042" dt="3"><name></name><data><coupling>/Clerk2&gt;stats/HC_Availability_States/dependencies/_1</coupling></data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>sdt::attributetree</name><data>ComboStateChangeEvent</data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name>time</name><data>0000000000000000</data></node>
+       <node f="42" dt="3"><name>involved</name><data><coupling>/Clerk2&gt;stats/state_profiles/HC States/onChange</coupling></data></node>
+       <node f="42" dt="1"><name>code</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>eventcounter</name><data>0000000000000000</data></node>
+       <node f="42" dt="2"><name>data</name><data storagetype="hexadecimal">0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</data></node>
+      </node>
+     </node>
+    </node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
     </node>
    </node>
   </node>
@@ -2722,20 +3549,75 @@ return taskSequence.priority;</data></node>
     <entry><ed>3</ed><ed>0000000000000000</ed><ed>0</ed></entry><varchar>other</varchar><varchar>1</varchar><varchar>Idle_Available</varchar><varchar>2</varchar><varchar>Idle_Acquired</varchar><varchar>3</varchar><varchar>ProvidingCare_Acquired</varchar><varchar>4</varchar><varchar>ProvidingCare_Available</varchar><varchar>PerformingTask_Acquired</varchar><varchar>PerformingTask_Available</varchar><varchar>InTransit_Acquired</varchar><varchar>5</varchar><varchar>InTransit_Available</varchar><varchar>6</varchar></data></node>
    <node f="42"><name>dependencies</name>
     <node f="40"><name></name></node>
-    <node f="42" dt="3"><name>_1</name><data><coupling>/Clerk2&gt;stats/state_profiles/HC States/onChange/1</coupling></data></node>
-    <node f="42" dt="3"><name>_2</name><data><coupling>/Clerk2&gt;stats/state_profiles/Availability/onChange/1</coupling></data></node>
+    <node f="10000042" dt="3"><name>_1</name><data><coupling>/Clerk2&gt;stats/state_profiles/HC States/onChange/1</coupling></data></node>
+    <node f="10000042" dt="3"><name>_2</name><data><coupling>/Clerk2&gt;stats/state_profiles/Availability/onChange/1</coupling></data></node>
+   </node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>00000000401c0000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000040400000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>maxValue</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>numEntries</name><data>0000000040080000</data></node>
+    <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
    </node>
   </node>
   <node f="42" dt="1"><name>stats_creationtime</name><data>0000000000000000</data></node>
   <node f="42" dt="1"><name>stats_lastmovetime</name><data>0000000000000000</data></node>
   <node f="42" dt="7"><name>stats_input</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_output</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_content</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_staytime</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040080000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="1"><name>lastPickPlaceOffsetResult</name><data>0000000000000000</data></node>
  </node>
  <node f="42"><name>special</name>
@@ -2793,7 +3675,10 @@ return taskSequence.priority;</data></node>
  <node f="42"><name>events</name>
   <node f="40"><name></name></node></node>
  <node f="42" dt="7"><name>resetvalues</name><data/>
-  <node f="40"><name></name></node></node>
+  <node f="40"><name></name></node>
+  <node f="42" dt="2"><name>sdt::attributetree</name><data>ObjectResetValues</data>
+   <node f="40"><name></name></node></node>
+ </node>
  <node f="42"><name>stored</name>
   <node f="40"><name></name></node>
   <node f="800000042" dt="2"><name>PeopleFlow</name><data>/Tools/People/Flows/InstancedFlows/Staff</data>
@@ -2837,9 +3722,9 @@ treenode processFlow = ownerobject(activity);
  </node>
  <node f="42"><name>Groups</name>
   <node f="40"><name></name></node>
-  <node f="800000042" dt="3"><name>_1</name><data><coupling>/Tools/Groups/Staff/_4</coupling></data>
+  <node f="810000042" dt="3"><name>_1</name><data><coupling>/Tools/Groups/Staff/_4</coupling></data>
    <node f="40"><name></name></node></node>
-  <node f="800000042" dt="3"><name>_2</name><data><coupling>/Tools/Groups/Check In Staff/_2</coupling></data>
+  <node f="810000042" dt="3"><name>_2</name><data><coupling>/Tools/Groups/Check In Staff/_2</coupling></data>
    <node f="40"><name></name></node></node>
  </node>
  <node f="42"><name>templateinstances</name>
@@ -2848,7 +3733,7 @@ treenode processFlow = ownerobject(activity);
   <node f="40"><name></name></node></node>
 </data>
  <node f="40"><name></name></node></node>
-<node f="72" dt="4"><name>WaitingLine2</name><data>
+<node f="10000072" dt="4"><name>WaitingLine2</name><data>
  <node f="40"><name></name></node>
  <node f="42"><name>superclasses</name>
   <node f="40"><name></name></node>
@@ -2867,12 +3752,16 @@ treenode processFlow = ownerobject(activity);
     <node f="42" dt="1"><name>x</name><data>000000003cea4000</data></node>
     <node f="42" dt="1"><name>y</name><data>a00000003ff99999</data></node>
     <node f="42" dt="1"><name>z</name><data>0000000000000000</data></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>People::WaitingLine::Point</data>
+     <node f="40"><name></name></node></node>
    </node>
    <node f="42" dt="7"><name></name><data/>
     <node f="40"><name></name></node>
     <node f="42" dt="1"><name>x</name><data>0000000000000000</data></node>
     <node f="42" dt="1"><name>y</name><data>00000000c0100000</data></node>
     <node f="42" dt="1"><name>z</name><data>0000000000000000</data></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>People::WaitingLine::Point</data>
+     <node f="40"><name></name></node></node>
    </node>
   </node>
   <node f="42" dt="1"><name>travelers</name><data>0000000000000000</data></node>
@@ -2997,15 +3886,62 @@ treenode processFlow = ownerobject(activity);
     </fields>
     <entry><ed>none</ed><ed>0000000000000000</ed><ed>0</ed></entry>
     <entry><ed>idle</ed><ed>0000000000000000</ed><ed>0</ed></entry></data></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
   </node>
   <node f="42" dt="7"><name>stats_input</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_output</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_content</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_staytime</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040080000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="1"><name>stats_creationtime</name><data>0000000000000000</data></node>
   <node f="42" dt="1"><name>stats_lastmovetime</name><data>0000000000000000</data></node>
  </node>
@@ -3017,7 +3953,7 @@ treenode processFlow = ownerobject(activity);
    <node f="40"><name></name></node></node>
   <node f="42"><name>connectionscenter</name>
    <node f="40"><name></name></node>
-   <node f="42" dt="3"><name></name><data><coupling>/Bag Drop 2&gt;connections/connectionscenter/1</coupling></data>
+   <node f="10000042" dt="3"><name></name><data><coupling>/Bag Drop 2&gt;connections/connectionscenter/1</coupling></data>
     <node f="40"><name></name></node>
     <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
     <node f="42" dt="3"><name></name><data><coupling>null</coupling></data></node>
@@ -3027,7 +3963,10 @@ treenode processFlow = ownerobject(activity);
  <node f="42"><name>events</name>
   <node f="40"><name></name></node></node>
  <node f="42" dt="7"><name>resetvalues</name><data/>
-  <node f="40"><name></name></node></node>
+  <node f="40"><name></name></node>
+  <node f="42" dt="2"><name>sdt::attributetree</name><data>ObjectResetValues</data>
+   <node f="40"><name></name></node></node>
+ </node>
  <node f="42"><name>stored</name></node>
  <node f="4000000042" dt="2"><name>windowtitle</name><data>FlexSimObject</data>
   <node f="40"><name></name></node></node>
@@ -3035,11 +3974,11 @@ treenode processFlow = ownerobject(activity);
   <node f="40"><name></name></node></node>
  <node f="42"><name>Groups</name>
   <node f="40"><name></name></node>
-  <node f="800000042" dt="3"><name></name><data><coupling>/Tools/Groups/Check In Counter Queues/_2</coupling></data></node>
+  <node f="810000042" dt="3"><name></name><data><coupling>/Tools/Groups/Check In Counter Queues/_2</coupling></data></node>
  </node>
 </data>
  <node f="40"><name></name></node></node>
-<node f="42" dt="4"><name>Immigration 2</name><data>
+<node f="10000042" dt="4"><name>Immigration 2</name><data>
  <node f="40"><name></name></node>
  <node f="42"><name>superclasses</name>
   <node f="40"><name></name></node>
@@ -3145,6 +4084,13 @@ treenode processFlow = ownerobject(activity);
     <entry><ed>unloading</ed><ed>0000000000000000</ed><ed>0</ed></entry>
     <entry><ed>down</ed><ed>0000000000000000</ed><ed>0</ed></entry>
     <entry><ed>setup</ed><ed>0000000000000000</ed><ed>1</ed></entry></data></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
   </node>
   <node f="42"><name>state_profiles</name>
    <node f="40"><name></name></node>
@@ -3159,10 +4105,26 @@ treenode processFlow = ownerobject(activity);
      <entry><ed>Available</ed><ed>0000000000000000</ed><ed>1</ed></entry>
      <entry><ed>Acquired</ed><ed>0000000000000000</ed><ed>1</ed></entry>
      <entry><ed>Unavailable</ed><ed>0000000000000000</ed><ed>0</ed></entry></data></node>
-    <node f="200000042"><name>onChange</name>
+    <node f="210000042"><name>onChange</name>
      <node f="40"><name></name></node>
-     <node f="200000042" dt="3"><name></name><data><coupling>/Immigration 2&gt;stats/HC_Availability_States/dependencies/_2</coupling></data>
-      <node f="40"><name></name></node></node>
+     <node f="210000042" dt="3"><name></name><data><coupling>/Immigration 2&gt;stats/HC_Availability_States/dependencies/_2</coupling></data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>sdt::attributetree</name><data>ComboStateChangeEvent</data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name>time</name><data>0000000000000000</data></node>
+       <node f="42" dt="3"><name>involved</name><data><coupling>/Immigration 2&gt;stats/state_profiles/Availability/onChange</coupling></data></node>
+       <node f="42" dt="1"><name>code</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>eventcounter</name><data>0000000000000000</data></node>
+       <node f="42" dt="2"><name>data</name><data storagetype="hexadecimal">0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</data></node>
+      </node>
+     </node>
+    </node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
     </node>
    </node>
    <node f="42" dt="7"><name>HC States</name><data/>
@@ -3175,10 +4137,26 @@ treenode processFlow = ownerobject(activity);
      </fields>
      <entry><ed>Idle</ed><ed>0000000000000000</ed><ed>1</ed></entry>
      <entry><ed>Occupied</ed><ed>0000000000000000</ed><ed>1</ed></entry></data></node>
-    <node f="200000042"><name>onChange</name>
+    <node f="210000042"><name>onChange</name>
      <node f="40"><name></name></node>
-     <node f="200000042" dt="3"><name></name><data><coupling>/Immigration 2&gt;stats/HC_Availability_States/dependencies/_1</coupling></data>
-      <node f="40"><name></name></node></node>
+     <node f="210000042" dt="3"><name></name><data><coupling>/Immigration 2&gt;stats/HC_Availability_States/dependencies/_1</coupling></data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>sdt::attributetree</name><data>ComboStateChangeEvent</data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name>time</name><data>0000000000000000</data></node>
+       <node f="42" dt="3"><name>involved</name><data><coupling>/Immigration 2&gt;stats/state_profiles/HC States/onChange</coupling></data></node>
+       <node f="42" dt="1"><name>code</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>eventcounter</name><data>0000000000000000</data></node>
+       <node f="42" dt="2"><name>data</name><data storagetype="hexadecimal">0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</data></node>
+      </node>
+     </node>
+    </node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
     </node>
    </node>
   </node>
@@ -3194,21 +4172,75 @@ treenode processFlow = ownerobject(activity);
     <entry><ed>3</ed><ed>0000000000000000</ed><ed>0</ed></entry><varchar>other</varchar><varchar>1</varchar><varchar>Idle_Available</varchar><varchar>2</varchar><varchar>Idle_Acquired</varchar><varchar>3</varchar><varchar>Occupied_Acquired</varchar><varchar>4</varchar><varchar>Occupied_Available</varchar></data></node>
    <node f="42"><name>dependencies</name>
     <node f="40"><name></name></node>
-    <node f="42" dt="3"><name>_1</name><data><coupling>/Immigration 2&gt;stats/state_profiles/HC States/onChange/1</coupling></data></node>
-    <node f="42" dt="3"><name>_2</name><data><coupling>/Immigration 2&gt;stats/state_profiles/Availability/onChange/1</coupling></data></node>
+    <node f="10000042" dt="3"><name>_1</name><data><coupling>/Immigration 2&gt;stats/state_profiles/HC States/onChange/1</coupling></data></node>
+    <node f="10000042" dt="3"><name>_2</name><data><coupling>/Immigration 2&gt;stats/state_profiles/Availability/onChange/1</coupling></data></node>
+   </node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>00000000401c0000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000040400000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>maxValue</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>numEntries</name><data>0000000040080000</data></node>
+    <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
    </node>
   </node>
   <node f="42" dt="7"><name>stats_input</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_output</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_content</name><data/>
    <node f="40"><name></name></node>
    <node f="200000042"><name>onChange</name>
     <node f="40"><name></name></node></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+   </node>
   </node>
   <node f="42" dt="7"><name>stats_staytime</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040080000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="1"><name>stats_creationtime</name><data>0000000000000000</data></node>
   <node f="42" dt="1"><name>stats_lastmovetime</name><data>0000000000000000</data></node>
  </node>
@@ -3261,7 +4293,10 @@ treenode processFlow = ownerobject(activity);
  <node f="42"><name>events</name>
   <node f="40"><name></name></node></node>
  <node f="42" dt="7"><name>resetvalues</name><data/>
-  <node f="40"><name></name></node></node>
+  <node f="40"><name></name></node>
+  <node f="42" dt="2"><name>sdt::attributetree</name><data>ObjectResetValues</data>
+   <node f="40"><name></name></node></node>
+ </node>
  <node f="42"><name>stored</name>
   <node f="40"><name></name></node>
   <node f="800000042" dt="2"><name>PeopleFlow</name><data>/Tools/People/Flows/InstancedFlows/Location</data>
@@ -3291,7 +4326,10 @@ treenode processFlow = ownerobject(activity);
      <node f="40"><name></name></node>
      <node f="42" dt="1"><name>value</name><data>0000000040240000</data>
       <node f="40" dt="7"><name></name><data/>
-       <node f="40"><name></name></node></node></node>
+       <node f="40"><name></name></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>FlexScriptCode</data>
+        <node f="40"><name></name></node></node>
+      </node></node>
      <node f="42" dt="1"><name>type</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>user</name><data>000000003ff00000</data></node>
      <node f="42" dt="1"><name>local</name><data>000000003ff00000</data></node>
@@ -3312,7 +4350,10 @@ treenode processFlow = ownerobject(activity);
      <node f="40"><name></name></node>
      <node f="42"><name>value</name>
       <node f="40" dt="7"><name></name><data/>
-       <node f="40"><name></name></node></node></node>
+       <node f="40"><name></name></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>FlexScriptCode</data>
+        <node f="40"><name></name></node></node>
+      </node></node>
      <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
      <node f="42" dt="1"><name>user</name><data>000000003ff00000</data></node>
      <node f="42" dt="1"><name>local</name><data>000000003ff00000</data></node>
@@ -3353,9 +4394,9 @@ treenode processFlow = ownerobject(activity);
  </node>
  <node f="42"><name>Groups</name>
   <node f="40"><name></name></node>
-  <node f="800000042" dt="3"><name>_1</name><data><coupling>/Tools/Groups/Locations/_4</coupling></data>
+  <node f="810000042" dt="3"><name>_1</name><data><coupling>/Tools/Groups/Locations/_4</coupling></data>
    <node f="40"><name></name></node></node>
-  <node f="800000042" dt="3"><name>_2</name><data><coupling>/Tools/Groups/Immigration Counters/_2</coupling></data></node>
+  <node f="810000042" dt="3"><name>_2</name><data><coupling>/Tools/Groups/Immigration Counters/_2</coupling></data></node>
  </node>
  <node f="42"><name>templateobject</name>
   <node f="40"><name></name></node></node>
@@ -3370,7 +4411,7 @@ treenode processFlow = ownerobject(activity);
   <node f="40"><name></name></node></node>
 </data>
  <node f="40"><name></name></node></node>
-<node f="42" dt="4"><name>Clerk4</name><data>
+<node f="10000042" dt="4"><name>Clerk4</name><data>
  <node f="40"><name></name></node>
  <node f="42"><name>superclasses</name>
   <node f="40"><name></name></node>
@@ -3410,7 +4451,7 @@ treenode processFlow = ownerobject(activity);
   <node f="42" dt="1"><name>deceleration</name><data>000000003ff00000</data></node>
   <node f="42"><name>navigator</name>
    <node f="40"><name></name></node>
-   <node f="800000042" dt="3"><name></name><data><coupling>/DefaultNavigator&gt;variables/travelmembers/_4</coupling></data>
+   <node f="810000042" dt="3"><name></name><data><coupling>/DefaultNavigator&gt;variables/travelmembers/_4</coupling></data>
     <node f="40"><name></name></node></node>
   </node>
   <node f="8000000442" dt="2"><name>breakto</name><data>TaskSequence activeTaskSequence = param(1);
@@ -3451,7 +4492,15 @@ TaskExecuter thisobject = current;
   <node f="42" dt="1"><name>incollision</name><data>0000000000000000</data></node>
   <node f="42" dt="1"><name>collcheckstate</name><data>0000000000000000</data></node>
   <node f="42" dt="7"><name>totaltraveldist</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="2000042"><name>kinematics</name></node>
   <node f="42" dt="1"><name>flipthreshold</name><data>0000000040668000</data></node>
   <node f="42" dt="1"><name>availableonstart</name><data>000000003ff00000</data></node>
@@ -3547,6 +4596,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>9999999a3fe99999</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\Walk_Female.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -3576,6 +4627,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>189374bc40055604</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\WalkLoaded_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -3605,6 +4658,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>9999999a3fb99999</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\Stand_Female.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -3634,6 +4689,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>3d70a3d74001d70a</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\SitDown_Female.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -3663,6 +4720,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>810624dd40044395</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\SitDown2_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -3692,6 +4751,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>0a3d70a4402323d7</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\SitIdle_Female.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -3721,6 +4782,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>54af3589401bbdcf</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\SitIdle2_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -3750,6 +4813,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>eb851eb83faeb851</data></node>
        <node f="42" dt="1"><name>endTime</name><data>94ed8175400156a1</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\StandUp_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -3779,6 +4844,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>eb851eb84016b851</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\LayDown_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -3808,6 +4875,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>2f870566400008a4</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\LayIdle_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -3837,6 +4906,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>0ed5b098402f0150</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\LayIdle2_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -3866,6 +4937,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>8d9741db400ff840</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\StandFromLaying_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -3895,6 +4968,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>d078fa994007f75b</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\WheelchairSelfPropelling_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -3924,6 +4999,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>519aa7283fff96b4</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\PushCart_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -3953,6 +5030,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>2f870566400008a4</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\PushWheelchair_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -3982,6 +5061,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>1377b9eb3fffc1b4</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\Shrug_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -4011,6 +5092,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>a579ac4a401dee7a</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\EnterCode_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -4040,6 +5123,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>000000003ff00000</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\SitToType_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -4069,6 +5154,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>1838fe9440306437</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\Typing_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -4098,6 +5185,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>6a63bd823fe8ef60</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\TypeToSit_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -4127,6 +5216,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>9999999a400d9999</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\WalkWithWalker_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -4156,6 +5247,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>9999999a3ff19999</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\WalkInjured_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -4185,6 +5278,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>978d4fdf3ff9126e</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\WalkWithIV_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -4214,6 +5309,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>978d4fdf3ff1126e</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\WalkWithBriefcase_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -4243,6 +5340,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>3126e9793ff2ac08</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\WalkDownStairs_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -4272,6 +5371,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>645a1cac3ff5df3b</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\WalkUpStairs_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -4301,6 +5402,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>cccccccd4018cccc</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\Picking_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -4330,6 +5433,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>0000000040100000</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\OpenCloseCabinet_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -4359,6 +5464,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>0000000040140000</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\OpenCloseCabinet_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -4388,6 +5495,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>c083126f401421ca</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\TalkingOnPhone_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -4417,6 +5526,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>d2f1a9fc4027224d</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\StandingUsingTouchscreen_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -4446,6 +5557,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>33333333402a3333</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\SendingFax_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -4475,6 +5588,8 @@ return taskSequence.priority;</data></node>
        <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>endTime</name><data>d916872b401177ce</data></node>
        <node f="42" dt="2"><name>animationFileName</name><data>fs3d\People\Animations\ShakingHands_Both.fbx</data></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>AnimationClipInfo</data>
+        <node f="40"><name></name></node></node>
       </node>
      </node>
     </node>
@@ -4484,7 +5599,7 @@ return taskSequence.priority;</data></node>
   <node f="42" dt="3"><name>shapedata</name><data><coupling>/Clerk4&gt;visual/localshapedata/1</coupling></data></node>
   <node f="42"><name>localshapedata</name>
    <node f="40"><name></name></node>
-   <node f="42"><name></name>
+   <node f="10000042"><name></name>
     <node f="40"><name></name></node>
     <node f="42" dt="7"><name>Body</name><data/>
      <node f="40"><name></name></node>
@@ -4496,6 +5611,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Body</name><data/>
      <node f="40"><name></name></node>
@@ -4507,6 +5632,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Hair_Female_Fit_A_Alpha_Ponytail</name><data/>
      <node f="40"><name></name></node>
@@ -4518,6 +5653,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>000000003ff00000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>dbdbdbdc3febdbdb</data></node>
+       <node f="42" dt="1"><name></name><data>979797983fe79797</data></node>
+       <node f="42" dt="1"><name></name><data>333333333fe33333</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Bottom_Male_Fit_A_Belted_Straight_Pant</name><data/>
      <node f="40"><name></name></node>
@@ -4529,6 +5674,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Shoes_Female_Fit_A_Flats_B</name><data/>
      <node f="40"><name></name></node>
@@ -4540,6 +5695,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>eb851eb83fbeb851</data></node>
+       <node f="42" dt="1"><name></name><data>1eb851ec3fd1eb85</data></node>
+       <node f="42" dt="1"><name></name><data>f5c28f5c3fdf5c28</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Hat_Male_Fit_A_Scrubs_Cap</name><data/>
      <node f="40"><name></name></node>
@@ -4551,6 +5716,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>28f5c28f3fd28f5c</data></node>
+       <node f="42" dt="1"><name></name><data>d70a3d713fe570a3</data></node>
+       <node f="42" dt="1"><name></name><data>0a3d70a43fe8a3d7</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Hat_Female_Fit_A_Sun_Hat</name><data/>
      <node f="40"><name></name></node>
@@ -4562,6 +5737,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>000000003fec0000</data></node>
+       <node f="42" dt="1"><name></name><data>51eb851f3feb1eb8</data></node>
+       <node f="42" dt="1"><name></name><data>70a3d70a3fed0a3d</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Bottom_Female_Fit_A_High_Waisted_Skirt</name><data/>
      <node f="40"><name></name></node>
@@ -4573,6 +5758,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>333333333fe33333</data></node>
+       <node f="42" dt="1"><name></name><data>333333333fe33333</data></node>
+       <node f="42" dt="1"><name></name><data>333333333fe33333</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Hair_Female_Fit_A_Alpha_Full_Long_Wavy</name><data/>
      <node f="40"><name></name></node>
@@ -4584,6 +5779,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>000000003ff00000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>000000003fe00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003fe00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003fe00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Eyewear</name><data/>
      <node f="40"><name></name></node>
@@ -4595,6 +5800,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Shoes_Male_Fit_A_Short_Boot</name><data/>
      <node f="40"><name></name></node>
@@ -4606,6 +5821,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>cccccccd3feccccc</data></node>
+       <node f="42" dt="1"><name></name><data>cccccccd3feccccc</data></node>
+       <node f="42" dt="1"><name></name><data>cccccccd3feccccc</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Top_Female_Fit_A_Tank_Dress</name><data/>
      <node f="40"><name></name></node>
@@ -4617,6 +5842,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Hair_Female_Fit_A_Alpha_Pulled_Back_Braids</name><data/>
      <node f="40"><name></name></node>
@@ -4628,6 +5863,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>000000003ff00000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>0a3d70a43fd0a3d7</data></node>
+       <node f="42" dt="1"><name></name><data>0a3d70a43fd0a3d7</data></node>
+       <node f="42" dt="1"><name></name><data>0a3d70a43fd0a3d7</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Hair_Female_Fit_A_Alpha_Medium_Bangs</name><data/>
      <node f="40"><name></name></node>
@@ -4639,6 +5884,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>000000003ff00000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>70a3d70a3fc70a3d</data></node>
+       <node f="42" dt="1"><name></name><data>70a3d70a3fc70a3d</data></node>
+       <node f="42" dt="1"><name></name><data>70a3d70a3fc70a3d</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Hat_Female_Fit_A_Beanie</name><data/>
      <node f="40"><name></name></node>
@@ -4650,6 +5905,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>70a3d70a3fdf0a3d</data></node>
+       <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Head_Female_Scan1</name><data/>
      <node f="40"><name></name></node>
@@ -4661,6 +5926,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Mask_Male_Fit_A_Surgical_Mask</name><data/>
      <node f="40"><name></name></node>
@@ -4672,6 +5947,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Hair_Female_Fit_A_Alpha_Bouffant</name><data/>
      <node f="40"><name></name></node>
@@ -4683,6 +5968,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>000000003ff00000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>979797983fe79797</data></node>
+       <node f="42" dt="1"><name></name><data>d2d2d2d33fd2d2d2</data></node>
+       <node f="42" dt="1"><name></name><data>181818183fc81818</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Bottom_Male_Fit_A_Dress_Pant</name><data/>
      <node f="40"><name></name></node>
@@ -4694,6 +5989,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>5c28f5c23fd5c28f</data></node>
+       <node f="42" dt="1"><name></name><data>5c28f5c23fd5c28f</data></node>
+       <node f="42" dt="1"><name></name><data>5c28f5c23fd5c28f</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Hair_Female_Fit_A_Alpha_Bob_Parted_Bangs</name><data/>
      <node f="40"><name></name></node>
@@ -4705,6 +6010,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>000000003ff00000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>70a3d70a3fc70a3d</data></node>
+       <node f="42" dt="1"><name></name><data>70a3d70a3fc70a3d</data></node>
+       <node f="42" dt="1"><name></name><data>70a3d70a3fc70a3d</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Shoes_Female_Fit_A_Canvas_Shoe</name><data/>
      <node f="40"><name></name></node>
@@ -4716,6 +6031,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>5c28f5c23fd5c28f</data></node>
+       <node f="42" dt="1"><name></name><data>5c28f5c23fd5c28f</data></node>
+       <node f="42" dt="1"><name></name><data>5c28f5c23fd5c28f</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Hat_Surgeon_Cap</name><data/>
      <node f="40"><name></name></node>
@@ -4727,6 +6052,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>851eb8523fea51eb</data></node>
+       <node f="42" dt="1"><name></name><data>f5c28f5c3fed5c28</data></node>
+       <node f="42" dt="1"><name></name><data>c28f5c293fee28f5</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Bottom_Male_Fit_A_Scrubs</name><data/>
      <node f="40"><name></name></node>
@@ -4738,6 +6073,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>525252523fd25252</data></node>
+       <node f="42" dt="1"><name></name><data>555555553fe55555</data></node>
+       <node f="42" dt="1"><name></name><data>989898993fe89898</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Shoes_Female_Fit_A_Sandals</name><data/>
      <node f="40"><name></name></node>
@@ -4749,6 +6094,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>9999999a3fe99999</data></node>
+       <node f="42" dt="1"><name></name><data>9999999a3fe99999</data></node>
+       <node f="42" dt="1"><name></name><data>9999999a3fe99999</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Glasses_Male_Fit_A_Classic_A</name><data/>
      <node f="40"><name></name></node>
@@ -4760,6 +6115,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>ae147ae13fdae147</data></node>
+       <node f="42" dt="1"><name></name><data>ae147ae13fdae147</data></node>
+       <node f="42" dt="1"><name></name><data>ae147ae13fdae147</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Top_Male_Fit_A_Scrubs</name><data/>
      <node f="40"><name></name></node>
@@ -4771,6 +6136,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>28f5c28f3fd28f5c</data></node>
+       <node f="42" dt="1"><name></name><data>d70a3d713fe570a3</data></node>
+       <node f="42" dt="1"><name></name><data>0a3d70a43fe8a3d7</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Top_Female_Fit_A_Long_Sleeve_Button_Up</name><data/>
      <node f="40"><name></name></node>
@@ -4782,6 +6157,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>000000003fe40000</data></node>
+       <node f="42" dt="1"><name></name><data>f5c28f5c3fe15c28</data></node>
+       <node f="42" dt="1"><name></name><data>51eb851f3fe71eb8</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Top_Female_Fit_A_Athletic_Racerback_Tank</name><data/>
      <node f="40"><name></name></node>
@@ -4793,6 +6178,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>28f5c28f3fd28f5c</data></node>
+       <node f="42" dt="1"><name></name><data>d70a3d713fe570a3</data></node>
+       <node f="42" dt="1"><name></name><data>0a3d70a43fe8a3d7</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Bottom_Female_Fit_A_Skinny_Pant</name><data/>
      <node f="40"><name></name></node>
@@ -4804,6 +6199,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>1eb851ec3fe1eb85</data></node>
+       <node f="42" dt="1"><name></name><data>47ae147b3fe47ae1</data></node>
+       <node f="42" dt="1"><name></name><data>3d70a3d73fe7d70a</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Top_Patient_Gown</name><data/>
      <node f="40"><name></name></node>
@@ -4815,6 +6220,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Bottom_Female_Fit_A_Rolled_Shorts</name><data/>
      <node f="40"><name></name></node>
@@ -4826,6 +6241,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>70a3d70a3fb70a3d</data></node>
+       <node f="42" dt="1"><name></name><data>ae147ae23fcae147</data></node>
+       <node f="42" dt="1"><name></name><data>b851eb853fd7851e</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Bottom_Female_Fit_A_Flared_Mini_Skirt</name><data/>
      <node f="40"><name></name></node>
@@ -4837,6 +6262,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>5c28f5c23fefc28f</data></node>
+       <node f="42" dt="1"><name></name><data>000000003fe80000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003fe80000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Gloves_Male_Fit_A_Combat_Gloves</name><data/>
      <node f="40"><name></name></node>
@@ -4848,6 +6283,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Hat_Male_Fit_A_Baseball_Cap</name><data/>
      <node f="40"><name></name></node>
@@ -4859,6 +6304,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Top_Male_Fit_A_Blazer_Open_With_Dress_Shirt</name><data/>
      <node f="40"><name></name></node>
@@ -4870,6 +6325,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Head_Female_Fit_A</name><data/>
      <node f="40"><name></name></node>
@@ -4881,6 +6346,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Top_Male_Fit_A_Long_Sleeve_Athletic</name><data/>
      <node f="40"><name></name></node>
@@ -4892,6 +6367,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>147ae1483fe747ae</data></node>
+       <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
     <node f="42" dt="7"><name>Top_Male_Fit_A_Sweatshirt_Closed</name><data/>
      <node f="40"><name></name></node>
@@ -4903,6 +6388,16 @@ return taskSequence.priority;</data></node>
      <node f="42" dt="1"><name>useObjectTexture</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>hasTransparency</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>reflectivity</name><data>0000000000000000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>ShapeDataOverride</data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>diffuseColor</name><data></data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name></name><data>5c28f5c23fd5c28f</data></node>
+       <node f="42" dt="1"><name></name><data>d70a3d713fdd70a3</data></node>
+       <node f="42" dt="1"><name></name><data>5c28f5c23fe3c28f</data></node>
+       <node f="42" dt="1"><name></name><data>000000003ff00000</data></node>
+      </node>
+     </node>
     </node>
    </node>
   </node>
@@ -4941,6 +6436,21 @@ return taskSequence.priority;</data></node>
     <entry><ed>unloading</ed><ed>0000000000000000</ed><ed>0</ed></entry>
     <entry><ed>down</ed><ed>0000000000000000</ed><ed>0</ed></entry>
     <entry><ed>setup</ed><ed>0000000000000000</ed><ed>1</ed></entry></data></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>maxValue</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+   </node>
   </node>
   <node f="42"><name>state_profiles</name>
    <node f="40"><name></name></node>
@@ -4955,10 +6465,26 @@ return taskSequence.priority;</data></node>
      <entry><ed>Available</ed><ed>0000000000000000</ed><ed>1</ed></entry>
      <entry><ed>Acquired</ed><ed>0000000000000000</ed><ed>1</ed></entry>
      <entry><ed>Unavailable</ed><ed>0000000000000000</ed><ed>0</ed></entry></data></node>
-    <node f="200000042"><name>onChange</name>
+    <node f="210000042"><name>onChange</name>
      <node f="40"><name></name></node>
-     <node f="200000042" dt="3"><name></name><data><coupling>/Clerk4&gt;stats/HC_Availability_States/dependencies/_2</coupling></data>
-      <node f="40"><name></name></node></node>
+     <node f="210000042" dt="3"><name></name><data><coupling>/Clerk4&gt;stats/HC_Availability_States/dependencies/_2</coupling></data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>sdt::attributetree</name><data>ComboStateChangeEvent</data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name>time</name><data>0000000000000000</data></node>
+       <node f="42" dt="3"><name>involved</name><data><coupling>/Clerk4&gt;stats/state_profiles/Availability/onChange</coupling></data></node>
+       <node f="42" dt="1"><name>code</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>eventcounter</name><data>0000000000000000</data></node>
+       <node f="42" dt="2"><name>data</name><data storagetype="hexadecimal">0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</data></node>
+      </node>
+     </node>
+    </node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
     </node>
    </node>
    <node f="42" dt="7"><name>HC States</name><data/>
@@ -4972,10 +6498,26 @@ return taskSequence.priority;</data></node>
      <entry><ed>Idle</ed><ed>0000000000000000</ed><ed>1</ed></entry>
      <entry><ed>ProvidingCare</ed><ed>0000000000000000</ed><ed>1</ed></entry>
      <entry><ed>InTransit</ed><ed>0000000000000000</ed><ed>1</ed></entry></data></node>
-    <node f="200000042"><name>onChange</name>
+    <node f="210000042"><name>onChange</name>
      <node f="40"><name></name></node>
-     <node f="200000042" dt="3"><name></name><data><coupling>/Clerk4&gt;stats/HC_Availability_States/dependencies/_1</coupling></data>
-      <node f="40"><name></name></node></node>
+     <node f="210000042" dt="3"><name></name><data><coupling>/Clerk4&gt;stats/HC_Availability_States/dependencies/_1</coupling></data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>sdt::attributetree</name><data>ComboStateChangeEvent</data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name>time</name><data>0000000000000000</data></node>
+       <node f="42" dt="3"><name>involved</name><data><coupling>/Clerk4&gt;stats/state_profiles/HC States/onChange</coupling></data></node>
+       <node f="42" dt="1"><name>code</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>eventcounter</name><data>0000000000000000</data></node>
+       <node f="42" dt="2"><name>data</name><data storagetype="hexadecimal">0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</data></node>
+      </node>
+     </node>
+    </node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
     </node>
    </node>
   </node>
@@ -4991,20 +6533,75 @@ return taskSequence.priority;</data></node>
     <entry><ed>3</ed><ed>0000000000000000</ed><ed>0</ed></entry><varchar>other</varchar><varchar>1</varchar><varchar>Idle_Available</varchar><varchar>2</varchar><varchar>Idle_Acquired</varchar><varchar>3</varchar><varchar>ProvidingCare_Acquired</varchar><varchar>4</varchar><varchar>ProvidingCare_Available</varchar><varchar>InTransit_Acquired</varchar><varchar>5</varchar><varchar>InTransit_Available</varchar><varchar>6</varchar></data></node>
    <node f="42"><name>dependencies</name>
     <node f="40"><name></name></node>
-    <node f="42" dt="3"><name>_1</name><data><coupling>/Clerk4&gt;stats/state_profiles/HC States/onChange/1</coupling></data></node>
-    <node f="42" dt="3"><name>_2</name><data><coupling>/Clerk4&gt;stats/state_profiles/Availability/onChange/1</coupling></data></node>
+    <node f="10000042" dt="3"><name>_1</name><data><coupling>/Clerk4&gt;stats/state_profiles/HC States/onChange/1</coupling></data></node>
+    <node f="10000042" dt="3"><name>_2</name><data><coupling>/Clerk4&gt;stats/state_profiles/Availability/onChange/1</coupling></data></node>
+   </node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>00000000401c0000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000040400000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>maxValue</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>numEntries</name><data>0000000040080000</data></node>
+    <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
    </node>
   </node>
   <node f="42" dt="1"><name>stats_creationtime</name><data>0000000000000000</data></node>
   <node f="42" dt="1"><name>stats_lastmovetime</name><data>0000000000000000</data></node>
   <node f="42" dt="7"><name>stats_input</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_output</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_content</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_staytime</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040080000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="1"><name>lastPickPlaceOffsetResult</name><data>0000000000000000</data></node>
  </node>
  <node f="42"><name>special</name>
@@ -5062,7 +6659,10 @@ return taskSequence.priority;</data></node>
  <node f="42"><name>events</name>
   <node f="40"><name></name></node></node>
  <node f="42" dt="7"><name>resetvalues</name><data/>
-  <node f="40"><name></name></node></node>
+  <node f="40"><name></name></node>
+  <node f="42" dt="2"><name>sdt::attributetree</name><data>ObjectResetValues</data>
+   <node f="40"><name></name></node></node>
+ </node>
  <node f="42"><name>stored</name>
   <node f="40"><name></name></node>
   <node f="800000042" dt="2"><name>PeopleFlow</name><data>/Tools/People/Flows/InstancedFlows/Staff</data>
@@ -5106,9 +6706,9 @@ treenode processFlow = ownerobject(activity);
  </node>
  <node f="42"><name>Groups</name>
   <node f="40"><name></name></node>
-  <node f="800000042" dt="3"><name>_1</name><data><coupling>/Tools/Groups/Staff/_5</coupling></data>
+  <node f="810000042" dt="3"><name>_1</name><data><coupling>/Tools/Groups/Staff/_5</coupling></data>
    <node f="40"><name></name></node></node>
-  <node f="800000042" dt="3"><name>_2</name><data><coupling>/Tools/Groups/Immigration Staff/_2</coupling></data></node>
+  <node f="810000042" dt="3"><name>_2</name><data><coupling>/Tools/Groups/Immigration Staff/_2</coupling></data></node>
  </node>
  <node f="42"><name>templateobject</name>
   <node f="40"><name></name></node></node>
@@ -5125,7 +6725,7 @@ treenode processFlow = ownerobject(activity);
  <node f="42"><name>ActiveProcesses</name>
   <node f="40"><name></name></node></node>
 </data></node>
-<node f="72" dt="4"><name>WaitingLine4</name><data>
+<node f="10000072" dt="4"><name>WaitingLine4</name><data>
  <node f="40"><name></name></node>
  <node f="42"><name>superclasses</name>
   <node f="40"><name></name></node>
@@ -5144,12 +6744,16 @@ treenode processFlow = ownerobject(activity);
     <node f="42" dt="1"><name>x</name><data>0000000000000000</data></node>
     <node f="42" dt="1"><name>y</name><data>0000000000000000</data></node>
     <node f="42" dt="1"><name>z</name><data>0000000000000000</data></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>People::WaitingLine::Point</data>
+     <node f="40"><name></name></node></node>
    </node>
    <node f="42" dt="7"><name></name><data/>
     <node f="40"><name></name></node>
     <node f="42" dt="1"><name>x</name><data>0000000000000000</data></node>
     <node f="42" dt="1"><name>y</name><data>00000000c0100000</data></node>
     <node f="42" dt="1"><name>z</name><data>0000000000000000</data></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>People::WaitingLine::Point</data>
+     <node f="40"><name></name></node></node>
    </node>
   </node>
   <node f="42" dt="1"><name>travelers</name><data>0000000000000000</data></node>
@@ -5274,15 +6878,62 @@ treenode processFlow = ownerobject(activity);
     </fields>
     <entry><ed>none</ed><ed>0000000000000000</ed><ed>0</ed></entry>
     <entry><ed>idle</ed><ed>0000000000000000</ed><ed>0</ed></entry></data></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
   </node>
   <node f="42" dt="7"><name>stats_input</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_output</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_content</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_staytime</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040080000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="1"><name>stats_creationtime</name><data>0000000000000000</data></node>
   <node f="42" dt="1"><name>stats_lastmovetime</name><data>0000000000000000</data></node>
  </node>
@@ -5298,7 +6949,10 @@ treenode processFlow = ownerobject(activity);
  <node f="42"><name>events</name>
   <node f="40"><name></name></node></node>
  <node f="42" dt="7"><name>resetvalues</name><data/>
-  <node f="40"><name></name></node></node>
+  <node f="40"><name></name></node>
+  <node f="42" dt="2"><name>sdt::attributetree</name><data>ObjectResetValues</data>
+   <node f="40"><name></name></node></node>
+ </node>
  <node f="42"><name>stored</name></node>
  <node f="4000000042" dt="2"><name>windowtitle</name><data>FlexSimObject</data>
   <node f="40"><name></name></node></node>
@@ -5313,11 +6967,11 @@ treenode processFlow = ownerobject(activity);
  </node>
  <node f="42"><name>Groups</name>
   <node f="40"><name></name></node>
-  <node f="800000042" dt="3"><name></name><data><coupling>/Tools/Groups/Immigration Counter Queues/_2</coupling></data></node>
+  <node f="810000042" dt="3"><name></name><data><coupling>/Tools/Groups/Immigration Counter Queues/_2</coupling></data></node>
  </node>
 </data>
  <node f="40"><name></name></node></node>
-<node f="72" dt="4"><name>WaitingLine5</name><data>
+<node f="10000072" dt="4"><name>WaitingLine5</name><data>
  <node f="40"><name></name></node>
  <node f="42"><name>superclasses</name>
   <node f="40"><name></name></node>
@@ -5336,12 +6990,16 @@ treenode processFlow = ownerobject(activity);
     <node f="42" dt="1"><name>x</name><data>00000000c0080000</data></node>
     <node f="42" dt="1"><name>y</name><data>000000003ff00000</data></node>
     <node f="42" dt="1"><name>z</name><data>0000000000000000</data></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>People::WaitingLine::Point</data>
+     <node f="40"><name></name></node></node>
    </node>
    <node f="42" dt="7"><name></name><data/>
     <node f="40"><name></name></node>
     <node f="42" dt="1"><name>x</name><data>000000003ff00000</data></node>
     <node f="42" dt="1"><name>y</name><data>00000000c0080000</data></node>
     <node f="42" dt="1"><name>z</name><data>0000000000000000</data></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>People::WaitingLine::Point</data>
+     <node f="40"><name></name></node></node>
    </node>
   </node>
   <node f="42" dt="1"><name>travelers</name><data>0000000000000000</data></node>
@@ -5466,15 +7124,62 @@ treenode processFlow = ownerobject(activity);
     </fields>
     <entry><ed>none</ed><ed>0000000000000000</ed><ed>0</ed></entry>
     <entry><ed>idle</ed><ed>0000000000000000</ed><ed>0</ed></entry></data></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
   </node>
   <node f="42" dt="7"><name>stats_input</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_output</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_content</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_staytime</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040080000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="1"><name>stats_creationtime</name><data>0000000000000000</data></node>
   <node f="42" dt="1"><name>stats_lastmovetime</name><data>0000000000000000</data></node>
  </node>
@@ -5486,12 +7191,12 @@ treenode processFlow = ownerobject(activity);
    <node f="40"><name></name></node></node>
   <node f="42"><name>connectionscenter</name>
    <node f="40"><name></name></node>
-   <node f="42" dt="3"><name>_1</name><data><coupling>/WaitingLine19&gt;connections/connectionscenter/_1</coupling></data>
+   <node f="10000042" dt="3"><name>_1</name><data><coupling>/WaitingLine19&gt;connections/connectionscenter/_1</coupling></data>
     <node f="40"><name></name></node>
     <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
     <node f="42" dt="3"><name></name><data><coupling>null</coupling></data></node>
    </node>
-   <node f="42" dt="3"><name>_2</name><data><coupling>/Bag Drop 3&gt;connections/connectionscenter/_1</coupling></data>
+   <node f="10000042" dt="3"><name>_2</name><data><coupling>/Bag Drop 3&gt;connections/connectionscenter/_1</coupling></data>
     <node f="40"><name></name></node>
     <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
     <node f="42" dt="3"><name></name><data><coupling>null</coupling></data></node>
@@ -5501,7 +7206,10 @@ treenode processFlow = ownerobject(activity);
  <node f="42"><name>events</name>
   <node f="40"><name></name></node></node>
  <node f="42" dt="7"><name>resetvalues</name><data/>
-  <node f="40"><name></name></node></node>
+  <node f="40"><name></name></node>
+  <node f="42" dt="2"><name>sdt::attributetree</name><data>ObjectResetValues</data>
+   <node f="40"><name></name></node></node>
+ </node>
  <node f="42"><name>stored</name></node>
  <node f="4000000042" dt="2"><name>windowtitle</name><data>FlexSimObject</data>
   <node f="40"><name></name></node></node>
@@ -5516,11 +7224,11 @@ treenode processFlow = ownerobject(activity);
  </node>
  <node f="42"><name>Groups</name>
   <node f="40"><name></name></node>
-  <node f="800000042" dt="3"><name></name><data><coupling>/Tools/Groups/Self Check In Queues/_1</coupling></data></node>
+  <node f="810000042" dt="3"><name></name><data><coupling>/Tools/Groups/Self Check In Queues/_1</coupling></data></node>
  </node>
 </data>
  <node f="40"><name></name></node></node>
-<node f="72" dt="4"><name>WaitingLine6</name><data>
+<node f="10000072" dt="4"><name>WaitingLine6</name><data>
  <node f="40"><name></name></node>
  <node f="42"><name>superclasses</name>
   <node f="40"><name></name></node>
@@ -5539,12 +7247,16 @@ treenode processFlow = ownerobject(activity);
     <node f="42" dt="1"><name>x</name><data>20000000bffbd3d9</data></node>
     <node f="42" dt="1"><name>y</name><data>200000003ff435a1</data></node>
     <node f="42" dt="1"><name>z</name><data>0000000000000000</data></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>People::WaitingLine::Point</data>
+     <node f="40"><name></name></node></node>
    </node>
    <node f="42" dt="7"><name></name><data/>
     <node f="40"><name></name></node>
     <node f="42" dt="1"><name>x</name><data>6000000040021613</data></node>
     <node f="42" dt="1"><name>y</name><data>60000000c005e52f</data></node>
     <node f="42" dt="1"><name>z</name><data>0000000000000000</data></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>People::WaitingLine::Point</data>
+     <node f="40"><name></name></node></node>
    </node>
   </node>
   <node f="42" dt="1"><name>travelers</name><data>0000000000000000</data></node>
@@ -5669,15 +7381,62 @@ treenode processFlow = ownerobject(activity);
     </fields>
     <entry><ed>none</ed><ed>0000000000000000</ed><ed>0</ed></entry>
     <entry><ed>idle</ed><ed>0000000000000000</ed><ed>0</ed></entry></data></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
   </node>
   <node f="42" dt="7"><name>stats_input</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_output</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_content</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_staytime</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040080000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="1"><name>stats_creationtime</name><data>0000000000000000</data></node>
   <node f="42" dt="1"><name>stats_lastmovetime</name><data>0000000000000000</data></node>
  </node>
@@ -5689,12 +7448,12 @@ treenode processFlow = ownerobject(activity);
    <node f="40"><name></name></node></node>
   <node f="42"><name>connectionscenter</name>
    <node f="40"><name></name></node>
-   <node f="42" dt="3"><name>_1</name><data><coupling>/WaitingLine19&gt;connections/connectionscenter/_2</coupling></data>
+   <node f="10000042" dt="3"><name>_1</name><data><coupling>/WaitingLine19&gt;connections/connectionscenter/_2</coupling></data>
     <node f="40"><name></name></node>
     <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
     <node f="42" dt="3"><name></name><data><coupling>null</coupling></data></node>
    </node>
-   <node f="42" dt="3"><name>_2</name><data><coupling>/Bag Drop 3&gt;connections/connectionscenter/_2</coupling></data>
+   <node f="10000042" dt="3"><name>_2</name><data><coupling>/Bag Drop 3&gt;connections/connectionscenter/_2</coupling></data>
     <node f="40"><name></name></node>
     <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
     <node f="42" dt="3"><name></name><data><coupling>null</coupling></data></node>
@@ -5704,7 +7463,10 @@ treenode processFlow = ownerobject(activity);
  <node f="42"><name>events</name>
   <node f="40"><name></name></node></node>
  <node f="42" dt="7"><name>resetvalues</name><data/>
-  <node f="40"><name></name></node></node>
+  <node f="40"><name></name></node>
+  <node f="42" dt="2"><name>sdt::attributetree</name><data>ObjectResetValues</data>
+   <node f="40"><name></name></node></node>
+ </node>
  <node f="42"><name>stored</name></node>
  <node f="4000000042" dt="2"><name>windowtitle</name><data>FlexSimObject</data>
   <node f="40"><name></name></node></node>
@@ -5719,11 +7481,11 @@ treenode processFlow = ownerobject(activity);
  </node>
  <node f="42"><name>Groups</name>
   <node f="40"><name></name></node>
-  <node f="800000042" dt="3"><name></name><data><coupling>/Tools/Groups/Self Check In Queues/_2</coupling></data></node>
+  <node f="810000042" dt="3"><name></name><data><coupling>/Tools/Groups/Self Check In Queues/_2</coupling></data></node>
  </node>
 </data>
  <node f="40"><name></name></node></node>
-<node f="72" dt="4"><name>WaitingLine7</name><data>
+<node f="10000072" dt="4"><name>WaitingLine7</name><data>
  <node f="40"><name></name></node>
  <node f="42"><name>superclasses</name>
   <node f="40"><name></name></node>
@@ -5742,12 +7504,16 @@ treenode processFlow = ownerobject(activity);
     <node f="42" dt="1"><name>x</name><data>0000000000000000</data></node>
     <node f="42" dt="1"><name>y</name><data>0000000000000000</data></node>
     <node f="42" dt="1"><name>z</name><data>0000000000000000</data></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>People::WaitingLine::Point</data>
+     <node f="40"><name></name></node></node>
    </node>
    <node f="42" dt="7"><name></name><data/>
     <node f="40"><name></name></node>
     <node f="42" dt="1"><name>x</name><data>0000000000000000</data></node>
     <node f="42" dt="1"><name>y</name><data>00000000c0100000</data></node>
     <node f="42" dt="1"><name>z</name><data>0000000000000000</data></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>People::WaitingLine::Point</data>
+     <node f="40"><name></name></node></node>
    </node>
   </node>
   <node f="42" dt="1"><name>travelers</name><data>0000000000000000</data></node>
@@ -5898,15 +7664,62 @@ involved.labels.assert(labelname).value = value;
     </fields>
     <entry><ed>none</ed><ed>0000000000000000</ed><ed>0</ed></entry>
     <entry><ed>idle</ed><ed>0000000000000000</ed><ed>0</ed></entry></data></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
   </node>
   <node f="42" dt="7"><name>stats_input</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_output</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_content</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_staytime</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040080000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="1"><name>stats_creationtime</name><data>0000000000000000</data></node>
   <node f="42" dt="1"><name>stats_lastmovetime</name><data>0000000000000000</data></node>
  </node>
@@ -5918,12 +7731,12 @@ involved.labels.assert(labelname).value = value;
    <node f="40"><name></name></node></node>
   <node f="42"><name>connectionscenter</name>
    <node f="40"><name></name></node>
-   <node f="42" dt="3"><name>_1</name><data><coupling>/E Gate 1&gt;connections/connectionscenter/1</coupling></data>
+   <node f="10000042" dt="3"><name>_1</name><data><coupling>/E Gate 1&gt;connections/connectionscenter/1</coupling></data>
     <node f="40"><name></name></node>
     <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
     <node f="42" dt="3"><name></name><data><coupling>null</coupling></data></node>
    </node>
-   <node f="42" dt="3"><name>_2</name><data><coupling>/E Gate 1_2&gt;connections/connectionscenter/1</coupling></data>
+   <node f="10000042" dt="3"><name>_2</name><data><coupling>/E Gate 1_2&gt;connections/connectionscenter/1</coupling></data>
     <node f="40"><name></name></node>
     <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
     <node f="42" dt="3"><name></name><data><coupling>null</coupling></data></node>
@@ -5933,7 +7746,10 @@ involved.labels.assert(labelname).value = value;
  <node f="42"><name>events</name>
   <node f="40"><name></name></node></node>
  <node f="42" dt="7"><name>resetvalues</name><data/>
-  <node f="40"><name></name></node></node>
+  <node f="40"><name></name></node>
+  <node f="42" dt="2"><name>sdt::attributetree</name><data>ObjectResetValues</data>
+   <node f="40"><name></name></node></node>
+ </node>
  <node f="42"><name>stored</name></node>
  <node f="4000000042" dt="2"><name>windowtitle</name><data>FlexSimObject</data>
   <node f="40"><name></name></node></node>
@@ -5948,12 +7764,12 @@ involved.labels.assert(labelname).value = value;
  </node>
  <node f="42"><name>Groups</name>
   <node f="40"><name></name></node>
-  <node f="800000042" dt="3"><name></name><data><coupling>/Tools/Groups/E Gate Queues/_1</coupling></data>
+  <node f="810000042" dt="3"><name></name><data><coupling>/Tools/Groups/E Gate Queues/_1</coupling></data>
    <node f="40"><name></name></node></node>
  </node>
 </data>
  <node f="40"><name></name></node></node>
-<node f="72" dt="4"><name>WaitingLine8</name><data>
+<node f="10000072" dt="4"><name>WaitingLine8</name><data>
  <node f="40"><name></name></node>
  <node f="42"><name>superclasses</name>
   <node f="40"><name></name></node>
@@ -5972,12 +7788,16 @@ involved.labels.assert(labelname).value = value;
     <node f="42" dt="1"><name>x</name><data>0000000000000000</data></node>
     <node f="42" dt="1"><name>y</name><data>0000000000000000</data></node>
     <node f="42" dt="1"><name>z</name><data>0000000000000000</data></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>People::WaitingLine::Point</data>
+     <node f="40"><name></name></node></node>
    </node>
    <node f="42" dt="7"><name></name><data/>
     <node f="40"><name></name></node>
     <node f="42" dt="1"><name>x</name><data>0000000000000000</data></node>
     <node f="42" dt="1"><name>y</name><data>00000000c0100000</data></node>
     <node f="42" dt="1"><name>z</name><data>0000000000000000</data></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>People::WaitingLine::Point</data>
+     <node f="40"><name></name></node></node>
    </node>
   </node>
   <node f="42" dt="1"><name>travelers</name><data>0000000000000000</data></node>
@@ -6128,15 +7948,62 @@ involved.labels.assert(labelname).value = value;
     </fields>
     <entry><ed>none</ed><ed>0000000000000000</ed><ed>0</ed></entry>
     <entry><ed>idle</ed><ed>0000000000000000</ed><ed>0</ed></entry></data></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
   </node>
   <node f="42" dt="7"><name>stats_input</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_output</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_content</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_staytime</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040080000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="1"><name>stats_creationtime</name><data>0000000000000000</data></node>
   <node f="42" dt="1"><name>stats_lastmovetime</name><data>0000000000000000</data></node>
  </node>
@@ -6148,12 +8015,12 @@ involved.labels.assert(labelname).value = value;
    <node f="40"><name></name></node></node>
   <node f="42"><name>connectionscenter</name>
    <node f="40"><name></name></node>
-   <node f="42" dt="3"><name>_1</name><data><coupling>/E Gate 2&gt;connections/connectionscenter/1</coupling></data>
+   <node f="10000042" dt="3"><name>_1</name><data><coupling>/E Gate 2&gt;connections/connectionscenter/1</coupling></data>
     <node f="40"><name></name></node>
     <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
     <node f="42" dt="3"><name></name><data><coupling>null</coupling></data></node>
    </node>
-   <node f="42" dt="3"><name>_2</name><data><coupling>/E Gate 2_2&gt;connections/connectionscenter/1</coupling></data>
+   <node f="10000042" dt="3"><name>_2</name><data><coupling>/E Gate 2_2&gt;connections/connectionscenter/1</coupling></data>
     <node f="40"><name></name></node>
     <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
     <node f="42" dt="3"><name></name><data><coupling>null</coupling></data></node>
@@ -6163,7 +8030,10 @@ involved.labels.assert(labelname).value = value;
  <node f="42"><name>events</name>
   <node f="40"><name></name></node></node>
  <node f="42" dt="7"><name>resetvalues</name><data/>
-  <node f="40"><name></name></node></node>
+  <node f="40"><name></name></node>
+  <node f="42" dt="2"><name>sdt::attributetree</name><data>ObjectResetValues</data>
+   <node f="40"><name></name></node></node>
+ </node>
  <node f="42"><name>stored</name></node>
  <node f="4000000042" dt="2"><name>windowtitle</name><data>FlexSimObject</data>
   <node f="40"><name></name></node></node>
@@ -6178,11 +8048,11 @@ involved.labels.assert(labelname).value = value;
  </node>
  <node f="42"><name>Groups</name>
   <node f="40"><name></name></node>
-  <node f="800000042" dt="3"><name></name><data><coupling>/Tools/Groups/E Gate Queues/_2</coupling></data></node>
+  <node f="810000042" dt="3"><name></name><data><coupling>/Tools/Groups/E Gate Queues/_2</coupling></data></node>
  </node>
 </data>
  <node f="40"><name></name></node></node>
-<node f="42" dt="4"><name>Self Check In 1</name><data>
+<node f="10000042" dt="4"><name>Self Check In 1</name><data>
  <node f="40"><name></name></node>
  <node f="42"><name>superclasses</name>
   <node f="40"><name></name></node>
@@ -6288,6 +8158,13 @@ involved.labels.assert(labelname).value = value;
     <entry><ed>unloading</ed><ed>0000000000000000</ed><ed>0</ed></entry>
     <entry><ed>down</ed><ed>0000000000000000</ed><ed>0</ed></entry>
     <entry><ed>setup</ed><ed>0000000000000000</ed><ed>1</ed></entry></data></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
   </node>
   <node f="42"><name>state_profiles</name>
    <node f="40"><name></name></node>
@@ -6302,10 +8179,26 @@ involved.labels.assert(labelname).value = value;
      <entry><ed>Available</ed><ed>0000000000000000</ed><ed>1</ed></entry>
      <entry><ed>Acquired</ed><ed>0000000000000000</ed><ed>1</ed></entry>
      <entry><ed>Unavailable</ed><ed>0000000000000000</ed><ed>0</ed></entry></data></node>
-    <node f="200000042"><name>onChange</name>
+    <node f="210000042"><name>onChange</name>
      <node f="40"><name></name></node>
-     <node f="200000042" dt="3"><name></name><data><coupling>/Self Check In 1&gt;stats/HC_Availability_States/dependencies/_2</coupling></data>
-      <node f="40"><name></name></node></node>
+     <node f="210000042" dt="3"><name></name><data><coupling>/Self Check In 1&gt;stats/HC_Availability_States/dependencies/_2</coupling></data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>sdt::attributetree</name><data>ComboStateChangeEvent</data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name>time</name><data>0000000000000000</data></node>
+       <node f="42" dt="3"><name>involved</name><data><coupling>/Self Check In 1&gt;stats/state_profiles/Availability/onChange</coupling></data></node>
+       <node f="42" dt="1"><name>code</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>eventcounter</name><data>0000000000000000</data></node>
+       <node f="42" dt="2"><name>data</name><data storagetype="hexadecimal">0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</data></node>
+      </node>
+     </node>
+    </node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
     </node>
    </node>
    <node f="42" dt="7"><name>HC States</name><data/>
@@ -6318,10 +8211,26 @@ involved.labels.assert(labelname).value = value;
      </fields>
      <entry><ed>Idle</ed><ed>0000000000000000</ed><ed>1</ed></entry>
      <entry><ed>Occupied</ed><ed>0000000000000000</ed><ed>1</ed></entry></data></node>
-    <node f="200000042"><name>onChange</name>
+    <node f="210000042"><name>onChange</name>
      <node f="40"><name></name></node>
-     <node f="200000042" dt="3"><name></name><data><coupling>/Self Check In 1&gt;stats/HC_Availability_States/dependencies/_1</coupling></data>
-      <node f="40"><name></name></node></node>
+     <node f="210000042" dt="3"><name></name><data><coupling>/Self Check In 1&gt;stats/HC_Availability_States/dependencies/_1</coupling></data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>sdt::attributetree</name><data>ComboStateChangeEvent</data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name>time</name><data>0000000000000000</data></node>
+       <node f="42" dt="3"><name>involved</name><data><coupling>/Self Check In 1&gt;stats/state_profiles/HC States/onChange</coupling></data></node>
+       <node f="42" dt="1"><name>code</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>eventcounter</name><data>0000000000000000</data></node>
+       <node f="42" dt="2"><name>data</name><data storagetype="hexadecimal">0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</data></node>
+      </node>
+     </node>
+    </node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
     </node>
    </node>
   </node>
@@ -6337,21 +8246,75 @@ involved.labels.assert(labelname).value = value;
     <entry><ed>3</ed><ed>0000000000000000</ed><ed>0</ed></entry><varchar>other</varchar><varchar>1</varchar><varchar>Idle_Available</varchar><varchar>2</varchar><varchar>Idle_Acquired</varchar><varchar>3</varchar><varchar>Occupied_Acquired</varchar><varchar>4</varchar><varchar>Occupied_Available</varchar></data></node>
    <node f="42"><name>dependencies</name>
     <node f="40"><name></name></node>
-    <node f="42" dt="3"><name>_1</name><data><coupling>/Self Check In 1&gt;stats/state_profiles/HC States/onChange/1</coupling></data></node>
-    <node f="42" dt="3"><name>_2</name><data><coupling>/Self Check In 1&gt;stats/state_profiles/Availability/onChange/1</coupling></data></node>
+    <node f="10000042" dt="3"><name>_1</name><data><coupling>/Self Check In 1&gt;stats/state_profiles/HC States/onChange/1</coupling></data></node>
+    <node f="10000042" dt="3"><name>_2</name><data><coupling>/Self Check In 1&gt;stats/state_profiles/Availability/onChange/1</coupling></data></node>
+   </node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>00000000401c0000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000040400000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>maxValue</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>numEntries</name><data>0000000040080000</data></node>
+    <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
    </node>
   </node>
   <node f="42" dt="7"><name>stats_input</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_output</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_content</name><data/>
    <node f="40"><name></name></node>
    <node f="200000042"><name>onChange</name>
     <node f="40"><name></name></node></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+   </node>
   </node>
   <node f="42" dt="7"><name>stats_staytime</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040080000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="1"><name>stats_creationtime</name><data>0000000000000000</data></node>
   <node f="42" dt="1"><name>stats_lastmovetime</name><data>0000000000000000</data></node>
  </node>
@@ -6404,7 +8367,10 @@ involved.labels.assert(labelname).value = value;
  <node f="42"><name>events</name>
   <node f="40"><name></name></node></node>
  <node f="42" dt="7"><name>resetvalues</name><data/>
-  <node f="40"><name></name></node></node>
+  <node f="40"><name></name></node>
+  <node f="42" dt="2"><name>sdt::attributetree</name><data>ObjectResetValues</data>
+   <node f="40"><name></name></node></node>
+ </node>
  <node f="42"><name>stored</name>
   <node f="40"><name></name></node>
   <node f="800000042" dt="2"><name>PeopleFlow</name><data>/Tools/People/Flows/InstancedFlows/Location</data>
@@ -6434,7 +8400,10 @@ treenode processFlow = ownerobject(activity);
      <node f="40"><name></name></node>
      <node f="42" dt="1"><name>value</name><data>0000000040240000</data>
       <node f="40" dt="7"><name></name><data/>
-       <node f="40"><name></name></node></node></node>
+       <node f="40"><name></name></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>FlexScriptCode</data>
+        <node f="40"><name></name></node></node>
+      </node></node>
      <node f="42" dt="1"><name>type</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>user</name><data>000000003ff00000</data></node>
      <node f="42" dt="1"><name>local</name><data>000000003ff00000</data></node>
@@ -6455,7 +8424,10 @@ treenode processFlow = ownerobject(activity);
      <node f="40"><name></name></node>
      <node f="42"><name>value</name>
       <node f="40" dt="7"><name></name><data/>
-       <node f="40"><name></name></node></node></node>
+       <node f="40"><name></name></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>FlexScriptCode</data>
+        <node f="40"><name></name></node></node>
+      </node></node>
      <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
      <node f="42" dt="1"><name>user</name><data>000000003ff00000</data></node>
      <node f="42" dt="1"><name>local</name><data>000000003ff00000</data></node>
@@ -6496,13 +8468,13 @@ treenode processFlow = ownerobject(activity);
  </node>
  <node f="42"><name>Groups</name>
   <node f="40"><name></name></node>
-  <node f="800000042" dt="3"><name></name><data><coupling>/Tools/Groups/Self Check In/_1</coupling></data></node>
+  <node f="810000042" dt="3"><name></name><data><coupling>/Tools/Groups/Self Check In/_1</coupling></data></node>
  </node>
  <node f="42"><name>WaitingBackorders</name>
   <node f="40"><name></name></node></node>
 </data>
  <node f="40"><name></name></node></node>
-<node f="42" dt="4"><name>Self Check In 2</name><data>
+<node f="10000042" dt="4"><name>Self Check In 2</name><data>
  <node f="40"><name></name></node>
  <node f="42"><name>superclasses</name>
   <node f="40"><name></name></node>
@@ -6608,6 +8580,13 @@ treenode processFlow = ownerobject(activity);
     <entry><ed>unloading</ed><ed>0000000000000000</ed><ed>0</ed></entry>
     <entry><ed>down</ed><ed>0000000000000000</ed><ed>0</ed></entry>
     <entry><ed>setup</ed><ed>0000000000000000</ed><ed>1</ed></entry></data></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
   </node>
   <node f="42"><name>state_profiles</name>
    <node f="40"><name></name></node>
@@ -6622,10 +8601,26 @@ treenode processFlow = ownerobject(activity);
      <entry><ed>Available</ed><ed>0000000000000000</ed><ed>1</ed></entry>
      <entry><ed>Acquired</ed><ed>0000000000000000</ed><ed>1</ed></entry>
      <entry><ed>Unavailable</ed><ed>0000000000000000</ed><ed>0</ed></entry></data></node>
-    <node f="200000042"><name>onChange</name>
+    <node f="210000042"><name>onChange</name>
      <node f="40"><name></name></node>
-     <node f="200000042" dt="3"><name></name><data><coupling>/Self Check In 2&gt;stats/HC_Availability_States/dependencies/_2</coupling></data>
-      <node f="40"><name></name></node></node>
+     <node f="210000042" dt="3"><name></name><data><coupling>/Self Check In 2&gt;stats/HC_Availability_States/dependencies/_2</coupling></data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>sdt::attributetree</name><data>ComboStateChangeEvent</data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name>time</name><data>0000000000000000</data></node>
+       <node f="42" dt="3"><name>involved</name><data><coupling>/Self Check In 2&gt;stats/state_profiles/Availability/onChange</coupling></data></node>
+       <node f="42" dt="1"><name>code</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>eventcounter</name><data>0000000000000000</data></node>
+       <node f="42" dt="2"><name>data</name><data storagetype="hexadecimal">0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</data></node>
+      </node>
+     </node>
+    </node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
     </node>
    </node>
    <node f="42" dt="7"><name>HC States</name><data/>
@@ -6638,10 +8633,26 @@ treenode processFlow = ownerobject(activity);
      </fields>
      <entry><ed>Idle</ed><ed>0000000000000000</ed><ed>1</ed></entry>
      <entry><ed>Occupied</ed><ed>0000000000000000</ed><ed>1</ed></entry></data></node>
-    <node f="200000042"><name>onChange</name>
+    <node f="210000042"><name>onChange</name>
      <node f="40"><name></name></node>
-     <node f="200000042" dt="3"><name></name><data><coupling>/Self Check In 2&gt;stats/HC_Availability_States/dependencies/_1</coupling></data>
-      <node f="40"><name></name></node></node>
+     <node f="210000042" dt="3"><name></name><data><coupling>/Self Check In 2&gt;stats/HC_Availability_States/dependencies/_1</coupling></data>
+      <node f="40"><name></name></node>
+      <node f="42" dt="2"><name>sdt::attributetree</name><data>ComboStateChangeEvent</data>
+       <node f="40"><name></name></node>
+       <node f="42" dt="1"><name>time</name><data>0000000000000000</data></node>
+       <node f="42" dt="3"><name>involved</name><data><coupling>/Self Check In 2&gt;stats/state_profiles/HC States/onChange</coupling></data></node>
+       <node f="42" dt="1"><name>code</name><data>0000000000000000</data></node>
+       <node f="42" dt="1"><name>eventcounter</name><data>0000000000000000</data></node>
+       <node f="42" dt="2"><name>data</name><data storagetype="hexadecimal">0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</data></node>
+      </node>
+     </node>
+    </node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+     <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
     </node>
    </node>
   </node>
@@ -6657,21 +8668,75 @@ treenode processFlow = ownerobject(activity);
     <entry><ed>3</ed><ed>0000000000000000</ed><ed>0</ed></entry><varchar>other</varchar><varchar>1</varchar><varchar>Idle_Available</varchar><varchar>2</varchar><varchar>Idle_Acquired</varchar><varchar>3</varchar><varchar>Occupied_Acquired</varchar><varchar>4</varchar><varchar>Occupied_Available</varchar></data></node>
    <node f="42"><name>dependencies</name>
     <node f="40"><name></name></node>
-    <node f="42" dt="3"><name>_1</name><data><coupling>/Self Check In 2&gt;stats/state_profiles/HC States/onChange/1</coupling></data></node>
-    <node f="42" dt="3"><name>_2</name><data><coupling>/Self Check In 2&gt;stats/state_profiles/Availability/onChange/1</coupling></data></node>
+    <node f="10000042" dt="3"><name>_1</name><data><coupling>/Self Check In 2&gt;stats/state_profiles/HC States/onChange/1</coupling></data></node>
+    <node f="10000042" dt="3"><name>_2</name><data><coupling>/Self Check In 2&gt;stats/state_profiles/Availability/onChange/1</coupling></data></node>
+   </node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>00000000401c0000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000040400000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>maxValue</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>numEntries</name><data>0000000040080000</data></node>
+    <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
    </node>
   </node>
   <node f="42" dt="7"><name>stats_input</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_output</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_content</name><data/>
    <node f="40"><name></name></node>
    <node f="200000042"><name>onChange</name>
     <node f="40"><name></name></node></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+   </node>
   </node>
   <node f="42" dt="7"><name>stats_staytime</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040080000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="1"><name>stats_creationtime</name><data>0000000000000000</data></node>
   <node f="42" dt="1"><name>stats_lastmovetime</name><data>0000000000000000</data></node>
  </node>
@@ -6724,7 +8789,10 @@ treenode processFlow = ownerobject(activity);
  <node f="42"><name>events</name>
   <node f="40"><name></name></node></node>
  <node f="42" dt="7"><name>resetvalues</name><data/>
-  <node f="40"><name></name></node></node>
+  <node f="40"><name></name></node>
+  <node f="42" dt="2"><name>sdt::attributetree</name><data>ObjectResetValues</data>
+   <node f="40"><name></name></node></node>
+ </node>
  <node f="42"><name>stored</name>
   <node f="40"><name></name></node>
   <node f="800000042" dt="2"><name>PeopleFlow</name><data>/Tools/People/Flows/InstancedFlows/Location</data>
@@ -6754,7 +8822,10 @@ treenode processFlow = ownerobject(activity);
      <node f="40"><name></name></node>
      <node f="42" dt="1"><name>value</name><data>0000000040240000</data>
       <node f="40" dt="7"><name></name><data/>
-       <node f="40"><name></name></node></node></node>
+       <node f="40"><name></name></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>FlexScriptCode</data>
+        <node f="40"><name></name></node></node>
+      </node></node>
      <node f="42" dt="1"><name>type</name><data>0000000000000000</data></node>
      <node f="42" dt="1"><name>user</name><data>000000003ff00000</data></node>
      <node f="42" dt="1"><name>local</name><data>000000003ff00000</data></node>
@@ -6775,7 +8846,10 @@ treenode processFlow = ownerobject(activity);
      <node f="40"><name></name></node>
      <node f="42"><name>value</name>
       <node f="40" dt="7"><name></name><data/>
-       <node f="40"><name></name></node></node></node>
+       <node f="40"><name></name></node>
+       <node f="42" dt="2"><name>sdt::attributetree</name><data>FlexScriptCode</data>
+        <node f="40"><name></name></node></node>
+      </node></node>
      <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
      <node f="42" dt="1"><name>user</name><data>000000003ff00000</data></node>
      <node f="42" dt="1"><name>local</name><data>000000003ff00000</data></node>
@@ -6816,9 +8890,9 @@ treenode processFlow = ownerobject(activity);
  </node>
  <node f="42"><name>Groups</name>
   <node f="40"><name></name></node>
-  <node f="800000042" dt="3"><name>_1</name><data><coupling>/Tools/Groups/Locations/_7</coupling></data>
+  <node f="810000042" dt="3"><name>_1</name><data><coupling>/Tools/Groups/Locations/_7</coupling></data>
    <node f="40"><name></name></node></node>
-  <node f="800000042" dt="3"><name>_2</name><data><coupling>/Tools/Groups/Self Check In/_2</coupling></data></node>
+  <node f="810000042" dt="3"><name>_2</name><data><coupling>/Tools/Groups/Self Check In/_2</coupling></data></node>
  </node>
  <node f="42"><name>WaitingBackorders</name>
   <node f="40"><name></name></node></node>
@@ -14500,9 +16574,9 @@ return /**/current.centerObjects[/**/
  </node>
  <node f="42"><name>objectinfo</name>
   <node f="40"><name></name></node>
-  <node f="42"><name></name></node>
-  <node f="42"><name></name></node>
-  <node f="42"><name></name></node>
+  <node f="42"><name>CurContent:  0</name></node>
+  <node f="42"><name>MaxContent:  0</name></node>
+  <node f="42"><name>AvgStaytime: 0.0</name></node>
  </node>
  <node f="4000000042" dt="2"><name>windowtitle</name><data>Queue</data>
   <node f="40"><name></name></node></node>
@@ -14752,9 +16826,9 @@ return /**/current.centerObjects[/**/
  </node>
  <node f="42"><name>objectinfo</name>
   <node f="40"><name></name></node>
-  <node f="42"><name></name></node>
-  <node f="42"><name></name></node>
-  <node f="42"><name></name></node>
+  <node f="42"><name>CurContent:  0</name></node>
+  <node f="42"><name>MaxContent:  0</name></node>
+  <node f="42"><name>AvgStaytime: 0.0</name></node>
  </node>
  <node f="4000000042" dt="2"><name>windowtitle</name><data>Queue</data>
   <node f="40"><name></name></node></node>
