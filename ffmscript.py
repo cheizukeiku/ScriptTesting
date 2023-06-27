@@ -90,6 +90,9 @@ read_XML(main_fsx)
 
 for i in tree_list:
 	
+	if i == first_obj:
+			obj_check = True
+
 	if obj_check == True:
 		compar = ""
 			
@@ -111,12 +114,9 @@ for i in tree_list:
 
 		num_check = False
 
-	else:
-		if i == first_obj:
-			obj_check = True
 						
 # to test output
-print(info_list)
+#print(info_list)
 
 info_keys = list(info_list.keys())
 info_values = list(info_list.values())
@@ -139,4 +139,4 @@ ffm_text_list.append('</flexsim-file-map>')
 # to test output
 #print(ffm_text_list)
 
-#create_XML(main_ffm, ffm_text_list)
+create_XML(main_ffm, ffm_text_list)

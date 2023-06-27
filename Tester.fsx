@@ -11,8 +11,8 @@
   </node>
  </node>
 </data><split-point file="DistributedFolder\DefaultNetworkNavigator.fsx"/>
-<split-point file="DistributedFolder\ConveyorSystem.fsx"/>
 <split-point file="DistributedFolder\Walls.fsx"/>
+<split-point file="DistributedFolder\ConveyorSystem.fsx"/>
 <split-point file="DistributedFolder\FlexsimModelFloor.fsx"/>
 <split-point file="DistributedFolder\Entrance.fsx"/>
 <split-point file="DistributedFolder\Check In.fsx"/>

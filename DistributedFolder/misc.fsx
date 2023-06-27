@@ -19805,8 +19805,8 @@ else return applicationcommand("undockwindow", c, 0, dropx(), dropy());</data></
         </node>
         <node f="42" dt="1"><name>viewpointx</name><data>896560eb402ce921</data></node>
         <node f="42" dt="1"><name>viewpointy</name><data>2a72f712c02dfc95</data></node>
-        <node f="42" dt="1"><name>viewpointrx</name><data>00000000c0408000</data></node>
-        <node f="42" dt="1"><name>viewpointrz</name><data>00000000c09ee000</data></node>
+        <node f="42" dt="1"><name>viewpointrx</name><data>00000000c03e0000</data></node>
+        <node f="42" dt="1"><name>viewpointrz</name><data>00000000c09ec400</data></node>
         <node f="42" dt="1"><name>viewpointradius</name><data>04f2d670403fd421</data>
          <node f="40"><name></name></node>
          <node f="42" dt="1"><name>eye</name><data>0000000000000000</data></node>
@@ -19829,8 +19829,8 @@ else return applicationcommand("undockwindow", c, 0, dropx(), dropy());</data></
          <node f="42" dt="1"><name></name><data>dfdfdfe03fdfdfdf</data></node>
          <node f="42" dt="1"><name></name><data>dfdfdfe03fdfdfdf</data></node>
         </node>
-        <node f="42" dt="1"><name>viewnear</name><data>61a175993ff05e77</data></node>
-        <node f="42" dt="1"><name>viewfar</name><data>2aaf59b1408ff881</data></node>
+        <node f="42" dt="1"><name>viewnear</name><data>2248716f3ff6eaa7</data></node>
+        <node f="42" dt="1"><name>viewfar</name><data>377abec840966127</data></node>
         <node f="42"><name>viewambient</name>
          <node f="40"><name></name></node>
          <node f="42" dt="1"><name></name><data>dfdfdfe03fdfdfdf</data></node>
