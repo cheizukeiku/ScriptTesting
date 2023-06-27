@@ -2,8 +2,8 @@
 <flexsim-file-map version="1">
     <map-node path="/Tools/ProcessFlow" file="DistributedFolder\ProcessFlow.fsx" file-map-method="single-node"/>
     <map-node path="/Tools/flypath" file="DistributedFolder\flypath.fsx" file-map-method="single-node"/>
-    <map-node path="" file="DistributedFolder\misc.fsx" file-map-method="split-points">
-        <split-point name="DefaultNetworkNavigator" file="DistributedFolder\DefaultNetworkNavigator.fsx"/>
+    <map-node path="" file="DistributedFolder\misc.fsx" file-map-method="split-points"/>
+        <split-point="DefaultNetworkNavigator" file="DistributedFolder\DefaultNetworkNavigator.fsx" file-map-method="split-points"/>
         <split-point name="FlowItemBin" file="DistributedFolder\FlowItemBin.fsx"/>
         <split-point name="Box" file="DistributedFolder\Box.fsx"/>
         <split-point name="Cylinder" file="DistributedFolder\Cylinder.fsx"/>
@@ -97,7 +97,6 @@
         <split-point name="Run Sub Flow" file="DistributedFolder\Run Sub Flow.fsx"/>
         <split-point name="Release Check In Staff" file="DistributedFolder\Release Check In Staff.fsx"/>
         <split-point name="Release Check In" file="DistributedFolder\Release Check In.fsx"/>
-        <split-point name="Acquire Line" file="DistributedFolder\Acquire Line.fsx"/>
         <split-point name="Walk to Kiosk" file="DistributedFolder\Walk to Kiosk.fsx"/>
         <split-point name="Acquire Bag Drop" file="DistributedFolder\Acquire Bag Drop.fsx"/>
         <split-point name="Walk to Bag Drop" file="DistributedFolder\Walk to Bag Drop.fsx"/>
@@ -106,6 +105,7 @@
         <split-point name="Acquire Immigration Staff" file="DistributedFolder\Acquire Immigration Staff.fsx"/>
         <split-point name="Release Immigration Staff" file="DistributedFolder\Release Immigration Staff.fsx"/>
         <split-point name="Release Immigration" file="DistributedFolder\Release Immigration.fsx"/>
+        <split-point name="Acquire Line" file="DistributedFolder\Acquire Line.fsx"/>
         <split-point name="Immigration Staff Resources" file="DistributedFolder\Immigration Staff Resources.fsx"/>
         <split-point name="list" file="DistributedFolder\list.fsx"/>
         <split-point name="Immigration Resources" file="DistributedFolder\Immigration Resources.fsx"/>
@@ -207,7 +207,9 @@
         <split-point name="Exit" file="DistributedFolder\Exit.fsx"/>
         <split-point name="End" file="DistributedFolder\End.fsx"/>
         <split-point name="SplitterYPane" file="DistributedFolder\SplitterYPane.fsx"/>
+        <split-point name="Tree" file="DistributedFolder\Tree.fsx"/>
         <split-point name="PresentationBuilder" file="DistributedFolder\PresentationBuilder.fsx"/>
+        <split-point name="SystemConsole" file="DistributedFolder\SystemConsole.fsx"/>
         <split-point name="DefaultNetworkNavigator" file="DistributedFolder\DefaultNetworkNavigator.fsx"/>
         <split-point name="Walls" file="DistributedFolder\Walls.fsx"/>
         <split-point name="ConveyorSystem" file="DistributedFolder\ConveyorSystem.fsx"/>
