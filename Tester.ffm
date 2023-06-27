@@ -2,8 +2,8 @@
 <flexsim-file-map version="1">
     <map-node path="/Tools/ProcessFlow" file="DistributedFolder\ProcessFlow.fsx" file-map-method="single-node"/>
     <map-node path="/Tools/flypath" file="DistributedFolder\flypath.fsx" file-map-method="single-node"/>
-    <map-node path="" file="DistributedFolder\misc.fsx" file-map-method="split-points"/>
-        <split-point="DefaultNetworkNavigator" file="DistributedFolder\DefaultNetworkNavigator.fsx" file-map-method="split-points"/>
+    <map-node path="" file="DistributedFolder\misc.fsx" file-map-method="split-points">
+        <split-point name="DefaultNetworkNavigator" file="DistributedFolder\DefaultNetworkNavigator.fsx"/>
         <split-point name="FlowItemBin" file="DistributedFolder\FlowItemBin.fsx"/>
         <split-point name="Box" file="DistributedFolder\Box.fsx"/>
         <split-point name="Cylinder" file="DistributedFolder\Cylinder.fsx"/>

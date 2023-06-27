@@ -73,7 +73,7 @@ for file in file_names_list:
 
 # group remaining folders and separate from objects
 
-ffm_text_list.append('    ' + '<map-node path="" file="{}\misc.fsx" file-map-method="split-points"/>'.format(repo_name))
+ffm_text_list.append('    ' + '<map-node path="" file="{}\misc.fsx" file-map-method="split-points">'.format(repo_name))
 
 #################################################################################################################################################
 
@@ -123,7 +123,7 @@ for i in range(len(info_keys)):
 		object_name = object[:-1].strip()
 		
 	if i == 0:
-		ffm_text_list.append('        ' + '<split-point="{2}" file="{0}\{1}.fsx" file-map-method="split-points"/>'.format(repo_name, first_obj, first_obj))
+		ffm_text_list.append('        ' + '<split-point name="{2}" file="{0}\{1}.fsx"/>'.format(repo_name, first_obj, first_obj))
 	else:
 		ffm_text_list.append('        ' + '<split-point name="{2}" file="{0}\{1}.fsx"/>'.format(repo_name, object_name, object))
 
