@@ -12,27 +12,129 @@
         <split-point name="Immigration 1" file="DistributedFolder\Immigration.fsx"/>
         <split-point name="Clerk1" file="DistributedFolder\Clerk.fsx"/>
         <split-point name="DefaultNavigator" file="DistributedFolder\DefaultNavigator.fsx"/>
+        <split-point name="Clerk3" file="DistributedFolder\Clerk.fsx"/>
         <split-point name="WaitingLine1" file="DistributedFolder\WaitingLine.fsx"/>
-        <split-point name="Luggage Out 1" file="DistributedFolder\Luggage Out.fsx"/>
-        <split-point name="Bag Drop 1" file="DistributedFolder\Bag Drop.fsx"/>
+        <split-point name="WaitingLine3" file="DistributedFolder\WaitingLine.fsx"/>
+        <split-point name="Luggage Out 2" file="DistributedFolder\Luggage Out.fsx"/>
+        <split-point name="Bag Drop 3" file="DistributedFolder\Bag Drop.fsx"/>
+        <split-point name="Check In 2" file="DistributedFolder\Check In.fsx"/>
+        <split-point name="Clerk2" file="DistributedFolder\Clerk.fsx"/>
+        <split-point name="WaitingLine2" file="DistributedFolder\WaitingLine.fsx"/>
+        <split-point name="Immigration 2" file="DistributedFolder\Immigration.fsx"/>
+        <split-point name="Clerk4" file="DistributedFolder\Clerk.fsx"/>
+        <split-point name="WaitingLine4" file="DistributedFolder\WaitingLine.fsx"/>
+        <split-point name="WaitingLine5" file="DistributedFolder\WaitingLine.fsx"/>
+        <split-point name="WaitingLine6" file="DistributedFolder\WaitingLine.fsx"/>
+        <split-point name="WaitingLine7" file="DistributedFolder\WaitingLine.fsx"/>
+        <split-point name="WaitingLine8" file="DistributedFolder\WaitingLine.fsx"/>
         <split-point name="Self Check In 1" file="DistributedFolder\Self Check In.fsx"/>
+        <split-point name="Self Check In 2" file="DistributedFolder\Self Check In.fsx"/>
         <split-point name="E Gate 1" file="DistributedFolder\E Gate.fsx"/>
+        <split-point name="E Gate 2" file="DistributedFolder\E Gate.fsx"/>
+        <split-point name="WaitingLine9" file="DistributedFolder\WaitingLine.fsx"/>
+        <split-point name="WaitingLine10" file="DistributedFolder\WaitingLine1.fsx"/>
+        <split-point name="Self Check In 3" file="DistributedFolder\Self Check In.fsx"/>
+        <split-point name="Self Check In 4" file="DistributedFolder\Self Check In.fsx"/>
+        <split-point name="WaitingLine11" file="DistributedFolder\WaitingLine1.fsx"/>
+        <split-point name="WaitingLine12" file="DistributedFolder\WaitingLine1.fsx"/>
+        <split-point name="Self Check In 5" file="DistributedFolder\Self Check In.fsx"/>
+        <split-point name="Self Check In 6" file="DistributedFolder\Self Check In.fsx"/>
+        <split-point name="WaitingLine13" file="DistributedFolder\WaitingLine1.fsx"/>
+        <split-point name="WaitingLine14" file="DistributedFolder\WaitingLine1.fsx"/>
+        <split-point name="E Gate 3" file="DistributedFolder\E Gate.fsx"/>
+        <split-point name="E Gate 4" file="DistributedFolder\E Gate.fsx"/>
+        <split-point name="WaitingLine15" file="DistributedFolder\WaitingLine1.fsx"/>
+        <split-point name="WaitingLine16" file="DistributedFolder\WaitingLine1.fsx"/>
+        <split-point name="E Gate 5" file="DistributedFolder\E Gate.fsx"/>
+        <split-point name="E Gate 6" file="DistributedFolder\E Gate.fsx"/>
         <split-point name="StraightConveyor1" file="DistributedFolder\StraightConveyor.fsx"/>
         <split-point name="EntryTransfer1" file="DistributedFolder\EntryTransfer.fsx"/>
-        <split-point name="ExitTransfer1" file="DistributedFolder\ExitTransfer.fsx"/>
+        <split-point name="StraightConveyor2" file="DistributedFolder\StraightConveyor.fsx"/>
+        <split-point name="Bag Drop 1" file="DistributedFolder\Bag Drop.fsx"/>
+        <split-point name="Bag Drop 2" file="DistributedFolder\Bag Drop.fsx"/>
+        <split-point name="StraightConveyor3" file="DistributedFolder\StraightConveyor.fsx"/>
+        <split-point name="StraightConveyor4" file="DistributedFolder\StraightConveyor.fsx"/>
+        <split-point name="Luggage Out 1" file="DistributedFolder\Luggage Out.fsx"/>
+        <split-point name="ExitTransfer2" file="DistributedFolder\ExitTransfer.fsx"/>
+        <split-point name="EntryTransfer3" file="DistributedFolder\EntryTransfer.fsx"/>
+        <split-point name="EntryTransfer4" file="DistributedFolder\EntryTransfer.fsx"/>
+        <split-point name="Bag Drop 4" file="DistributedFolder\Bag Drop.fsx"/>
+        <split-point name="EntryTransfer2" file="DistributedFolder\EntryTransfer.fsx"/>
+        <split-point name="WaitingLine17" file="DistributedFolder\WaitingLine1.fsx"/>
+        <split-point name="WaitingLine18" file="DistributedFolder\WaitingLine1.fsx"/>
         <split-point name="Departure 1" file="DistributedFolder\Departure.fsx"/>
+        <split-point name="Departure 2" file="DistributedFolder\Departure.fsx"/>
         <split-point name="Police 1" file="DistributedFolder\Police.fsx"/>
+        <split-point name="Police 2" file="DistributedFolder\Police.fsx"/>
         <split-point name="Floor Spot 1" file="DistributedFolder\Floor Spot.fsx"/>
+        <split-point name="Floor Spot 2" file="DistributedFolder\Floor Spot.fsx"/>
+        <split-point name="E Gate 1_2" file="DistributedFolder\E Gate 1_.fsx"/>
+        <split-point name="E Gate 2_2" file="DistributedFolder\E Gate 2_.fsx"/>
+        <split-point name="E Gate 3_2" file="DistributedFolder\E Gate 3_.fsx"/>
+        <split-point name="E Gate 4_2" file="DistributedFolder\E Gate 4_.fsx"/>
+        <split-point name="E Gate 5_2" file="DistributedFolder\E Gate 5_.fsx"/>
+        <split-point name="E Gate 6_2" file="DistributedFolder\E Gate 6_.fsx"/>
         <split-point name="Exit 1" file="DistributedFolder\Exit.fsx"/>
+        <split-point name="Exit 2" file="DistributedFolder\Exit.fsx"/>
         <split-point name="Wall 1" file="DistributedFolder\Wall.fsx"/>
+        <split-point name="Wall 2" file="DistributedFolder\Wall.fsx"/>
+        <split-point name="Wall 3" file="DistributedFolder\Wall.fsx"/>
+        <split-point name="Wall 4" file="DistributedFolder\Wall.fsx"/>
+        <split-point name="Wall 5" file="DistributedFolder\Wall.fsx"/>
+        <split-point name="Wall 6" file="DistributedFolder\Wall.fsx"/>
+        <split-point name="Wall 7" file="DistributedFolder\Wall.fsx"/>
+        <split-point name="Wall 8" file="DistributedFolder\Wall.fsx"/>
+        <split-point name="Wall 9" file="DistributedFolder\Wall.fsx"/>
+        <split-point name="Wall 10" file="DistributedFolder\Wall 1.fsx"/>
         <split-point name="Bag Drop Kiosk 1" file="DistributedFolder\Bag Drop Kiosk.fsx"/>
+        <split-point name="Bag Drop Kiosk 2" file="DistributedFolder\Bag Drop Kiosk.fsx"/>
         <split-point name="CurvedConveyor1" file="DistributedFolder\CurvedConveyor.fsx"/>
+        <split-point name="ExitTransfer3" file="DistributedFolder\ExitTransfer.fsx"/>
         <split-point name="Luggage Out Sink" file="DistributedFolder\Luggage Out Sink.fsx"/>
         <split-point name="AStarNavigator" file="DistributedFolder\AStarNavigator.fsx"/>
         <split-point name="localPalette" file="DistributedFolder\localPalette.fsx"/>
         <split-point name="Shape" file="DistributedFolder\Shape.fsx"/>
         <split-point name="Divider1" file="DistributedFolder\Divider.fsx"/>
+        <split-point name="Divider2" file="DistributedFolder\Divider.fsx"/>
+        <split-point name="Divider3" file="DistributedFolder\Divider.fsx"/>
+        <split-point name="Divider4" file="DistributedFolder\Divider.fsx"/>
+        <split-point name="Divider5" file="DistributedFolder\Divider.fsx"/>
+        <split-point name="Divider6" file="DistributedFolder\Divider.fsx"/>
+        <split-point name="Divider7" file="DistributedFolder\Divider.fsx"/>
         <split-point name="Barrier1" file="DistributedFolder\Barrier.fsx"/>
+        <split-point name="Divider8" file="DistributedFolder\Divider.fsx"/>
+        <split-point name="Divider9" file="DistributedFolder\Divider.fsx"/>
+        <split-point name="Divider10" file="DistributedFolder\Divider1.fsx"/>
+        <split-point name="Divider11" file="DistributedFolder\Divider1.fsx"/>
+        <split-point name="Divider12" file="DistributedFolder\Divider1.fsx"/>
+        <split-point name="Divider13" file="DistributedFolder\Divider1.fsx"/>
+        <split-point name="Divider14" file="DistributedFolder\Divider1.fsx"/>
+        <split-point name="Barrier2" file="DistributedFolder\Barrier.fsx"/>
+        <split-point name="Divider15" file="DistributedFolder\Divider1.fsx"/>
+        <split-point name="Divider16" file="DistributedFolder\Divider1.fsx"/>
+        <split-point name="Barrier3" file="DistributedFolder\Barrier.fsx"/>
+        <split-point name="Barrier4" file="DistributedFolder\Barrier.fsx"/>
+        <split-point name="Barrier5" file="DistributedFolder\Barrier.fsx"/>
+        <split-point name="Divider17" file="DistributedFolder\Divider1.fsx"/>
+        <split-point name="Divider19" file="DistributedFolder\Divider1.fsx"/>
+        <split-point name="Divider20" file="DistributedFolder\Divider2.fsx"/>
+        <split-point name="Divider21" file="DistributedFolder\Divider2.fsx"/>
+        <split-point name="Divider22" file="DistributedFolder\Divider2.fsx"/>
+        <split-point name="Divider23" file="DistributedFolder\Divider2.fsx"/>
+        <split-point name="Divider24" file="DistributedFolder\Divider2.fsx"/>
+        <split-point name="Divider25" file="DistributedFolder\Divider2.fsx"/>
+        <split-point name="Divider26" file="DistributedFolder\Divider2.fsx"/>
+        <split-point name="Divider27" file="DistributedFolder\Divider2.fsx"/>
+        <split-point name="Divider28" file="DistributedFolder\Divider2.fsx"/>
+        <split-point name="Divider30" file="DistributedFolder\Divider3.fsx"/>
+        <split-point name="Divider31" file="DistributedFolder\Divider3.fsx"/>
+        <split-point name="Divider32" file="DistributedFolder\Divider3.fsx"/>
+        <split-point name="Divider18" file="DistributedFolder\Divider1.fsx"/>
         <split-point name="Desk Panel 1" file="DistributedFolder\Desk Panel.fsx"/>
+        <split-point name="Desk Panel 2" file="DistributedFolder\Desk Panel.fsx"/>
+        <split-point name="Floor Spot 3" file="DistributedFolder\Floor Spot.fsx"/>
+        <split-point name="Floor Spot 4" file="DistributedFolder\Floor Spot.fsx"/>
+        <split-point name="WaitingLine19" file="DistributedFolder\WaitingLine1.fsx"/>
+        <split-point name="WaitingLine20" file="DistributedFolder\WaitingLine2.fsx"/>
     </map-node>
 </flexsim-file-map>

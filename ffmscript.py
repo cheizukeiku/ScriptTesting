@@ -91,31 +91,63 @@ read_XML(main_fsx)
 for i in tree_list:
 	
 	if i == first_obj:
-			obj_check = True
+		obj_check = True
 
 	if obj_check == True:
-		compar = ""
+#		compar = ""
 			
-		for m in i:
-			if m.isalpha() or m == " ":
-				compar += m
-			elif m.isdigit():
-				num_check = True
+#		for m in i:
+#			if m.isalpha() or m == " ":
+#				compar += m
+#			elif m.isdigit():
+#				num_check = True
 
-		if num_check == True:
-			compar += "1"
+#		if num_check == True:
+#			compar += "1"
 
+#		if compar in list(info_list.keys()):
+#			info_list[compar] += 1
 
-		if compar in list(info_list.keys()):
-			info_list[compar] += 1
+#		else:
+#			info_list[compar] = 1
+
+#		num_check = False
+	
+		if i[-1].isdigit():
+			compar = i[:-1]
+
+			while compar[-1].isdigit():
+				compar = compar[:-1]
 
 		else:
-			info_list[compar] = 1
+			compar = i
 
-		num_check = False
+#		print(compar, i)
+
+		if info_list == {}:
+			info_list[i] = 1
+
+		for j in list(info_list.keys()):
+
+			base = ""
+
+			if j[-1].isdigit():
+				base = j[:-1]
+
+				while base[-1].isdigit():
+					base = base[:-1]
+
+			print(base, compar)
+
+			if compar == base:
+				
+				info_list[j] += 1
+
+			else:
+				info_list[i] = 1
 
 						
-# to test output
+# to ensure all objects accounted for
 #print(info_list)
 
 info_keys = list(info_list.keys())

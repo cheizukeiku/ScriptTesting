@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<flexsim-file-map version="1">
+    <map-node path="/Tools/ProcessFlow" file="DistributedFolder\ProcessFlow.fsx" file-map-method="single-node"/>
+    <map-node path="/Tools/flypath" file="DistributedFolder\flypath.fsx" file-map-method="single-node"/>
+    <map-node path="" file="DistributedFolder\misc.fsx" file-map-method="split-points">
+        <split-point name="DefaultNetworkNavigator" file="DistributedFolder\DefaultNetworkNavigator.fsx"/>
+        <split-point name="Walls" file="DistributedFolder\Walls.fsx"/>
+        <split-point name="FlexsimModelFloor" file="DistributedFolder\FlexsimModelFloor.fsx"/>
+        <split-point name="Entrance" file="DistributedFolder\Entrance.fsx"/>
+        <split-point name="Check In 1" file="DistributedFolder\Check In.fsx"/>
+        <split-point name="Immigration 1" file="DistributedFolder\Immigration.fsx"/>
+        <split-point name="Clerk1" file="DistributedFolder\Clerk.fsx"/>
+        <split-point name="DefaultNavigator" file="DistributedFolder\DefaultNavigator.fsx"/>
+        <split-point name="WaitingLine1" file="DistributedFolder\WaitingLine.fsx"/>
+        <split-point name="Luggage Out 1" file="DistributedFolder\Luggage Out.fsx"/>
+        <split-point name="Bag Drop 1" file="DistributedFolder\Bag Drop.fsx"/>
+        <split-point name="E Gate 1" file="DistributedFolder\E Gate.fsx"/>
+        <split-point name="StraightConveyor1" file="DistributedFolder\StraightConveyor.fsx"/>
+        <split-point name="EntryTransfer1" file="DistributedFolder\EntryTransfer.fsx"/>
+        <split-point name="ExitTransfer1" file="DistributedFolder\ExitTransfer.fsx"/>
+        <split-point name="Departure 1" file="DistributedFolder\Departure.fsx"/>
+        <split-point name="Police 1" file="DistributedFolder\Police.fsx"/>
+        <split-point name="Floor Spot 1" file="DistributedFolder\Floor Spot.fsx"/>
+        <split-point name="Exit 1" file="DistributedFolder\Exit.fsx"/>
+        <split-point name="Wall 1" file="DistributedFolder\Wall.fsx"/>
+        <split-point name="Bag Drop Kiosk 1" file="DistributedFolder\Bag Drop Kiosk.fsx"/>
+        <split-point name="CurvedConveyor1" file="DistributedFolder\CurvedConveyor.fsx"/>
+        <split-point name="Luggage Out Sink" file="DistributedFolder\Luggage Out Sink.fsx"/>
+        <split-point name="AStarNavigator" file="DistributedFolder\AStarNavigator.fsx"/>
+        <split-point name="localPalette" file="DistributedFolder\localPalette.fsx"/>
+        <split-point name="Shape" file="DistributedFolder\Shape.fsx"/>
+        <split-point name="Divider1" file="DistributedFolder\Divider.fsx"/>
+        <split-point name="Barrier1" file="DistributedFolder\Barrier.fsx"/>
+        <split-point name="Desk Panel 1" file="DistributedFolder\Desk Panel.fsx"/>
+    </map-node>
+</flexsim-file-map>
