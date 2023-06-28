@@ -20,8 +20,8 @@
   <node f="42"><name>animationKinematics</name></node>
   <node f="42" dt="1"><name>resetposition</name><data>000000003ff00000</data>
    <node f="40"><name></name></node>
-   <node f="42" dt="1"><name></name><data>0000000040280000</data></node>
-   <node f="42" dt="1"><name></name><data>00000000c0400000</data></node>
+   <node f="42" dt="1"><name></name><data>efef6cac4026e1f4</data></node>
+   <node f="42" dt="1"><name></name><data>21d8f4a6c041c4cf</data></node>
    <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
    <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
    <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
@@ -52,8 +52,8 @@
  </node>
  <node f="42"><name>spatial</name>
   <node f="40"><name></name></node>
-  <node f="42" dt="1"><name>spatialx</name><data>0000000040280000</data></node>
-  <node f="42" dt="1"><name>spatialy</name><data>00000000c0400000</data></node>
+  <node f="42" dt="1"><name>spatialx</name><data>efef6cac4026e1f4</data></node>
+  <node f="42" dt="1"><name>spatialy</name><data>21d8f4a6c041c4cf</data></node>
   <node f="42" dt="1"><name>spatialz</name><data>0000000000000000</data></node>
   <node f="42" dt="1"><name>spatialsx</name><data>000000003ff00000</data></node>
   <node f="42" dt="1"><name>spatialsy</name><data>000000003ff00000</data></node>
@@ -444,8 +444,8 @@ treenode processFlow = ownerobject(activity);
   <node f="42"><name>animationKinematics</name></node>
   <node f="42" dt="1"><name>resetposition</name><data>000000003ff00000</data>
    <node f="40"><name></name></node>
-   <node f="42" dt="1"><name></name><data>00000000402e0000</data></node>
-   <node f="42" dt="1"><name></name><data>00000000c0400000</data></node>
+   <node f="42" dt="1"><name></name><data>ff40d8c4402ed799</data></node>
+   <node f="42" dt="1"><name></name><data>4cfd6e3dc041b775</data></node>
    <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
    <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
    <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
@@ -476,8 +476,8 @@ treenode processFlow = ownerobject(activity);
  </node>
  <node f="42"><name>spatial</name>
   <node f="40"><name></name></node>
-  <node f="42" dt="1"><name>spatialx</name><data>00000000402e0000</data></node>
-  <node f="42" dt="1"><name>spatialy</name><data>00000000c0400000</data></node>
+  <node f="42" dt="1"><name>spatialx</name><data>ff40d8c4402ed799</data></node>
+  <node f="42" dt="1"><name>spatialy</name><data>4cfd6e3dc041b775</data></node>
   <node f="42" dt="1"><name>spatialz</name><data>0000000000000000</data></node>
   <node f="42" dt="1"><name>spatialsx</name><data>000000003ff00000</data></node>
   <node f="42" dt="1"><name>spatialsy</name><data>000000003ff00000</data></node>
