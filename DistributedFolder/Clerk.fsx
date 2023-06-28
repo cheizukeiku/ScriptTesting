@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <flexsim-tree version="4" treetype="distributed">
-<node f="10000042" dt="4"><name>Clerk1</name><data>
+<node f="10000042" dt="4"><name>Clerk4</name><data>
  <node f="40"><name></name></node>
  <node f="42"><name>superclasses</name>
   <node f="40"><name></name></node>
@@ -14,12 +14,12 @@
   <node f="80000040"><name></name></node>
   <node f="42" dt="1"><name>resetposition</name><data>000000003ff00000</data>
    <node f="40"><name></name></node>
-   <node f="42" dt="1"><name></name><data>fffffff03fefffff</data></node>
-   <node f="42" dt="1"><name></name><data>ffffffffc021ffff</data></node>
+   <node f="42" dt="1"><name></name><data>0000000040140000</data></node>
+   <node f="42" dt="1"><name></name><data>37a3735bc0464259</data></node>
    <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
    <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
    <node f="42" dt="1"><name></name><data>0000000080000000</data></node>
-   <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+   <node f="42" dt="1"><name></name><data>0000000040568000</data></node>
    <node f="42" dt="1"><name></name><data>a00000003fd99999</data></node>
    <node f="42" dt="1"><name></name><data>200000003fe28f5c</data></node>
    <node f="42" dt="1"><name></name><data>400000003ffc7ae1</data></node>
@@ -40,7 +40,7 @@
   <node f="42" dt="1"><name>deceleration</name><data>000000003ff00000</data></node>
   <node f="42"><name>navigator</name>
    <node f="40"><name></name></node>
-   <node f="810000042" dt="3"><name></name><data><coupling>/DefaultNavigator&gt;variables/travelmembers/_1</coupling></data>
+   <node f="810000042" dt="3"><name></name><data><coupling>/DefaultNavigator&gt;variables/travelmembers/_4</coupling></data>
     <node f="40"><name></name></node></node>
   </node>
   <node f="8000000442" dt="2"><name>breakto</name><data>TaskSequence activeTaskSequence = param(1);
@@ -1185,7 +1185,7 @@ return taskSequence.priority;</data></node>
    </node>
    <node f="42"><name></name></node>
   </node>
-  <node f="42" dt="3"><name>shapedata</name><data><coupling>/Clerk1&gt;visual/localshapedata/1</coupling></data></node>
+  <node f="42" dt="3"><name>shapedata</name><data><coupling>/Clerk4&gt;visual/localshapedata/1</coupling></data></node>
   <node f="42"><name>localshapedata</name>
    <node f="40"><name></name></node>
    <node f="10000042"><name></name>
@@ -2056,12 +2056,12 @@ return taskSequence.priority;</data></node>
      <entry><ed>Unavailable</ed><ed>0000000000000000</ed><ed>0</ed></entry></data></node>
     <node f="210000042"><name>onChange</name>
      <node f="40"><name></name></node>
-     <node f="210000042" dt="3"><name></name><data><coupling>/Clerk1&gt;stats/HC_Availability_States/dependencies/_2</coupling></data>
+     <node f="210000042" dt="3"><name></name><data><coupling>/Clerk4&gt;stats/HC_Availability_States/dependencies/_2</coupling></data>
       <node f="40"><name></name></node>
       <node f="42" dt="2"><name>sdt::attributetree</name><data>ComboStateChangeEvent</data>
        <node f="40"><name></name></node>
        <node f="42" dt="1"><name>time</name><data>0000000000000000</data></node>
-       <node f="42" dt="3"><name>involved</name><data><coupling>/Clerk1&gt;stats/state_profiles/Availability/onChange</coupling></data></node>
+       <node f="42" dt="3"><name>involved</name><data><coupling>/Clerk4&gt;stats/state_profiles/Availability/onChange</coupling></data></node>
        <node f="42" dt="1"><name>code</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>eventcounter</name><data>0000000000000000</data></node>
        <node f="42" dt="2"><name>data</name><data storagetype="hexadecimal">0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</data></node>
@@ -2086,16 +2086,15 @@ return taskSequence.priority;</data></node>
      </fields>
      <entry><ed>Idle</ed><ed>0000000000000000</ed><ed>1</ed></entry>
      <entry><ed>ProvidingCare</ed><ed>0000000000000000</ed><ed>1</ed></entry>
-     <entry><ed>PerformingTask</ed><ed>0000000000000000</ed><ed>1</ed></entry>
      <entry><ed>InTransit</ed><ed>0000000000000000</ed><ed>1</ed></entry></data></node>
     <node f="210000042"><name>onChange</name>
      <node f="40"><name></name></node>
-     <node f="210000042" dt="3"><name></name><data><coupling>/Clerk1&gt;stats/HC_Availability_States/dependencies/_1</coupling></data>
+     <node f="210000042" dt="3"><name></name><data><coupling>/Clerk4&gt;stats/HC_Availability_States/dependencies/_1</coupling></data>
       <node f="40"><name></name></node>
       <node f="42" dt="2"><name>sdt::attributetree</name><data>ComboStateChangeEvent</data>
        <node f="40"><name></name></node>
        <node f="42" dt="1"><name>time</name><data>0000000000000000</data></node>
-       <node f="42" dt="3"><name>involved</name><data><coupling>/Clerk1&gt;stats/state_profiles/HC States/onChange</coupling></data></node>
+       <node f="42" dt="3"><name>involved</name><data><coupling>/Clerk4&gt;stats/state_profiles/HC States/onChange</coupling></data></node>
        <node f="42" dt="1"><name>code</name><data>0000000000000000</data></node>
        <node f="42" dt="1"><name>eventcounter</name><data>0000000000000000</data></node>
        <node f="42" dt="2"><name>data</name><data storagetype="hexadecimal">0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</data></node>
@@ -2120,11 +2119,11 @@ return taskSequence.priority;</data></node>
      <field name="active" bytesize="4" type="2"/>
     </fields>
     <entry><ed>1</ed><ed>0000000000000000</ed><ed>0</ed></entry>
-    <entry><ed>3</ed><ed>0000000000000000</ed><ed>0</ed></entry><varchar>other</varchar><varchar>1</varchar><varchar>Idle_Available</varchar><varchar>2</varchar><varchar>Idle_Acquired</varchar><varchar>3</varchar><varchar>ProvidingCare_Acquired</varchar><varchar>4</varchar><varchar>ProvidingCare_Available</varchar><varchar>PerformingTask_Acquired</varchar><varchar>PerformingTask_Available</varchar><varchar>InTransit_Acquired</varchar><varchar>5</varchar><varchar>InTransit_Available</varchar><varchar>6</varchar></data></node>
+    <entry><ed>3</ed><ed>0000000000000000</ed><ed>0</ed></entry><varchar>other</varchar><varchar>1</varchar><varchar>Idle_Available</varchar><varchar>2</varchar><varchar>Idle_Acquired</varchar><varchar>3</varchar><varchar>ProvidingCare_Acquired</varchar><varchar>4</varchar><varchar>ProvidingCare_Available</varchar><varchar>InTransit_Acquired</varchar><varchar>5</varchar><varchar>InTransit_Available</varchar><varchar>6</varchar></data></node>
    <node f="42"><name>dependencies</name>
     <node f="40"><name></name></node>
-    <node f="10000042" dt="3"><name>_1</name><data><coupling>/Clerk1&gt;stats/state_profiles/HC States/onChange/1</coupling></data></node>
-    <node f="10000042" dt="3"><name>_2</name><data><coupling>/Clerk1&gt;stats/state_profiles/Availability/onChange/1</coupling></data></node>
+    <node f="10000042" dt="3"><name>_1</name><data><coupling>/Clerk4&gt;stats/state_profiles/HC States/onChange/1</coupling></data></node>
+    <node f="10000042" dt="3"><name>_2</name><data><coupling>/Clerk4&gt;stats/state_profiles/Availability/onChange/1</coupling></data></node>
    </node>
    <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
     <node f="40"><name></name></node>
@@ -2217,15 +2216,15 @@ return taskSequence.priority;</data></node>
   <node f="40"><name></name></node></node>
  <node f="42"><name>spatial</name>
   <node f="40"><name></name></node>
-  <node f="42" dt="1"><name>spatialx</name><data>fffffff03fefffff</data></node>
-  <node f="42" dt="1"><name>spatialy</name><data>ffffffffc021ffff</data></node>
+  <node f="42" dt="1"><name>spatialx</name><data>0000000040140000</data></node>
+  <node f="42" dt="1"><name>spatialy</name><data>37a3735bc0464259</data></node>
   <node f="42" dt="1"><name>spatialz</name><data>0000000000000000</data></node>
   <node f="42" dt="1"><name>spatialsx</name><data>a00000003fd99999</data></node>
   <node f="42" dt="1"><name>spatialsy</name><data>200000003fe28f5c</data></node>
   <node f="42" dt="1"><name>spatialsz</name><data>400000003ffc7ae1</data></node>
   <node f="42" dt="1"><name>spatialrx</name><data>0000000000000000</data></node>
   <node f="42" dt="1"><name>spatialry</name><data>0000000080000000</data></node>
-  <node f="42" dt="1"><name>spatialrz</name><data>0000000000000000</data></node>
+  <node f="42" dt="1"><name>spatialrz</name><data>0000000040568000</data></node>
   <node f="42" dt="1"><name>offsetx</name><data>000000003fe00000</data></node>
   <node f="42" dt="1"><name>offsety</name><data>000000003fe00000</data></node>
   <node f="42" dt="1"><name>offsetz</name><data>40000000bf847ae1</data></node>
@@ -2296,14 +2295,22 @@ treenode processFlow = ownerobject(activity);
  </node>
  <node f="42"><name>Groups</name>
   <node f="40"><name></name></node>
-  <node f="810000042" dt="3"><name>_1</name><data><coupling>/Tools/Groups/Staff/_1</coupling></data>
+  <node f="810000042" dt="3"><name>_1</name><data><coupling>/Tools/Groups/Staff/_5</coupling></data>
    <node f="40"><name></name></node></node>
-  <node f="810000042" dt="3"><name>_2</name><data><coupling>/Tools/Groups/Check In Staff/_1</coupling></data>
-   <node f="40"><name></name></node></node>
+  <node f="810000042" dt="3"><name>_2</name><data><coupling>/Tools/Groups/Immigration Staff/_2</coupling></data></node>
  </node>
- <node f="42"><name>templateinstances</name>
+ <node f="42"><name>templateobject</name>
   <node f="40"><name></name></node></node>
+ <node f="80000042"><name>templateoverrides</name>
+  <node f="40"><name></name></node>
+  <node f="42"><name>Name</name></node>
+  <node f="42"><name>Location</name></node>
+  <node f="42"><name>ResetPosition</name></node>
+  <node f="42"><name>InObjects</name></node>
+  <node f="42"><name>OutObjects</name></node>
+  <node f="42"><name>CenterObjects</name></node>
+  <node f="42"><name>Groups</name></node>
+ </node>
  <node f="42"><name>ActiveProcesses</name>
   <node f="40"><name></name></node></node>
-</data>
- <node f="40"><name></name></node></node></flexsim-tree>
+</data></node></flexsim-tree>

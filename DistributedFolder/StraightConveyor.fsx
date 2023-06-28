@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <flexsim-tree version="4" treetype="distributed">
-<node f="62" dt="4"><name>StraightConveyor1</name><data>
+<node f="62" dt="4"><name>StraightConveyor4</name><data>
  <node f="40"><name></name></node>
  <node f="42"><name>superclasses</name>
   <node f="40"><name></name></node>
@@ -50,13 +50,13 @@ return 1;
   <node f="42" dt="1"><name>slugReleaseSpeed</name><data>000000003ff00000</data></node>
   <node f="42" dt="1"><name>hasSlugMaxItemCount</name><data>0000000000000000</data></node>
   <node f="42" dt="1"><name>slugMaxItemCount</name><data>0000000040240000</data></node>
-  <node f="42" dt="1"><name>length</name><data>008295ff40285c7e</data></node>
+  <node f="42" dt="1"><name>length</name><data>ce1c463a4031db47</data></node>
   <node f="42" dt="1"><name>rise</name><data>0000000000000000</data></node>
   <node f="42" dt="1"><name>useVirtualLength</name><data>0000000000000000</data></node>
   <node f="42" dt="1"><name>virtualLength</name><data>0000000040240000</data></node>
   <node f="42"><name>system</name>
    <node f="40"><name></name></node>
-   <node f="42" dt="3"><name></name><data><coupling>/ConveyorSystem&gt;variables/conveyors/_1</coupling></data></node>
+   <node f="10000042" dt="3"><name></name><data><coupling>/ConveyorSystem&gt;variables/conveyors/_4</coupling></data></node>
   </node>
   <node f="42"><name>motor</name></node>
   <node f="42" dt="3"><name>visualization</name><data><coupling>/ConveyorSystem&gt;variables/visualizations/BeltConveyor</coupling></data></node>
@@ -65,32 +65,97 @@ return 1;
   <node f="42" dt="1"><name>speed</name><data>000000003ff00000</data></node>
   <node f="42" dt="1"><name>conveyorPoints</name><data>0000000000000000</data>
    <node f="40"><name></name></node>
-   <node f="42" dt="3"><name>_1</name><data><coupling>/EntryTransfer1&gt;variables/transferPoint/1</coupling></data>
-    <node f="40"><name></name></node>
-    <node f="42" dt="1"><name>distAlong</name><data>0000000000000000</data></node>
-    <node f="42" dt="3"><name>system</name><data><coupling>/ConveyorSystem&gt;variables/conveyorPoints/_1</coupling></data></node>
-    <node f="42" dt="1"><name>distOffCenter</name><data>0000000000000000</data></node>
-    <node f="42" dt="1"><name>rangeWidth</name><data>0000000000000000</data></node>
-    <node f="42" dt="1"><name>isAtSide</name><data>000000003ff00000</data></node>
-   </node>
-   <node f="42" dt="3"><name>_2</name><data><coupling>/EntryTransfer2&gt;variables/transferPoint/1</coupling></data>
-    <node f="40"><name></name></node>
-    <node f="42" dt="1"><name>distAlong</name><data>57566f7c401be0f9</data></node>
-    <node f="42" dt="3"><name>system</name><data><coupling>/ConveyorSystem&gt;variables/conveyorPoints/_5</coupling></data></node>
-    <node f="42" dt="1"><name>distOffCenter</name><data>000000003fe00000</data></node>
-    <node f="42" dt="1"><name>rangeWidth</name><data>0000000000000000</data></node>
-    <node f="42" dt="1"><name>isAtSide</name><data>000000003ff00000</data></node>
-   </node>
-   <node f="42" dt="3"><name>_3</name><data><coupling>/CurvedConveyor1&gt;variables/conveyorPoints/_1</coupling></data>
+   <node f="10000042" dt="3"><name>_1</name><data><coupling>/StraightConveyor2&gt;variables/conveyorPoints/_2</coupling></data>
     <node f="40"><name></name></node>
     <node f="42"><name>allocations</name></node>
     <node f="42"><name>allocationRequests</name></node>
-    <node f="42" dt="1"><name>distAlong</name><data>008295ff40285c7e</data></node>
-    <node f="42" dt="3"><name>system</name><data><coupling>/ConveyorSystem&gt;variables/conveyorPoints/_11</coupling></data></node>
-    <node f="42" dt="1"><name>distOffCenter</name><data>0000000000000000</data></node>
-    <node f="42" dt="1"><name>transferAngle</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>distAlong</name><data>7ec094253fe13b26</data></node>
+    <node f="10000042" dt="3"><name>system</name><data><coupling>/ConveyorSystem&gt;variables/conveyorPoints/_8</coupling></data></node>
+    <node f="42" dt="1"><name>distOffCenter</name><data>61cf4b803fd59bf9</data></node>
+    <node f="42" dt="1"><name>transferAngle</name><data>00000000c0568000</data></node>
     <node f="42" dt="3"><name>type</name><data><coupling>/ConveyorSystem&gt;variables/transferTypes/TransferType1</coupling></data></node>
     <node f="42"><name>massFlowTransfer</name></node>
+    <node f="42" dt="7"><name>localType</name><data/>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>inlineSpeedType</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>sideSpeedType</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>inlineTransferMaxAngle</name><data>0000000040468000</data></node>
+     <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>finishTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>transferTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>customSpeed</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>popupDist</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>doSmoothTransitions</name><data>000000003ff00000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>Conveyor::TransferType</data>
+      <node f="40"><name></name></node></node>
+    </node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>Conveyor::ConveyorTransfer</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>flowRateRatio</name><data>0000000000000000</data></node>
+     <node f="42" dt="3"><name>exitWaitingTraversal</name><data><coupling>null</coupling></data></node>
+     <node f="42" dt="3"><name>newWaitingTraversal</name><data><coupling>null</coupling></data></node>
+     <node f="42" dt="1"><name>isAtSide</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>driverCurAcc</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>driverCurAccTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>driverStartTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>driverStartSpeed</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>driverTargetSpeed</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>driverStartDist</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>driverHaltTime</name><data>00000000bff00000</data></node>
+     <node f="42" dt="1"><name>needsKinematicOffsetAtCenterTraversal</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="10000042" dt="3"><name>_2</name><data><coupling>/StraightConveyor3&gt;variables/conveyorPoints/_2</coupling></data>
+    <node f="40"><name></name></node>
+    <node f="42"><name>allocations</name></node>
+    <node f="42"><name>allocationRequests</name></node>
+    <node f="42" dt="1"><name>distAlong</name><data>9fb02509400cad86</data></node>
+    <node f="10000042" dt="3"><name>system</name><data><coupling>/ConveyorSystem&gt;variables/conveyorPoints/_10</coupling></data></node>
+    <node f="42" dt="1"><name>distOffCenter</name><data>6ebed4803fd71a95</data></node>
+    <node f="42" dt="1"><name>transferAngle</name><data>00000000c0568000</data></node>
+    <node f="42" dt="3"><name>type</name><data><coupling>/ConveyorSystem&gt;variables/transferTypes/TransferType1</coupling></data></node>
+    <node f="42"><name>massFlowTransfer</name></node>
+    <node f="42" dt="7"><name>localType</name><data/>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>inlineSpeedType</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>sideSpeedType</name><data>0000000040000000</data></node>
+     <node f="42" dt="1"><name>inlineTransferMaxAngle</name><data>0000000040468000</data></node>
+     <node f="42" dt="1"><name>startTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>finishTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>transferTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>customSpeed</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>popupDist</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>doSmoothTransitions</name><data>000000003ff00000</data></node>
+     <node f="42" dt="2"><name>sdt::attributetree</name><data>Conveyor::TransferType</data>
+      <node f="40"><name></name></node></node>
+    </node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>Conveyor::ConveyorTransfer</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>flowRateRatio</name><data>0000000000000000</data></node>
+     <node f="42" dt="3"><name>exitWaitingTraversal</name><data><coupling>null</coupling></data></node>
+     <node f="42" dt="3"><name>newWaitingTraversal</name><data><coupling>null</coupling></data></node>
+     <node f="42" dt="1"><name>isAtSide</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>driverCurAcc</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>driverCurAccTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>driverStartTime</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>driverStartSpeed</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>driverTargetSpeed</name><data>000000003ff00000</data></node>
+     <node f="42" dt="1"><name>driverStartDist</name><data>0000000000000000</data></node>
+     <node f="42" dt="1"><name>driverHaltTime</name><data>00000000bff00000</data></node>
+     <node f="42" dt="1"><name>needsKinematicOffsetAtCenterTraversal</name><data>0000000000000000</data></node>
+    </node>
+   </node>
+   <node f="10000042" dt="3"><name>_3</name><data><coupling>/ExitTransfer2&gt;variables/transferPoint/1</coupling></data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>distAlong</name><data>ce1c463a4031db47</data></node>
+    <node f="10000042" dt="3"><name>system</name><data><coupling>/ConveyorSystem&gt;variables/conveyorPoints/_2</coupling></data></node>
+    <node f="42" dt="1"><name>distOffCenter</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>rangeWidth</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>isAtSide</name><data>0000000000000000</data></node>
+    <node f="42" dt="2"><name>sdt::attributetree</name><data>Conveyor::FRTransferPoint</data>
+     <node f="40"><name></name></node>
+     <node f="42" dt="1"><name>flowRateRatio</name><data>0000000000000000</data></node>
+    </node>
    </node>
   </node>
   <node f="42"><name>timetables</name></node>
@@ -108,15 +173,15 @@ return 1;
   <node f="40"><name></name></node></node>
  <node f="42"><name>spatial</name>
   <node f="40"><name></name></node>
-  <node f="42" dt="1"><name>spatialx</name><data>636a32014036e542</data></node>
-  <node f="42" dt="1"><name>spatialy</name><data>00000000c0398000</data></node>
+  <node f="42" dt="1"><name>spatialx</name><data>26d99a83c003ebc0</data></node>
+  <node f="42" dt="1"><name>spatialy</name><data>5813f6bec023eba4</data></node>
   <node f="42" dt="1"><name>spatialz</name><data>000000003fe00000</data></node>
-  <node f="42" dt="1"><name>spatialsx</name><data>008295ff40285c7e</data></node>
+  <node f="42" dt="1"><name>spatialsx</name><data>ce1c463a4031db47</data></node>
   <node f="42" dt="1"><name>spatialsy</name><data>000000003fe00000</data></node>
   <node f="42" dt="1"><name>spatialsz</name><data>a00000003fc99999</data></node>
   <node f="42" dt="1"><name>spatialrx</name><data>0000000000000000</data></node>
   <node f="42" dt="1"><name>spatialry</name><data>0000000000000000</data></node>
-  <node f="42" dt="1"><name>spatialrz</name><data>0000000000000000</data></node>
+  <node f="42" dt="1"><name>spatialrz</name><data>00000000c0568000</data></node>
   <node f="42" dt="1"><name>centroid</name><data>0000000000000000</data></node>
  </node>
  <node f="42"><name>stats</name>
@@ -143,18 +208,73 @@ return 1;
     <entry><ed>breakdown</ed><ed>0000000000000000</ed><ed>0</ed></entry>
     <entry><ed>scheduled down</ed><ed>0000000000000000</ed><ed>0</ed></entry>
     <entry><ed>conveying</ed><ed>0000000000000000</ed><ed>1</ed></entry></data></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040100000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000040400000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000040180000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>maxValue</name><data>0000000040180000</data></node>
+    <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+   </node>
   </node>
   <node f="42" dt="7"><name>stats_input</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_output</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040000000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_content</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulative</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>cumulativeTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>minValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>maxValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>numEntries</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>lastSetTime</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>rate</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>lastResetTime</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="7"><name>stats_staytime</name><data/>
-   <node f="40"><name></name></node></node>
+   <node f="40"><name></name></node>
+   <node f="42" dt="2"><name>sdt::attributetree</name><data>TrackedVariable</data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name>type</name><data>0000000040080000</data></node>
+    <node f="42" dt="1"><name>flags</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>curValue</name><data>0000000000000000</data></node>
+    <node f="42" dt="1"><name>startValue</name><data>0000000000000000</data></node>
+   </node>
+  </node>
   <node f="42" dt="1"><name>stats_creationtime</name><data>0000000000000000</data></node>
   <node f="42" dt="1"><name>stats_lastmovetime</name><data>0000000000000000</data></node>
-  <node f="42" dt="1"><name>simLength</name><data>008295ff40285c7e</data></node>
+  <node f="42" dt="1"><name>simLength</name><data>ce1c463a4031db47</data></node>
   <node f="42" dt="1"><name>isDirectionReversed</name><data>0000000000000000</data></node>
   <node f="42" dt="1"><name>curTargetSpeed</name><data>000000003ff00000</data></node>
   <node f="42" dt="1"><name>driverCurAcc</name><data>0000000000000000</data></node>
@@ -225,11 +345,14 @@ return 1;
  <node f="42"><name>events</name>
   <node f="40"><name></name></node></node>
  <node f="42" dt="7"><name>resetvalues</name><data/>
-  <node f="40"><name></name></node></node>
+  <node f="40"><name></name></node>
+  <node f="42" dt="2"><name>sdt::attributetree</name><data>ObjectResetValues</data>
+   <node f="40"><name></name></node></node>
+ </node>
  <node f="42"><name>stored</name></node>
  <node f="42"><name>Groups</name>
   <node f="40"><name></name></node>
-  <node f="800000042" dt="3"><name></name><data><coupling>/Tools/Groups/Conveyors/_1</coupling></data></node>
+  <node f="810000042" dt="3"><name></name><data><coupling>/Tools/Groups/Conveyors/_4</coupling></data></node>
  </node>
 </data>
  <node f="40"><name></name></node></node></flexsim-tree>

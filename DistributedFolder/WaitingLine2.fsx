@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <flexsim-tree version="4" treetype="distributed">
-<node f="10000072" dt="4"><name>WaitingLine9</name><data>
+<node f="10000072" dt="4"><name>WaitingLine20</name><data>
  <node f="40"><name></name></node>
  <node f="42"><name>superclasses</name>
   <node f="40"><name></name></node>
@@ -16,16 +16,16 @@
    <node f="40"><name></name></node>
    <node f="42" dt="7"><name></name><data/>
     <node f="40"><name></name></node>
-    <node f="42" dt="1"><name>x</name><data>a0000000bff6b010</data></node>
-    <node f="42" dt="1"><name>y</name><data>000000003ff00000</data></node>
+    <node f="42" dt="1"><name>x</name><data>80000000c0282a30</data></node>
+    <node f="42" dt="1"><name>y</name><data>c00000003ff8fade</data></node>
     <node f="42" dt="1"><name>z</name><data>0000000000000000</data></node>
     <node f="42" dt="2"><name>sdt::attributetree</name><data>People::WaitingLine::Point</data>
      <node f="40"><name></name></node></node>
    </node>
    <node f="42" dt="7"><name></name><data/>
     <node f="40"><name></name></node>
-    <node f="42" dt="1"><name>x</name><data>c00000004004a7f7</data></node>
-    <node f="42" dt="1"><name>y</name><data>00000000c0080000</data></node>
+    <node f="42" dt="1"><name>x</name><data>80000000c02829a4</data></node>
+    <node f="42" dt="1"><name>y</name><data>40000000bff70521</data></node>
     <node f="42" dt="1"><name>z</name><data>0000000000000000</data></node>
     <node f="42" dt="2"><name>sdt::attributetree</name><data>People::WaitingLine::Point</data>
      <node f="40"><name></name></node></node>
@@ -108,8 +108,8 @@
  </node>
  <node f="42"><name>spatial</name>
   <node f="40"><name></name></node>
-  <node f="42" dt="1"><name>spatialx</name><data>09c7253640346b01</data></node>
-  <node f="42" dt="1"><name>spatialy</name><data>00000000c02c0000</data></node>
+  <node f="42" dt="1"><name>spatialx</name><data>cccccccc40454ccc</data></node>
+  <node f="42" dt="1"><name>spatialy</name><data>ec07f345c0348fad</data></node>
   <node f="42" dt="1"><name>spatialz</name><data>0000000000000000</data></node>
   <node f="42" dt="1"><name>spatialsx</name><data>9999999a3fd99999</data></node>
   <node f="42" dt="1"><name>spatialsy</name><data>9999999a3fd99999</data></node>
@@ -220,12 +220,17 @@
    <node f="40"><name></name></node></node>
   <node f="42"><name>connectionscenter</name>
    <node f="40"><name></name></node>
-   <node f="10000042" dt="3"><name>_1</name><data><coupling>/WaitingLine19&gt;connections/connectionscenter/_3</coupling></data>
+   <node f="10000042" dt="3"><name>_1</name><data><coupling>/WaitingLine10&gt;connections/connectionscenter/_1</coupling></data>
     <node f="40"><name></name></node>
     <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
     <node f="42" dt="3"><name></name><data><coupling>null</coupling></data></node>
    </node>
-   <node f="10000042" dt="3"><name>_2</name><data><coupling>/Bag Drop 3&gt;connections/connectionscenter/_3</coupling></data>
+   <node f="10000042" dt="3"><name>_2</name><data><coupling>/WaitingLine11&gt;connections/connectionscenter/_1</coupling></data>
+    <node f="40"><name></name></node>
+    <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
+    <node f="42" dt="3"><name></name><data><coupling>null</coupling></data></node>
+   </node>
+   <node f="10000042" dt="3"><name>_3</name><data><coupling>/WaitingLine12&gt;connections/connectionscenter/_1</coupling></data>
     <node f="40"><name></name></node>
     <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
     <node f="42" dt="3"><name></name><data><coupling>null</coupling></data></node>
@@ -253,7 +258,7 @@
  </node>
  <node f="42"><name>Groups</name>
   <node f="40"><name></name></node>
-  <node f="810000042" dt="3"><name></name><data><coupling>/Tools/Groups/Self Check In Queues/_3</coupling></data></node>
+  <node f="810000042" dt="3"><name></name><data><coupling>/Tools/Groups/Bag Drop Queues/_2</coupling></data></node>
  </node>
 </data>
  <node f="40"><name></name></node></node></flexsim-tree>

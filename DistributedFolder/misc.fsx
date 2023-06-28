@@ -19597,8 +19597,8 @@ if (caller == template) {
    <node f="42" dt="4"><name>QuickerProperties460428336</name><data>
     <node f="40"><name></name></node>
     <node f="42" dt="2"><name>saver</name><data>QuickerProperties</data></node>
-    <node f="42" dt="1"><name>spatialx</name><data>00000000407ba000</data></node>
-    <node f="42" dt="1"><name>spatialy</name><data>000000004079c000</data></node>
+    <node f="42" dt="1"><name>spatialx</name><data>000000004097b000</data></node>
+    <node f="42" dt="1"><name>spatialy</name><data>00000000408ff000</data></node>
     <node f="42" dt="1"><name>spatialsx</name><data>0000000040737000</data></node>
     <node f="42" dt="1"><name>spatialsy</name><data>0000000040772000</data>
      <node f="40"><name></name></node></node>
@@ -19803,11 +19803,11 @@ else return applicationcommand("undockwindow", c, 0, dropx(), dropy());</data></
          <node f="42" dt="2"><name>OnDropWindow</name><data>if (objectexists(i)) applicationcommand("dockwindow", i, c, eventcode);
 else return applicationcommand("undockwindow", c, 0, dropx(), dropy());</data></node>
         </node>
-        <node f="42" dt="1"><name>viewpointx</name><data>e5ceb876401a13ee</data></node>
-        <node f="42" dt="1"><name>viewpointy</name><data>dd89bda1401114df</data></node>
-        <node f="42" dt="1"><name>viewpointrx</name><data>00000000c04a8000</data></node>
-        <node f="42" dt="1"><name>viewpointrz</name><data>00000000c09ea800</data></node>
-        <node f="42" dt="1"><name>viewpointradius</name><data>e00f609240509646</data>
+        <node f="42" dt="1"><name>viewpointx</name><data>896560eb402ce921</data></node>
+        <node f="42" dt="1"><name>viewpointy</name><data>2a72f712c02dfc95</data></node>
+        <node f="42" dt="1"><name>viewpointrx</name><data>00000000c0408000</data></node>
+        <node f="42" dt="1"><name>viewpointrz</name><data>00000000c09ee000</data></node>
+        <node f="42" dt="1"><name>viewpointradius</name><data>04f2d670403fd421</data>
          <node f="40"><name></name></node>
          <node f="42" dt="1"><name>eye</name><data>0000000000000000</data></node>
          <node f="42" dt="1"><name>focus</name><data>9999999a3fa99999</data></node>
@@ -19829,8 +19829,8 @@ else return applicationcommand("undockwindow", c, 0, dropx(), dropy());</data></
          <node f="42" dt="1"><name></name><data>dfdfdfe03fdfdfdf</data></node>
          <node f="42" dt="1"><name></name><data>dfdfdfe03fdfdfdf</data></node>
         </node>
-        <node f="42" dt="1"><name>viewnear</name><data>10df390b3fe77e66</data></node>
-        <node f="42" dt="1"><name>viewfar</name><data>ac79fdb64086f16f</data></node>
+        <node f="42" dt="1"><name>viewnear</name><data>61a175993ff05e77</data></node>
+        <node f="42" dt="1"><name>viewfar</name><data>2aaf59b1408ff881</data></node>
         <node f="42"><name>viewambient</name>
          <node f="40"><name></name></node>
          <node f="42" dt="1"><name></name><data>dfdfdfe03fdfdfdf</data></node>
@@ -19863,7 +19863,6 @@ else return applicationcommand("undockwindow", c, 0, dropx(), dropy());</data></
 else return applicationcommand("undockwindow", c, 0, dropx(), dropy());</data></node>
         </node>
         <node f="42" dt="2"><name>windowtitle</name><data>Model</data></node>
-        <node f="42" dt="1"><name>viewpointy</name><data>0000000040706000</data></node>
         <node f="42" dt="2"><name>bitmap</name><data>buttons\view_tree.ico</data></node>
        </data></node>
       </node>
