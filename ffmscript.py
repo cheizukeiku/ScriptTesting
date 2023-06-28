@@ -89,6 +89,8 @@ obj_check = False
 read_XML(main_fsx)
 
 for i in tree_list:
+
+	sec_check = False
 	
 	if i == first_obj:
 		obj_check = True
@@ -140,7 +142,12 @@ for i in tree_list:
 			print(base, compar)
 
 			if compar == base:
-				
+				sec_check = True
+
+			else:
+				pass
+
+			if sec_check == True:
 				info_list[j] += 1
 
 			else:
