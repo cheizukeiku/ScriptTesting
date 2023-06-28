@@ -7,12 +7,12 @@
   <node f="42"><name></name>
    <node f="40"><name></name></node>
    <node f="42" dt="1"><name>Duration</name><data>0000000000000000</data></node>
-   <node f="42" dt="1"><name>X</name><data>896560eb402ce921</data></node>
-   <node f="42" dt="1"><name>Y</name><data>2a72f712c02dfc95</data></node>
+   <node f="42" dt="1"><name>X</name><data>a41063c44032ce6f</data></node>
+   <node f="42" dt="1"><name>Y</name><data>8d01e076c04476a8</data></node>
    <node f="42" dt="1"><name>Radius</name><data>04f2d670403fd421</data></node>
-   <node f="42" dt="1"><name>RX</name><data>00000000c0408000</data></node>
+   <node f="42" dt="1"><name>RX</name><data>00000000c04f0000</data></node>
    <node f="42" dt="1"><name>RY</name><data>0000000000000000</data></node>
-   <node f="42" dt="1"><name>RZ</name><data>00000000c09ee000</data></node>
+   <node f="42" dt="1"><name>RZ</name><data>00000000c09ec800</data></node>
    <node f="42" dt="2"><name>Sound</name><data></data></node>
    <node f="42" dt="2"><name>OnStart</name><data></data></node>
    <node f="42" dt="2"><name>OnFinish</name><data></data></node>
