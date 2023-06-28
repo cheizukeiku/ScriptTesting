@@ -20,8 +20,8 @@
   <node f="42"><name>animationKinematics</name></node>
   <node f="42" dt="1"><name>resetposition</name><data>000000003ff00000</data>
    <node f="40"><name></name></node>
-   <node f="42" dt="1"><name></name><data>efef6cac4026e1f4</data></node>
-   <node f="42" dt="1"><name></name><data>21d8f4a6c041c4cf</data></node>
+   <node f="42" dt="1"><name></name><data>0000000040220000</data></node>
+   <node f="42" dt="1"><name></name><data>becb01bbc0402587</data></node>
    <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
    <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
    <node f="42" dt="1"><name></name><data>0000000000000000</data></node>
@@ -52,8 +52,8 @@
  </node>
  <node f="42"><name>spatial</name>
   <node f="40"><name></name></node>
-  <node f="42" dt="1"><name>spatialx</name><data>efef6cac4026e1f4</data></node>
-  <node f="42" dt="1"><name>spatialy</name><data>21d8f4a6c041c4cf</data></node>
+  <node f="42" dt="1"><name>spatialx</name><data>0000000040220000</data></node>
+  <node f="42" dt="1"><name>spatialy</name><data>becb01bbc0402587</data></node>
   <node f="42" dt="1"><name>spatialz</name><data>0000000000000000</data></node>
   <node f="42" dt="1"><name>spatialsx</name><data>000000003ff00000</data></node>
   <node f="42" dt="1"><name>spatialsy</name><data>000000003ff00000</data></node>
