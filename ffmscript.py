@@ -88,14 +88,15 @@ obj_check = False
 
 read_XML(main_fsx)
 
-for i in tree_list:
-
-	sec_check = False
+for i in tree_list: #iterate through entire list of items
 	
-	if i == first_obj:
+	sec_check = False
+
+	if i == first_obj: #initiate process when first obj is found in XML file
 		obj_check = True
 
 	if obj_check == True:
+
 #		compar = ""
 			
 #		for m in i:
@@ -107,6 +108,7 @@ for i in tree_list:
 #		if num_check == True:
 #			compar += "1"
 
+
 #		if compar in list(info_list.keys()):
 #			info_list[compar] += 1
 
@@ -114,8 +116,8 @@ for i in tree_list:
 #			info_list[compar] = 1
 
 #		num_check = False
-	
-		if i[-1].isdigit():
+
+		if i[-1].isdigit(): #extract current obj name
 			compar = i[:-1]
 
 			while compar[-1].isdigit():
@@ -124,34 +126,20 @@ for i in tree_list:
 		else:
 			compar = i
 
-#		print(compar, i)
 
-		if info_list == {}:
+		if info_list == {}: #when dict is empty, add first obj directly into dict
 			info_list[i] = 1
 
-		for j in list(info_list.keys()):
+		for j in list(info_list.keys()): #for every obj in qn, iterate through info_list to find if obj type already in dict
 
-			base = ""
-
-			if j[-1].isdigit():
-				base = j[:-1]
-
-				while base[-1].isdigit():
-					base = base[:-1]
-
-			print(base, compar)
-
-			if compar == base:
+			if compar in j: #initiate if obj type in dict
 				sec_check = True
 
-			else:
-				pass
+		if sec_check == True:
+			info_list[j] += 1
 
-			if sec_check == True:
-				info_list[j] += 1
-
-			else:
-				info_list[i] = 1
+		else:
+			info_list[i] = 1
 
 						
 # to ensure all objects accounted for
