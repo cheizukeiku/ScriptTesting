@@ -23,6 +23,12 @@ first_obj = "DefaultNetworkNavigator"
 
 ##################################################################################################################################################
 
+# code extracts list of items in model tree
+# splits objects in each group into smaller groups according to object type
+
+##################################################################################################################################################
+
+
 #name of subfolder
 repo_name = "DistributedFolder" 
 
