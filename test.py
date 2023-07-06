@@ -17,13 +17,15 @@ main_ffm_name = "Tester.ffm"
 
 file_names_list = ["ProcessFlow", "flypath"]
 
-# INPUT NAME OF HIGHEST RANKED OBJECT HERE IN QUOTATION MARKS
-
-first_obj = "DefaultNetworkNavigator"
-
 # INPUT NAME OF HIGHEST RANKED OBJECT IN EACH SPLIT GROUP HERE IN QUOTATION MARKS
 
 intv_obj_list = ["DefaultNetworkNavigator", "Departure 1", "Wall 1"]
+
+##################################################################################################################################################
+
+# code extracts list of items in model tree
+# split objects based on given num of groups
+# splits objects in each group into smaller groups to go below 25mb github limit
 
 ##################################################################################################################################################
 
@@ -85,85 +87,30 @@ ffm_text_list.append('    ' + '<map-node path="" file="{}\misc.fsx" file-map-met
 
 #tree_list = ["Source 1", "Source 2", "Queue1", "Source 3", "Queue2", "Conveyer1", "Queue3"] #dummy sorted list
 tree_list = []
-info_list = {}
+info_list = []
 reject_list = []
 num_check = False
 obj_check = False
 
 read_XML(main_fsx)
 
-for i in tree_list: #iterate through entire list of items
-	
-	sec_check = False
-
-	if i == first_obj: #initiate process when first obj is found in XML file
-		obj_check = True
-
-	if obj_check == True:
-
-#		compar = ""
-			
-#		for m in i:
-#			if m.isalpha() or m == " ":
-#				compar += m
-#			elif m.isdigit():
-#				num_check = True
-
-#		if num_check == True:
-#			compar += "1"
-
-
-#		if compar in list(info_list.keys()):
-#			info_list[compar] += 1
-
-#		else:
-#			info_list[compar] = 1
-
-#		num_check = False
-
-		if i[-1].isdigit(): #extract current obj name
-			compar = i[:-1]
-
-			while compar[-1].isdigit():
-				compar = compar[:-1]
-
-		else:
-			compar = i
-
-
-		if info_list == {}: #when dict is empty, add first obj directly into dict
-			info_list[i] = 1
-
-		for j in list(info_list.keys()): #for every obj in qn, iterate through info_list to find if obj type already in dict
-
-			if compar in j: #initiate if obj type in dict
-				sec_check = True
-
-		if sec_check == True:
-			info_list[j] += 1
-
-		else:
-			info_list[i] = 1
-
+# removes non-objects in list
+sec_num = tree_list.index(intv_obj_list[0])
+info_list = tree_list[sec_num:]
 						
 # to ensure all objects accounted for
 #print(info_list)
 
-info_keys = list(info_list.keys())
-info_values = list(info_list.values())
 split_num = ""
 
-for i in range(len(info_keys)):
-	object = info_keys[i]
-	object_name = object
-
-	if object[-1].isdigit():
-		object_name = object[:-1].strip()
+for i in range(len(info_list)):
+	object = info_list[i]
 
 	if object in intv_obj_list:
 		split_num = str(intv_obj_list.index(object))
-
-	ffm_text_list.append('        ' + '<split-point name="{3}" file="{0}\{2}_{1}.fsx"/>'.format(repo_name, object_name, split_num, object))
+	
+	if i%10 == 0:
+		ffm_text_list.append('        ' + '<split-point name="{1}" file="{0}\{2}_{1}.fsx"/>'.format(repo_name, object, split_num))
 
 ffm_text_list.append('    ' + '</map-node>')
 ffm_text_list.append('</flexsim-file-map>')
